@@ -6,7 +6,7 @@ Features:
 
 - Lightweight, fast.
 - Command line / Drag and drop support.
-- TOC and spine navigation.
+- TOC and linear navigation.
 - Keep / ignore original styles.
 - Book information. 
 - Zoom in / out.
