@@ -1,0 +1,2049 @@
+From: <Saved by UnMHT>
+Subject: =?iso-2022-jp?B?RVBVQiBDYW5vbmljYWwgRnJhZ21lbnQgSWRlbnRpZmllciAoZXB1YmNmaSkgU3BlY2lmaWNhdGlvbg==?=
+Date: Mon, Oct 10 2011 23:22:43 GMT+0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_415EAC37.C9B59647";
+	type="text/html"
+
+------=_NextPart_000_0000_415EAC37.C9B59647
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/linking/cfi/epub-cfi.html
+
+=EF=BB=BF<html xmlns=3D"http://www.w3.org/1999/xhtml"><head><title>EPUB Can=
+onical Fragment Identifier (epubcfi) Specification</title><link href=3D"../=
+../css/epub-spec.css" type=3D"text/css" rel=3D"stylesheet"></link><meta con=
+tent=3D"DocBook XSL-NS Stylesheets V1.76.1" name=3D"generator"><meta conten=
+t=3D"This specification defines a standardized method for referencing arbit=
+rary content within an EPUB 3 Publication through the use of fragment ident=
+ifiers." name=3D"description"><meta content=3D"text/html; charset=3Dutf-8"=
+ http-equiv=3D"Content-Type"><link media=3D"print" type=3D"text/css" href=
+=3D"../../css/epub-print.css" rel=3D"stylesheet"></link><base href=3D"http:=
+//idpf.org/epub/linking/cfi/"></base></head><body><div title=3D"EPUB Canoni=
+cal Fragment Identifier (epubcfi) Specification" class=3D"book"><h1 class=
+=3D"title">EPUB Canonical Fragment Identifier (epubcfi) Specification</h1><=
+p class=3D"identity"><span class=3D"releaseinfo">Proposed Specification</sp=
+an> <span class=3D"pubdate">8 September 2011</span></p><dl class=3D"printhi=
+story"><dt>This version</dt><dd> <a href=3D"http://www.idpf.org/epub/linkin=
+g/cfi/epub-cfi-20110908.html" class=3D"link">http://www.idpf.org/epub/linki=
+ng/cfi/epub-cfi-20110908.html</a> </dd><dt>Latest version</dt><dd> <a href=
+=3D"http://www.idpf.org/epub/linking/cfi/epub-cfi.html" class=3D"link">http=
+://www.idpf.org/epub/linking/cfi/epub-cfi.html</a> </dd><dt>Previous versio=
+n</dt><dd> <a href=3D"http://www.idpf.org/epub/linking/cfi/epub-cfi-2011052=
+3.html" class=3D"link">http://www.idpf.org/epub/linking/cfi/epub-cfi-201105=
+23.html</a> </dd></dl><p class=3D"diff"> A diff of changes from the previou=
+s draft is available at <a href=3D"http://code.google.com/p/epub-revision/s=
+ource/diff?spec=3Dsvn3183&amp;old=3D2997&amp;r=3D3183&amp;format=3Dside&amp=
+;path=3D%2Ftrunk%2Fsrc%2Fspec%2Fepub-cfi.xml" class=3D"link">this link</a>.=
+ </p><p class=3D"errata"> Please refer to the <a href=3D"./epub-cfi-errata/=
+" class=3D"link">errata</a> for this document, which may include some norma=
+tive corrections. </p><div class=3D"legal"><p class=3D"copyright">Copyright=
+ =C2=A9 2011 International Digital Publishing Forum=E2=84=A2</p><div title=
+=3D"Legal Notice" class=3D"legalnotice"><a id=3D"d1448e46"></a><p><a id=3D"=
+d1448e46">All rights reserved. This work is protected under Title 17 of the=
+ United States Code. Reproduction and dissemination of this work with chang=
+es is prohibited except with the written permission of the </a><a href=3D"h=
+ttp://www.idpf.org" class=3D"link">International Digital Publishing Forum=
+ (IDPF)</a>. </p><p>EPUB is a registered trademark of the International Dig=
+ital Publishing Forum.</p></div></div><div class=3D"authorgroup"><p class=
+=3D"bridgehead">Editors</p><p class=3D"editor">Peter Sorotokin, Adobe </p><=
+p class=3D"editor">Garth Conboy, Google Inc. </p><p class=3D"editor">Brady=
+ Duga, Google Inc. </p><p class=3D"editor">John Rivlin, Google Inc. </p><p=
+ class=3D"editor">Don Beaver, Apple Inc. </p><p class=3D"editor">Kevin Ball=
+ard, Apple Inc. </p><p class=3D"editor">Alastair Fettes, Apple Inc. </p><p=
+ class=3D"editor">Daniel Weck, DAISY Consortium </p></div><div class=3D"toc=
+"><p><strong>Table of Contents</strong></p><dl><dt><span class=3D"chapter">=
+<a href=3D"#sec-overview">1. Overview</a></span></dt><dd><dl><dt><span clas=
+s=3D"section"><a href=3D"#sec-overview-purpose-and-scope">1.1. Purpose and=
+ Scope</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-terminolo=
+gy">1.2. Terminology</a></span></dt><dt><span class=3D"section"><a href=3D"=
+#sec-conformance">1.3. Conformance Statements</a></span></dt></dl></dd><dt>=
+<span class=3D"chapter"><a href=3D"#sec-epubcfi-def">2. EPUB CFI Definition=
+</a></span></dt><dd><dl><dt><span class=3D"section"><a href=3D"#sec-epubcfi=
+-intro">2.1. Introduction</a></span></dt><dt><span class=3D"section"><a hre=
+f=3D"#sec-epubcfi-syntax">2.2. Syntax</a></span></dt><dt><span class=3D"sec=
+tion"><a href=3D"#sec-epubcfi-escaping">2.3. Character Escaping</a></span><=
+/dt></dl></dd><dt><span class=3D"chapter"><a href=3D"#sec-epubcfi-processin=
+g">3. EPUB CFI Processing</a></span></dt><dd><dl><dt><span class=3D"section=
+"><a href=3D"#sec-path-res">3.1. Path Resolution</a></span></dt><dd><dl><dt=
+><span class=3D"section"><a href=3D"#sec-path-child-ref">3.1.1. Step Refere=
+nce to Child Node (<code class=3D"literal">/</code>)</a></span></dt><dt><sp=
+an class=3D"section"><a href=3D"#sec-path-xmlid">3.1.2. XML ID Assertion (<=
+code class=3D"literal">[</code>)</a></span></dt><dt><span class=3D"section"=
+><a href=3D"#sec-path-indirection">3.1.3. Step Indirection (<code class=3D"=
+literal">!</code>)</a></span></dt><dt><span class=3D"section"><a href=3D"#s=
+ec-path-terminating-char">3.1.4. Terminating Step =E2=80=93 Character Offse=
+t (<code class=3D"literal">:</code>)</a></span></dt><dt><span class=3D"sect=
+ion"><a href=3D"#sec-path-terminating-temporal">3.1.5. Terminating Step =E2=
+=80=93 Temporal Offset (<code class=3D"literal">~</code>)</a></span></dt><d=
+t><span class=3D"section"><a href=3D"#sec-path-terminating-spatial">3.1.6.=
+ Terminating Step =E2=80=93 Spatial Offset (<code class=3D"literal">@</code=
+>)</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-path-terminat=
+ing-tempspatial">3.1.7. Terminating Step =E2=80=93 Temporal-Spatial Offset=
+ (<code class=3D"literal">~</code> + <code class=3D"literal">@</code>)</a><=
+/span></dt><dt><span class=3D"section"><a href=3D"#sec-path-text-location">=
+3.1.8. Text Location Assertion (<code class=3D"literal">[</code>)</a></span=
+></dt><dt><span class=3D"section"><a href=3D"#sec-path-side-bias">3.1.9. Si=
+de Bias (<code class=3D"literal">[</code> + <code class=3D"literal">;s=3D</=
+code>)</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-path-exam=
+ples">3.1.10. Examples</a></span></dt></dl></dd><dt><span class=3D"section"=
+><a href=3D"#sec-sorting">3.2. Sorting Rules</a></span></dt><dt><span class=
+=3D"section"><a href=3D"#sec-intra-cfis">3.3. Intra-Publication CFIs</a></s=
+pan></dt><dt><span class=3D"section"><a href=3D"#sec-ranges">3.4. Simple Ra=
+nges</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-target-corr=
+ection">3.5. Intended Target Location Correction</a></span></dt></dl></dd><=
+dt><span class=3D"chapter"><a href=3D"#sec-extensions">4. Extending EPUB CF=
+Is</a></span></dt><dt><span class=3D"bibliography"><a href=3D"#references">=
+References</a></span></dt></dl></div><div id=3D"sec-overview" title=3D"1 Ov=
+erview" class=3D"chapter"><h2 class=3D"title"><span class=3D"link-marker"><=
+a href=3D"#sec-overview" title=3D"Link here" class=3D"hidden-reveal">=E2=80=
+=BA</a>&nbsp;</span>1 Overview</h2><div id=3D"sec-overview-purpose-and-scop=
+e" title=3D"1.1 Purpose and Scope" class=3D"section"><h3 class=3D"title"><s=
+pan class=3D"link-marker"><a href=3D"#sec-overview-purpose-and-scope" title=
+=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>1.1 Purpos=
+e and Scope</h3><p id=3D"sibling-specs">This specification, EPUB Canonical=
+ Fragment Identifier (epubcfi), defines a standardized method for referenci=
+ng arbitrary content within an EPUB=C2=AE Publication through the use of fr=
+agment identifiers. </p><p>The Web has proven that the concept of hyperlink=
+ing is tremendously powerful, but EPUB Publications have been denied much=
+ of the benefit that hyperlinking makes possible because of the lack of a=
+ standardized scheme to link into them. Although proprietary schemes have=
+ been developed and implemented for individual Reading Systems, without a=
+ commonly-understood syntax there has been no way to achieve cross-platform=
+ interoperability. The functionality that can see significant benefit from=
+ breaking down this barrier, however, is varied: from reading location main=
+tenance to annotation attachment to navigation, the ability to point into=
+ any Publication opens a whole new dimension not previously available to de=
+velopers and Authors. </p><p>This specification attempts to rectify this si=
+tuation by defining an arbitrary structural reference that can uniquely ide=
+ntify any location, or simple range of locations, in a Publication: the EPU=
+B CFI. The following considerations have strongly influenced the design and=
+ scope of this scheme:</p><div class=3D"itemizedlist"><ul class=3D"itemized=
+list"><li class=3D"listitem"><p>The mechanism used to reference content sho=
+uld be interoperable: references to a reading position created by one Readi=
+ng System should be usable by another.</p></li><li class=3D"listitem"><p>Do=
+cument references to EPUB content should be enabled in the same way that ex=
+isting hyperlinks enable references throughout the Web.</p></li><li class=
+=3D"listitem"><p>Each location in an EPUB file should be able to be identif=
+ied without the need to modify the document.</p></li><li class=3D"listitem"=
+><p>All fragment identifiers that reference the same logical location shoul=
+d be equal when compared.</p></li><li class=3D"listitem"><p>Comparison oper=
+ations, including tests for sorting and comparison, should be able to be pe=
+rformed without accessing the referenced files.</p></li><li class=3D"listit=
+em"><p>Simple manipulations should be possible without access to the origin=
+al files (e.g., given a reference deep in a file, it should be possible to=
+ generate a reference to the start of the file).</p></li><li class=3D"listi=
+tem"><p>Identifier resolution should be reasonably efficient (e.g., process=
+ing of the first chapter is not required to resolve a fragment identifier=
+ that points to the last chapter).</p></li><li class=3D"listitem"><p>Refere=
+nces should be able to recover their target locations through parser variat=
+ions and document revisions.</p></li><li class=3D"listitem"><p>Expression=
+ of simple, contiguous ranges should be supported.</p></li><li class=3D"lis=
+titem"><p>An extensible mechanism to accommodate future reference recovery=
+ heuristics should be provided.</p></li></ul></div></div><div id=3D"sec-ter=
+minology" title=3D"1.2 Terminology" class=3D"section"><h3 class=3D"title"><=
+span class=3D"link-marker"><a href=3D"#sec-terminology" title=3D"Link here"=
+ class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>1.2 Terminology</h3><p>=
+ <em>Please refer to the EPUB Specifications for definitions of EPUB-specif=
+ic terminology used in this document.</em> </p><div class=3D"glosslist"><dl=
+><dt id=3D"gloss-cfi-pub" title=3D"Standard EPUB CFI" class=3D"glossentry">=
+Standard EPUB CFI</dt><dd><p>A Publication-level EPUB CFI links into an EPU=
+B Publication. The path preceding the EPUB CFI references the location of=
+ the Publication.</p></dd><dt id=3D"gloss-cfi-intra-pub" title=3D"Intra-Pub=
+lication EPUB CFI" class=3D"glossentry">Intra-Publication EPUB CFI</dt><dd>=
+<p>An intra-Publication EPUB CFI allows one Content Document to reference=
+ another within the same Publication. The path preceding the EPUB CFI refer=
+ences the current Publication&#x27;s Package Document.</p><p>Refer to <a ti=
+tle=3D"3.3 Intra-Publication CFIs" href=3D"#sec-intra-cfis" class=3D"xref">=
+Intra-Publication CFIs</a> for more information. </p></dd></dl></div></div>=
+<div id=3D"sec-conformance" title=3D"1.3 Conformance Statements" class=3D"s=
+ection"><h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-con=
+formance" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</=
+span>1.3 Conformance Statements</h3><p>The keywords &quot;MUST&quot;, &quot=
+;MUST NOT&quot;, &quot;REQUIRED&quot;, &quot;SHALL&quot;, &quot;SHALL NOT&q=
+uot;, &quot;SHOULD&quot;, &quot;SHOULD NOT&quot;, &quot;RECOMMENDED&quot;,=
+ &quot;MAY&quot;, and &quot;OPTIONAL&quot; in this document are to be inter=
+preted as described in <a title=3D"Key words for use in RFCs to Indicate Re=
+quirement Levels (RFC 2119)" href=3D"#refRFC2119" class=3D"biblioref">[<abb=
+r>RFC2119</abbr>]</a>. </p><p>All sections of this specification are normat=
+ive except where identified by the informative status label &quot;This sect=
+ion is informative&quot;. The application of informative status to sections=
+ and appendices applies to all child content and subsections they may conta=
+in.</p><p>All examples in this specification are informative.</p></div></di=
+v><div id=3D"sec-epubcfi-def" title=3D"2 EPUB CFI Definition" class=3D"chap=
+ter"><h2 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-epubcf=
+i-def" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</spa=
+n>2 EPUB CFI Definition</h2><div id=3D"sec-epubcfi-intro" title=3D"2.1 Intr=
+oduction" class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"=
+><a href=3D"#sec-epubcfi-intro" title=3D"Link here" class=3D"hidden-reveal"=
+>=E2=80=BA</a>&nbsp;</span>2.1 Introduction</h3><p class=3D"informative">=
+ This section is informative</p><p>A fragment identifier is the part of an=
+ IRI <a title=3D"Internationalized Resource Identifiers (IRIs) (RFC 3987)"=
+ href=3D"#refRFC3987" class=3D"biblioref">[<abbr>RFC3987</abbr>]</a> that=
+ defines a location within a resource. Syntactically, it is the segment att=
+ached to the of end the resource IRI starting with a hash (<code class=3D"l=
+iteral">#</code>). For HTML documents, IDs and named anchors are used as fr=
+agment identifiers, while for XML documents the Shorthand XPointer <a title=
+=3D"XPointer Shorthand Notation" href=3D"#refXPTRSH" class=3D"biblioref">[<=
+abbr>XPTRSH</abbr>]</a> notation is used to refer to a given ID.</p><p>A Ca=
+nonical Fragment Identifier (CFI) is a similar construct to these, but expr=
+esses a location within an EPUB Publication. For example:</p><div class=3D"=
+informalexample"><pre class=3D"synopsis">book.epub#epubcfi(/6/4[chap01ref]!=
+/4[body01]/10[para05]/3:10)</pre></div><p>The function-like string immediat=
+ely following the hash (<code class=3D"literal">epubcfi(=E2=80=A6)</code>)=
+ indicates that this fragment identifier conforms to the scheme defined by=
+ this specification, and the value contained in the parentheses is the synt=
+ax used to reference the location within the specified Publication (<code=
+ class=3D"filename">demo.epub</code>). Using the processing rules defined=
+ in <a title=3D"3.1 Path Resolution" href=3D"#sec-path-res" class=3D"xref">=
+Path Resolution</a>, any Reading System can parse this syntax, open the cor=
+responding Content Document in the Publication and load the specified locat=
+ion for the User.</p><p>A complete definition of the EPUB CFI syntax is pro=
+vided in the next section.</p><div title=3D"note" class=3D"note"><h3 class=
+=3D"title">note</h3><p><code class=3D"literal">epub</code> has been prepend=
+ed to the name of the scheme as a more generic CFI-like scheme may be defin=
+ed in the future for all XML+ZIP-based file formats.</p></div></div><div id=
+=3D"sec-epubcfi-syntax" title=3D"2.2 Syntax" class=3D"section"><h3 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-epubcfi-syntax" title=
+=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>2.2 Syntax=
+</h3><table width=3D"100%" cellpadding=3D"0" border=3D"0" summary=3D"EBNF=
+ productions for The EPUB Canonical Fragment Identifier (CFI) Syntax" class=
+=3D"productionset" style=3D"background-color: rgb(238, 238, 238);"><caption=
+>(EBNF productions <a href=3D"http://www.iso.org/iso/iso_catalogue/catalogu=
+e_tc/catalogue_detail.htm?csnumber=3D26153">ISO/IEC 14977</a>)</caption><tb=
+ody><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.fragment"><a=
+ href=3D"#epubcfi.ebnf.fragment">fragment</a></td><td valign=3D"top" align=
+=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot;epubcfi(&quot;=
+ , ( <a href=3D"#epubcfi.ebnf.path">path</a> | <a href=3D"#epubcfi.ebnf.ran=
+ge">range</a> ) , &quot;)&quot; ;</td><td valign=3D"top" align=3D"left">&nb=
+sp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.path=
+"><a href=3D"#epubcfi.ebnf.path">path</a></td><td valign=3D"top" align=3D"c=
+enter"><code>=3D</code></td><td valign=3D"top"> <a href=3D"#epubcfi.ebnf.st=
+ep">step</a> , <a href=3D"#epubcfi.ebnf.local_path">local_path</a> ;</td><t=
+d valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" alig=
+n=3D"right" id=3D"epubcfi.ebnf.range"><a href=3D"#epubcfi.ebnf.range">range=
+</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><td valig=
+n=3D"top"> <a href=3D"#epubcfi.ebnf.path">path</a> , &quot;,&quot; , <a hre=
+f=3D"#epubcfi.ebnf.local_path">local_path</a> , &quot;,&quot; , <a href=3D"=
+#epubcfi.ebnf.local_path">local_path</a> ;</td><td valign=3D"top" align=3D"=
+left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.=
+ebnf.local_path"><a href=3D"#epubcfi.ebnf.local_path">local_path</a></td><t=
+d valign=3D"top" align=3D"center"><code>=3D</code></td><td valign=3D"top">=
+ { <a href=3D"#epubcfi.ebnf.step">step</a> | &quot;!&quot; } , [ <a href=3D=
+"#epubcfi.ebnf.termstep">termstep</a> ] ;</td><td valign=3D"top" align=3D"l=
+eft">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.e=
+bnf.step"><a href=3D"#epubcfi.ebnf.step">step</a></td><td valign=3D"top" al=
+ign=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot;/&quot; , <a=
+ href=3D"#epubcfi.ebnf.integer">integer</a> , [ &quot;[&quot; , <a href=3D"=
+#epubcfi.ebnf.assertion">assertion</a> , &quot;]&quot; ] ;</td><td valign=
+=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"rig=
+ht" id=3D"epubcfi.ebnf.termstep"><a href=3D"#epubcfi.ebnf.termstep">termste=
+p</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><td vali=
+gn=3D"top"> <a href=3D"#epubcfi.ebnf.terminus">terminus</a> , [ &quot;[&quo=
+t; , <a href=3D"#epubcfi.ebnf.assertion">assertion</a> , &quot;]&quot; ] ;<=
+/td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top=
+" align=3D"right" id=3D"epubcfi.ebnf.terminus"><a href=3D"#epubcfi.ebnf.ter=
+minus">terminus</a></td><td valign=3D"top" align=3D"center"><code>=3D</code=
+></td><td valign=3D"top"> ( &quot;:&quot; , <a href=3D"#epubcfi.ebnf.intege=
+r">integer</a> ) | ( &quot;@&quot; , <a href=3D"#epubcfi.ebnf.number">numbe=
+r</a> , &quot;:&quot; , <a href=3D"#epubcfi.ebnf.number">number</a> ) | (=
+ &quot;~&quot; , <a href=3D"#epubcfi.ebnf.number">number</a> ) | ( &quot;~&=
+quot; , <a href=3D"#epubcfi.ebnf.number">number</a> , &quot;@&quot; , <a hr=
+ef=3D"#epubcfi.ebnf.number">number</a> , &quot;:&quot; , <a href=3D"#epubcf=
+i.ebnf.number">number</a> ) ;</td><td valign=3D"top" align=3D"left">&nbsp;<=
+/td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.number">=
+<a href=3D"#epubcfi.ebnf.number">number</a></td><td valign=3D"top" align=3D=
+"center"><code>=3D</code></td><td valign=3D"top"> ( <a href=3D"#epubcfi.ebn=
+f.digit-non-zero">digit-non-zero</a> , { <a href=3D"#epubcfi.ebnf.digit">di=
+git</a> } , [ &quot;.&quot; , { <a href=3D"#epubcfi.ebnf.digit">digit</a>=
+ } , <a href=3D"#epubcfi.ebnf.digit-non-zero">digit-non-zero</a> ] ) | ( <a=
+ href=3D"#epubcfi.ebnf.zero">zero</a> , &quot;.&quot; , { <a href=3D"#epubc=
+fi.ebnf.digit">digit</a> } , <a href=3D"#epubcfi.ebnf.digit-non-zero">digit=
+-non-zero</a> ) ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr=
+><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.integer"><a href=3D"=
+#epubcfi.ebnf.integer">integer</a></td><td valign=3D"top" align=3D"center">=
+<code>=3D</code></td><td valign=3D"top"> <a href=3D"#epubcfi.ebnf.zero">zer=
+o</a> | ( <a href=3D"#epubcfi.ebnf.digit-non-zero">digit-non-zero</a> , {=
+ <a href=3D"#epubcfi.ebnf.digit">digit</a> } ) ;</td><td valign=3D"top" ali=
+gn=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"ep=
+ubcfi.ebnf.assertion"><a href=3D"#epubcfi.ebnf.assertion">assertion</a></td=
+><td valign=3D"top" align=3D"center"><code>=3D</code></td><td valign=3D"top=
+"> [ <a href=3D"#epubcfi.ebnf.csv">csv</a> ] , { <a href=3D"#epubcfi.ebnf.p=
+arameter">parameter</a> } ;</td><td valign=3D"top" align=3D"left">&nbsp;</t=
+d></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.parameter"=
+><a href=3D"#epubcfi.ebnf.parameter">parameter</a></td><td valign=3D"top"=
+ align=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot;;&quot; ,=
+ <a href=3D"#epubcfi.ebnf.value-no-space">value-no-space</a> , &quot;=3D&qu=
+ot; , <a href=3D"#epubcfi.ebnf.csv">csv</a> ;</td><td valign=3D"top" align=
+=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epub=
+cfi.ebnf.csv"><a href=3D"#epubcfi.ebnf.csv">csv</a></td><td valign=3D"top"=
+ align=3D"center"><code>=3D</code></td><td valign=3D"top"> <a href=3D"#epub=
+cfi.ebnf.value">value</a> , { &quot;,&quot; , <a href=3D"#epubcfi.ebnf.valu=
+e">value</a> } ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr>=
+<td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.value"><a href=3D"#ep=
+ubcfi.ebnf.value">value</a></td><td valign=3D"top" align=3D"center"><code>=
+=3D</code></td><td valign=3D"top"> <a href=3D"#epubcfi.ebnf.string-escaped-=
+special-chars">string-escaped-special-chars</a> ;</td><td valign=3D"top" al=
+ign=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"e=
+pubcfi.ebnf.value-no-space"><a href=3D"#epubcfi.ebnf.value-no-space">value-=
+no-space</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><=
+td valign=3D"top"> <a href=3D"#epubcfi.ebnf.value">value</a> - ( [ <a href=
+=3D"#epubcfi.ebnf.value">value</a> ] , <a href=3D"#epubcfi.ebnf.space">spac=
+e</a> , [ <a href=3D"#epubcfi.ebnf.value">value</a> ] ) ;</td><td valign=3D=
+"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right"=
+ id=3D"epubcfi.ebnf.special-chars"><a href=3D"#epubcfi.ebnf.special-chars">=
+special-chars</a></td><td valign=3D"top" align=3D"center"><code>=3D</code><=
+/td><td valign=3D"top"><a href=3D"#epubcfi.ebnf.circumflex">circumflex</a>=
+ | <a href=3D"#epubcfi.ebnf.square-brackets">square-brackets</a> | <a href=
+=3D"#epubcfi.ebnf.parentheses">parentheses</a> | <a href=3D"#epubcfi.ebnf.c=
+omma">comma</a> | <a href=3D"#epubcfi.ebnf.semicolon">semicolon</a> | <a hr=
+ef=3D"#epubcfi.ebnf.equal">equal</a> ;</td><td valign=3D"top" align=3D"left=
+">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf=
+.escaped-special-chars"><a href=3D"#epubcfi.ebnf.escaped-special-chars">esc=
+aped-special-chars</a></td><td valign=3D"top" align=3D"center"><code>=3D</c=
+ode></td><td valign=3D"top"> ( <a href=3D"#epubcfi.ebnf.circumflex">circumf=
+lex</a> , <a href=3D"#epubcfi.ebnf.circumflex">circumflex</a> ) | ( <a href=
+=3D"#epubcfi.ebnf.circumflex">circumflex</a> , <a href=3D"#epubcfi.ebnf.squ=
+are-brackets">square-brackets</a> ) | ( <a href=3D"#epubcfi.ebnf.circumflex=
+">circumflex</a> , <a href=3D"#epubcfi.ebnf.parentheses">parentheses</a> )=
+ | ( <a href=3D"#epubcfi.ebnf.circumflex">circumflex</a> , <a href=3D"#epub=
+cfi.ebnf.comma">comma</a> ) | ( <a href=3D"#epubcfi.ebnf.circumflex">circum=
+flex</a> , <a href=3D"#epubcfi.ebnf.semicolon">semicolon</a> ) | ( <a href=
+=3D"#epubcfi.ebnf.circumflex">circumflex</a> , <a href=3D"#epubcfi.ebnf.equ=
+al">equal</a> ) ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr=
+><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.character-escaped-sp=
+ecial"><a href=3D"#epubcfi.ebnf.character-escaped-special">character-escape=
+d-special</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td>=
+<td valign=3D"top"> ( <a href=3D"#epubcfi.ebnf.character">character</a> -=
+ <a href=3D"#epubcfi.ebnf.special-chars">special-chars</a> ) | <a href=3D"#=
+epubcfi.ebnf.escaped-special-chars">escaped-special-chars</a> ;</td><td val=
+ign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"=
+right" id=3D"epubcfi.ebnf.string-escaped-special-chars"><a href=3D"#epubcfi=
+.ebnf.string-escaped-special-chars">string-escaped-special-chars</a></td><t=
+d valign=3D"top" align=3D"center"><code>=3D</code></td><td valign=3D"top">=
+ <a href=3D"#epubcfi.ebnf.character-escaped-special">character-escaped-spec=
+ial</a> , { <a href=3D"#epubcfi.ebnf.character-escaped-special">character-e=
+scaped-special</a> } ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></t=
+r><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.string"><a href=
+=3D"#epubcfi.ebnf.string">string</a></td><td valign=3D"top" align=3D"center=
+"><code>=3D</code></td><td valign=3D"top"> <a href=3D"#epubcfi.ebnf.charact=
+er">character</a> , { <a href=3D"#epubcfi.ebnf.character">character</a> }=
+ ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"=
+top" align=3D"right" id=3D"epubcfi.ebnf.digit"><a href=3D"#epubcfi.ebnf.dig=
+it">digit</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td>=
+<td valign=3D"top"> <a href=3D"#epubcfi.ebnf.zero">zero</a> | <a href=3D"#e=
+pubcfi.ebnf.digit-non-zero">digit-non-zero</a> ;</td><td valign=3D"top" ali=
+gn=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"ep=
+ubcfi.ebnf.digit-non-zero"><a href=3D"#epubcfi.ebnf.digit-non-zero">digit-n=
+on-zero</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><t=
+d valign=3D"top"> &quot;1&quot; | &quot;2&quot; | &quot;3&quot; | &quot;4&q=
+uot; | &quot;5&quot; | &quot;6&quot; | &quot;7&quot; | &quot;8&quot; | &quo=
+t;9&quot; ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td=
+ valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.zero"><a href=3D"#epubcf=
+i.ebnf.zero">zero</a></td><td valign=3D"top" align=3D"center"><code>=3D</co=
+de></td><td valign=3D"top"> &quot;0&quot; ;</td><td valign=3D"top" align=3D=
+"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi=
+.ebnf.space"><a href=3D"#epubcfi.ebnf.space">space</a></td><td valign=3D"to=
+p" align=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot; &quot;=
+ ;</td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"=
+top" align=3D"right" id=3D"epubcfi.ebnf.circumflex"><a href=3D"#epubcfi.ebn=
+f.circumflex">circumflex</a></td><td valign=3D"top" align=3D"center"><code>=
+=3D</code></td><td valign=3D"top"> &quot;^&quot; ;</td><td valign=3D"top"=
+ align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=
+=3D"epubcfi.ebnf.double-quote"><a href=3D"#epubcfi.ebnf.double-quote">doubl=
+e-quote</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><t=
+d valign=3D"top"> &#x27;&quot;&#x27; ;</td><td valign=3D"top" align=3D"left=
+">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf=
+.square-brackets"><a href=3D"#epubcfi.ebnf.square-brackets">square-brackets=
+</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></td><td valig=
+n=3D"top"> &quot;[&quot; | &quot;]&quot; ;</td><td valign=3D"top" align=3D"=
+left">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.=
+ebnf.parentheses"><a href=3D"#epubcfi.ebnf.parentheses">parentheses</a></td=
+><td valign=3D"top" align=3D"center"><code>=3D</code></td><td valign=3D"top=
+"> &quot;(&quot; | &quot;)&quot; ;</td><td valign=3D"top" align=3D"left">&n=
+bsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf.com=
+ma"><a href=3D"#epubcfi.ebnf.comma">comma</a></td><td valign=3D"top" align=
+=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot;,&quot; ;</td><t=
+d valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top" alig=
+n=3D"right" id=3D"epubcfi.ebnf.semicolon"><a href=3D"#epubcfi.ebnf.semicolo=
+n">semicolon</a></td><td valign=3D"top" align=3D"center"><code>=3D</code></=
+td><td valign=3D"top"> &quot;;&quot; ;</td><td valign=3D"top" align=3D"left=
+">&nbsp;</td></tr><tr><td valign=3D"top" align=3D"right" id=3D"epubcfi.ebnf=
+.equal"><a href=3D"#epubcfi.ebnf.equal">equal</a></td><td valign=3D"top" al=
+ign=3D"center"><code>=3D</code></td><td valign=3D"top"> &quot;=3D&quot; ;</=
+td><td valign=3D"top" align=3D"left">&nbsp;</td></tr><tr><td valign=3D"top"=
+ align=3D"right" id=3D"epubcfi.ebnf.character"><a href=3D"#epubcfi.ebnf.cha=
+racter">character</a></td><td valign=3D"top" align=3D"center"><code>=3D</co=
+de></td><td valign=3D"top"> ? Unicode Characters ? ;</td><td valign=3D"top"=
+ align=3D"left">&nbsp;</td></tr></tbody></table><div id=3D"unicode-chars"=
+ class=3D"constraintdef"><span class=3D"link-marker"><a href=3D"#unicode-ch=
+ars" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>=
+ <p><strong>Unicode Characters</strong></p> <p> The definition of allowed=
+ Unicode characters is the same as [XML 1.0]. This excludes the surrogate=
+ blocks, FFFE, and FFFF: </p> <pre class=3D"programlisting">
+#x9 | #xA | #xD | [#x20-#xD7FF] | [#xE000-#xFFFD] | [#x10000-#x10FFFF]
+</pre> <p>Document authors are encouraged to avoid &quot;compatibility char=
+acters&quot;, as defined in section 2.3 of [Unicode]. The characters define=
+d in the following ranges are also discouraged. They are either control cha=
+racters or permanently undefined Unicode characters:</p> <pre class=3D"prog=
+ramlisting">
+[#x7F-#x84], [#x86-#x9F], [#xFDD0-#xFDEF],
+[#x1FFFE-#x1FFFF], [#x2FFFE-#x2FFFF], [#x3FFFE-#x3FFFF],
+[#x4FFFE-#x4FFFF], [#x5FFFE-#x5FFFF], [#x6FFFE-#x6FFFF],
+[#x7FFFE-#x7FFFF], [#x8FFFE-#x8FFFF], [#x9FFFE-#x9FFFF],
+[#xAFFFE-#xAFFFF], [#xBFFFE-#xBFFFF], [#xCFFFE-#xCFFFF],
+[#xDFFFE-#xDFFFF], [#xEFFFE-#xEFFFF], [#xFFFFE-#xFFFFF],
+[#x10FFFE-#x10FFFF].
+</pre> </div><p>A Canonical Fragment Identifier (CFI) consists of an initia=
+l sequence <code class=3D"literal">epubcfi</code> that identifies this part=
+icular reference method, and a parenthesized path or range. A path is built=
+ up as a sequence of structural steps to reference a location. A range is=
+ a path followed by two local (or relative) paths that identify the start=
+ and end of the range.</p><p>Steps can either be navigational or terminatin=
+g. Navigational steps may be repeated as necessary (e.g., to count elements=
+, to process children or to follow references). There may be only one termi=
+nating step, which, if present, must be the last step in the sequence. </p>=
+<p>Substrings in brackets are extensible assertions that improve the robust=
+ness of traversing paths and migrating them from one revision of the docume=
+nt to another. These assertions preserve additional information about trave=
+rsed elements of the document, which makes it possible to recover intended=
+ location even after some modifications are made to the Publication.</p><p>=
+Although the <code class=3D"literal">value</code> definition in the syntax=
+ above allows any a sequence of characters, a circumflex (<code class=3D"li=
+teral">^</code>) must be used to escape the following characters to ensure=
+ their presence does not interfere with parsing:</p><div class=3D"itemizedl=
+ist"><ul class=3D"itemizedlist"><li class=3D"listitem"><p>brackets (<code=
+ class=3D"literal">[</code>,<code class=3D"literal">]</code>)</p></li><li=
+ class=3D"listitem"><p>circumflex (<code class=3D"literal">^</code>)</p></l=
+i><li class=3D"listitem"><p>comma (<code class=3D"literal">,</code>)</p></l=
+i><li class=3D"listitem"><p>parentheses (<code class=3D"literal">(</code>,<=
+code class=3D"literal">)</code>)</p></li><li class=3D"listitem"><p>semicolo=
+n (<code class=3D"literal">;</code>)</p></li></ul></div><div class=3D"infor=
+malexample"><p>Example of an EPUB CFI that points to a location after the=
+ text <code class=3D"literal">2[1]</code>.</p><pre class=3D"synopsis">epubc=
+fi(/6/7[chap05ref]!/4[body01]/10/2/1:3[2^[1^]])</pre></div><p>The following=
+ rules apply to the use of numbers and integers within the path or range:</=
+p><div class=3D"itemizedlist"><ul class=3D"itemizedlist"><li class=3D"listi=
+tem"><p>leading zeros are not allowed for numbers or integers (to ensure un=
+iqueness);</p></li><li class=3D"listitem"><p>trailing zeros are not allowed=
+ in the fractional part of a number;</p></li><li class=3D"listitem"><p>zero=
+ must be represented as the integer <code class=3D"literal">0</code>;</p></=
+li><li class=3D"listitem"><p>numbers in the range <code class=3D"literal">1=
+ &gt; N &gt; 0</code> must have a leading <code class=3D"literal">0.</code>=
+;</p></li><li class=3D"listitem"><p>integral numbers must be represented as=
+ integers.</p></li></ul></div></div><div id=3D"sec-epubcfi-escaping" title=
+=3D"2.3 Character Escaping" class=3D"section"><h3 class=3D"title"><span cla=
+ss=3D"link-marker"><a href=3D"#sec-epubcfi-escaping" title=3D"Link here" cl=
+ass=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>2.3 Character Escaping</h3>=
+<p> As described in <a title=3D"2.2 Syntax" href=3D"#sec-epubcfi-syntax" cl=
+ass=3D"xref">Syntax</a>, the EPUB CFI grammar contains characters that have=
+ a special purpose as delimiters within a fragment identifier expression.=
+ These characters must be escaped using the circumflex &#x27;<code class=3D=
+"literal">^</code>&#x27; character when *not* used as delimiters, so that=
+ they can appear within the EPUB CFI data without being mistaken for delimi=
+ters. . Depending on the usage context of such EPUB CFI, further character=
+ escaping may be required in order to ensure that all potentially-conflicti=
+ng text tokens are encoded correctly. </p><div class=3D"itemizedlist"><ul=
+ class=3D"itemizedlist"><li class=3D"listitem"><div class=3D"itemizedlist">=
+<p>IRI and URI references:</p><ul class=3D"itemizedlist"><li class=3D"listi=
+tem"><p> The EPUB CFI (fragment identifier) scheme is designed to be used=
+ within URI and IRI references. The <a title=3D"Uniform Resource Identifier=
+ (URI): Generic Syntax (RFC 3986)" href=3D"#refRFC3986" class=3D"biblioref"=
+>[<abbr>RFC3986</abbr>]</a> specification defines a number of &quot;reserve=
+d&quot; characters that have a specific purpose as delimiters, and which ma=
+y need to be escaped in cases when they would otherwise conflict with the=
+ syntactical structure of the URI/IRI reference. The character used for esc=
+aping is the percent sign &#x27;<code class=3D"literal">%</code>&#x27;, and=
+ escapable characters get percent-encoded. For example, the percent charact=
+er itself becomes &quot;<code class=3D"literal">%25</code>&quot; when it ge=
+ts escaped (note the difference with EPUB CFI&#x27;s circumflex &#x27;<code=
+ class=3D"literal">^</code>&#x27;, which gets escaped using a double charac=
+ter &#x27;<code class=3D"literal">^^</code>&#x27;).</p></li><li class=3D"li=
+stitem"><p> Unlike IRI references, URI references require unicode character=
+s to be ASCII-encoded. Although the EPUB specification itself is based on=
+ IRIs (i.e. authors and production tools are expected to use IRIs), some sy=
+stems or APIs may only support URIs. As a result, implementors may still ne=
+ed too handle the conversion of IRI to URI references, as defined in <a tit=
+le=3D"Internationalized Resource Identifiers (IRIs) (RFC 3987)" href=3D"#re=
+fRFC3987" class=3D"biblioref">[<abbr>RFC3987</abbr>]</a>. Disallowed charac=
+ters are escaped as follows: </p><div class=3D"itemizedlist"><ul class=3D"i=
+temizedlist"><li class=3D"listitem"><p> Each disallowed character is conver=
+ted to UTF-8 <a title=3D"UTF-8, a transformation format of ISO 10646 (RFC=
+ 2279)" href=3D"#refRFC2279" class=3D"biblioref">[<abbr>RFC2279</abbr>]</a>=
+ as one or more bytes. The disallowed characters in URI references include=
+ all non-ASCII characters, plus the excluded characters listed in Section=
+ 2.4 of <a title=3D"Uniform Resource Identifiers (URI): Generic Syntax (RFC=
+ 2396)" href=3D"#refRFC2396" class=3D"biblioref">[<abbr>RFC2396</abbr>]</a>=
+, except for the number sign &#x27;<code class=3D"literal">#</code>&#x27;=
+ and percent sign &#x27;<code class=3D"literal">%</code>&#x27; and the squa=
+re bracket characters re-allowed in <a title=3D"Format for Literal IPv6 Add=
+resses in URL&#x27;s (RFC 2732)" href=3D"#refRFC2732" class=3D"biblioref">[=
+<abbr>RFC2732</abbr>]</a>. </p><p> The resulting bytes are escaped with the=
+ URI escaping mechanism (that is, converted to &#x27;<code class=3D"literal=
+">%HH</code>&#x27;, where HH is the hexadecimal notation of the byte value)=
+. </p><p> The original character is replaced by the resulting character seq=
+uence. </p></li></ul></div></li></ul></div></li><li class=3D"listitem"><p>(=
+X)HTML context:</p><p> IRI references are designed to be used in the variou=
+s types of documents that EPUB publications comprise. XML and XHTML represe=
+nt yet another insertion context that requires specific character escaping=
+ rules. For example, double quote characters or angle brackets conflict wit=
+h significant delimiters in the markup syntax, and must therefore be escape=
+d using the <code class=3D"literal">&amp;xxx;</code> special sequence (char=
+acter reference).</p></li></ul></div><p> When multiple layers of character=
+ escaping are applied to escape or unescape an EPUB CFI, they must be appli=
+ed in reverse order to revert back to the original form. For example, [ EPU=
+B-CFI -&gt; IRI -&gt; XHTML ] becomes [ XHTML -&gt; IRI -&gt; EPUB-CFI ] </=
+p><div class=3D"informalexample"><p>The following example shows an EPUB CFI=
+ in its &quot;raw&quot; form (only with &#x27;<code class=3D"literal">^</co=
+de>&#x27; circumflex escaping). Note the assertion text at the end of it,=
+ with escaped opening square brackets as well as the escaped circumflex cha=
+racter itself (the unescape text is &#x27;=D0=A4-&quot;spa ce&quot;-99%-aa[=
+bb]^&#x27;):</p><pre class=3D"synopsis">epubcfi(/6/7!/4/10/2/1:3[=D0=A4-&qu=
+ot;spa ce&quot;-99%-aa^[bb^]^^])</pre></div><div class=3D"informalexample">=
+<p>When taking part in a IRI, the space character within the assertion may=
+ become percent-escaped (&#x27;<code class=3D"literal">%20</code>&#x27;),=
+ and the percent character itself must be escaped (&#x27;<code class=3D"lit=
+eral">%25</code>&#x27;). Note that the square brackets &#x27;<code class=3D=
+"literal">[</code>&#x27; &#x27;<code class=3D"literal">]</code>&#x27; and=
+ semicolumn &#x27;<code class=3D"literal">:</code>&#x27; are &quot;reserved=
+&quot; characters (as per the URI specification) but because they serve no=
+ purpose as delimiters when the IRI processor extracts the fragment identif=
+ier, they do not need to be escaped (i.e. the fragment component of the IRI=
+ can non-ambiguously be parsed by copying all the text after the &#x27;<cod=
+e class=3D"literal">#</code>&#x27; character). The circumflex &#x27;<code=
+ class=3D"literal">^</code>&#x27; also falls within a the category of &quot=
+;unwise&quot; (or &quot;unsafe&quot;) characters, but the EPUB fragment ide=
+ntifier scheme does not require escaping them. Here is the IRI-escaped EPUB=
+ CFI:</p><pre class=3D"synopsis">book.epub#epubcfi(/6/7!/4/10/2/1:3[=D0=A4-=
+&quot;spa%20ce&quot;-99%25-aa^[bb^]^^])</pre></div><div class=3D"informalex=
+ample"><p>When the IRI appears within an XML attribute, the double quote ch=
+aracter (quotation mark) is significant as a delimiter of the attribute val=
+ue, so it becomes escaped with &#x27;<code class=3D"literal">&amp;#x22;</co=
+de>&#x27;. Note that the Cyrillic &quot;EF&quot; character (&#x27;=D0=A4&#x=
+27;) is directly supported in EPUB XML documents (which use the UTF-8 encod=
+ing to represent the unicode character repertoire), so it doesn&#x27;t need=
+ to be encoded:</p><pre class=3D"synopsis">book.epub#epubcfi(/6/7!/4/10/2/1=
+:3[=D0=A4-&amp;#x22;spa%20ce-99%25&amp;#x22;-aa^[bb^]^^])</pre></div><div=
+ class=3D"informalexample"><p>Should the IRI need to be converted to URI,=
+ the non-ASCII Cyrillic &quot;EF&quot; character (&#x27;=D0=A4&#x27;) would=
+ get percent-escaped with 2 bytes (&#x27;<code class=3D"literal">0xd0 0xa4<=
+/code>&#x27;, in hexadecimal). This would result in the following URI:</p><=
+pre class=3D"synopsis">book.epub#epubcfi(/6/7!/4/10/2/1:3[%d0%a4-&amp;#x22;=
+spa%20ce&amp;#x22;-99%25-aa^[bb^]^^])</pre><p> URI encoding / decoding APIs=
+ usually &quot;aggressively&quot; percent-encode characters, as demonstrate=
+d in the following example. Note how the circumflexes &#x27;<code class=3D"=
+literal">^</code>&#x27; (%5E), square brackets &#x27;<code class=3D"literal=
+">[</code>&#x27; (%5B) &#x27;<code class=3D"literal">]</code>&#x27; (%5D)=
+ and double-quotes &#x27;<code class=3D"literal">&quot;</code>&#x27; (%22)=
+ are also percent-encoded (due to their &quot;unsafe&quot; / &quot;unwise&q=
+uot; nature within URIs) :</p><pre class=3D"synopsis">book.epub#epubcfi(/6/=
+7!/4/10/2/1:3%5B%D0%A4-%22spa%20ce%22-99%25-aa%5E%5Bbb%5E%5D%5E%5E%5D)</pre=
+></div></div></div><div id=3D"sec-epubcfi-processing" title=3D"3 EPUB CFI=
+ Processing" class=3D"chapter"><h2 class=3D"title"><span class=3D"link-mark=
+er"><a href=3D"#sec-epubcfi-processing" title=3D"Link here" class=3D"hidden=
+-reveal">=E2=80=BA</a>&nbsp;</span>3 EPUB CFI Processing</h2><div id=3D"sec=
+-path-res" title=3D"3.1 Path Resolution" class=3D"section"><h3 class=3D"tit=
+le"><span class=3D"link-marker"><a href=3D"#sec-path-res" title=3D"Link her=
+e" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1 Path Resolution</h=
+3><p>The process of resolving an EPUB CFI to a location within an Publicati=
+on begins with the root <code>package</code> element of the Package Documen=
+t. Each step in the CFI is then processed one by one, left to right, applyi=
+ng the rules defined in the following subsections.</p><div title=3D"note"=
+ class=3D"note"><h3 class=3D"title">note</h3><p>The EPUB CFI examples in th=
+e following subsections are based on the sample documents in <a title=3D"3.=
+1.10 Examples" href=3D"#sec-path-examples" class=3D"xref">Examples</a>. </p=
+></div><div id=3D"sec-path-child-ref" title=3D"3.1.1 Step Reference to Chil=
+d Node (/)" class=3D"section"><h4 class=3D"title"><span class=3D"link-marke=
+r"><a href=3D"#sec-path-child-ref" title=3D"Link here" class=3D"hidden-reve=
+al">=E2=80=BA</a>&nbsp;</span>3.1.1 Step Reference to Child Node (<code cla=
+ss=3D"literal">/</code>)</h4><p>A step with a slash (<code class=3D"literal=
+">/</code>) followed by an integer refers to a child node or nodes in the=
+ following manner:</p><div class=3D"itemizedlist"><ul class=3D"itemizedlist=
+"><li class=3D"listitem"><p>Each element is assigned an <em>even</em> posit=
+ive index: the first element is given index <code class=3D"literal">2</code=
+>, the second element index <code class=3D"literal">4</code>, etc.</p></li>=
+<li class=3D"listitem"><p>Each (possibly empty) collection of non-element=
+ nodes before the first element, between elements, and after the last eleme=
+nt are given <em>odd</em> indices according to their position (these typica=
+lly refer to the text of the Publication).</p></li><li class=3D"listitem"><=
+p>Non-element nodes that are not text nodes are always ignored (for the pur=
+poses of this specification, a text node includes text, CDATA sections and=
+ entity references).</p></li></ul></div><p>This indexing method ensures tha=
+t node identification is not sensitive to XML parser handling of whitespace=
+ text nodes, CDATA sections and entity references (e.g., to avoid the ambig=
+uity that can arise depending on whether a parser collapses whitespace-only=
+ text nodes, keeps text, CDATA sections and entity references as distinct=
+ nodes or doesn&#x27;t, or breaks text in multiple nodes).</p><p>For a <a=
+ title=3D"Standard EPUB CFI" href=3D"#gloss-cfi-pub" class=3D"glossterm">St=
+andard EPUB CFI</a>, the leading step in the CFI must start with a slash (<=
+code class=3D"literal">/</code>) followed by an even number that references=
+ the <code>spine</code> child element of the Package Document&#x27;s root=
+ <code>package</code> element. The Package Document traversed by the CFI mu=
+st be the one specified as the default rendition in the Publication&#x27;s=
+ <code class=3D"filename">META-INF/container.xml</code> file (i.e., the Pac=
+kage Document referenced by the first <code>rootfile</code> element in <cod=
+e class=3D"filename">container.xml</code>).</p><p>For an <a title=3D"Intra-=
+Publication EPUB CFI" href=3D"#gloss-cfi-intra-pub" class=3D"glossterm">Int=
+ra-Publication EPUB CFI</a>, the first step must start with a slash followe=
+d by a node number that references a position in Package Document starting=
+ from the root <code>package</code> element.</p></div><div id=3D"sec-path-x=
+mlid" title=3D"3.1.2 XML ID Assertion ([)" class=3D"section"><h4 class=3D"t=
+itle"><span class=3D"link-marker"><a href=3D"#sec-path-xmlid" title=3D"Link=
+ here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.2 XML ID Asser=
+tion (<code class=3D"literal">[</code>)</h4><p>When an EPUB CFI references=
+ an element that contains an ID <a title=3D"Extensible Markup Language (XML=
+) 1.0 (Fifth Edition)" href=3D"#refXML" class=3D"biblioref">[<abbr>XML</abb=
+r>]</a>, the corresponding path step must include that ID in square bracket=
+s (i.e., after the slash (<code class=3D"literal">/</code>) and even number=
+ that identifies the element).</p><p>Specification of identifiers adds robu=
+stness to the CFI scheme: a Reading System may determine that the location=
+ referenced by the CFI is not the original intended location, and may use=
+ the identifier to compute the set of steps that reach the desired destinat=
+ion in the content (see <a title=3D"3.5 Intended Target Location Correction=
+" href=3D"#sec-target-correction" class=3D"xref">Intended Target Location=
+ Correction</a>). The cost of this added robustness is that comparison (and=
+ sorting) of CFI strings may be performed only after logically stripping al=
+l bracketed substrings (see <a title=3D"3.2 Sorting Rules" href=3D"#sec-sor=
+ting" class=3D"xref">Sorting Rules</a>).</p></div><div id=3D"sec-path-indir=
+ection" title=3D"3.1.3 Step Indirection (!)" class=3D"section"><h4 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-path-indirection" title=
+=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.3 Step=
+ Indirection (<code class=3D"literal">!</code>)</h4><p>A step with a leadin=
+g exclamation point (<code class=3D"literal">!</code>) indicates that the=
+ reference must be followed and the next step applied starting from the new=
+ target node (or root element node when a complete XML document is referenc=
+ed).</p><p>Only the following references are honored:</p><div class=3D"item=
+izedlist"><ul class=3D"itemizedlist"><li class=3D"listitem"><p>For <code>it=
+emref</code> in the Package Document <code>spine</code>, the reference is=
+ defined by the <code>href</code> attribute of the corresponding <code>item=
+</code> element in the <code>manifest</code> (i.e., that the <code>itemref<=
+/code>&#x27;s <code>idref</code> attribute references).</p></li><li class=
+=3D"listitem"><p>For <a title=3D"HTML5: A vocabulary and associated APIs fo=
+r HTML and XHTML" href=3D"#refHTML5" class=3D"biblioref">[<abbr>HTML5</abbr=
+>]</a> <code><a href=3D"http://www.w3.org/TR/html5/Overview.html#the-iframe=
+-element" class=3D"link">iframe</a></code> and <code><a href=3D"http://www.=
+w3.org/TR/html5/Overview.html#the-embed-element" class=3D"link">embed</a></=
+code> elements, references are defined by the <code>src</code> attribute</p=
+></li><li class=3D"listitem"><p>For the <a title=3D"HTML5: A vocabulary and=
+ associated APIs for HTML and XHTML" href=3D"#refHTML5" class=3D"biblioref"=
+>[<abbr>HTML5</abbr>]</a> <code><a href=3D"http://www.w3.org/TR/html5/Overv=
+iew.html#the-object-element" class=3D"link">object</a></code> element, the=
+ reference is defined by the <code>data</code> attribute</p></li><li class=
+=3D"listitem"><p>For <a title=3D"Scalable Vector Graphics (SVG) 1.1 (Second=
+ Edition)" href=3D"#refSVG" class=3D"biblioref">[<abbr>SVG</abbr>]</a> <cod=
+e><a href=3D"http://www.w3.org/TR/SVG11/struct.html#ImageElement" class=3D"=
+link">image</a></code> and <code><a href=3D"http://www.w3.org/TR/SVG11/stru=
+ct.html#UseElement" class=3D"link">use</a></code> elements, references are=
+ defined by the <code>xlink:href</code> attribute</p></li></ul></div><div=
+ title=3D"note" class=3D"note"><h3 class=3D"title">note</h3><p>This scheme=
+ does not take into account hyperlinks, only embedding references. Conseque=
+ntly, it is illegal to follow links from the <a title=3D"HTML5: A vocabular=
+y and associated APIs for HTML and XHTML" href=3D"#refHTML5" class=3D"bibli=
+oref">[<abbr>HTML5</abbr>]</a> (or <a title=3D"Scalable Vector Graphics (SV=
+G) 1.1 (Second Edition)" href=3D"#refSVG" class=3D"biblioref">[<abbr>SVG</a=
+bbr>]</a>) <code>a</code> element.</p></div></div><div id=3D"sec-path-termi=
+nating-char" title=3D"3.1.4 Terminating Step =E2=80=93 Character Offset (:)=
+" class=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-path-terminating-char" title=3D"Link here" class=3D"hidden-reveal"=
+>=E2=80=BA</a>&nbsp;</span>3.1.4 Terminating Step =E2=80=93 Character Offse=
+t (<code class=3D"literal">:</code>)</h4><p>A terminating step with a leadi=
+ng colon (<code class=3D"literal">:</code>) followed by an integer refers=
+ to a character offset. The given character offset may apply to an element=
+ node only if this element is the <a title=3D"HTML5: A vocabulary and assoc=
+iated APIs for HTML and XHTML" href=3D"#refHTML5" class=3D"biblioref">[<abb=
+r>HTML5</abbr>]</a> <code><a href=3D"http://www.w3.org/TR/html5/Overview.ht=
+ml#the-img-element" class=3D"link">img</a></code> element with an <code>alt=
+</code> attribute containing the text to which the character offset applies=
+.</p><p>For text nodes, the offset is zero-based and always refers to a pos=
+ition between characters, so <code class=3D"literal">0</code> means before=
+ the first character and a number equal to the total UTF-16 length means af=
+ter the last character. A character offset value greater than the UTF-16 le=
+ngth of the available text must not be specified.</p><p>A character offset=
+ terminating step may be present only following a <code class=3D"literal">/=
+N</code> step. For XHTML Content Documents, <code class=3D"literal">N</code=
+> would be an even number when referencing the <code>alt</code> text of an=
+ <code>img</code> element, and <code class=3D"literal">N</code> would be od=
+d when referencing text in a text node.</p><p>No other steps may follow a=
+ character offset terminating step.</p></div><div id=3D"sec-path-terminatin=
+g-temporal" title=3D"3.1.5 Terminating Step =E2=80=93 Temporal Offset (~)"=
+ class=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-path-terminating-temporal" title=3D"Link here" class=3D"hidden-rev=
+eal">=E2=80=BA</a>&nbsp;</span>3.1.5 Terminating Step =E2=80=93 Temporal Of=
+fset (<code class=3D"literal">~</code>)</h4><p>A terminating step with a le=
+ading tilde (<code class=3D"literal">~</code>) followed by a number indicat=
+es a temporal position for audio or video measured in seconds.</p><p>No oth=
+er steps can follow a temporal offset terminating step.</p></div><div id=3D=
+"sec-path-terminating-spatial" title=3D"3.1.6 Terminating Step =E2=80=93 Sp=
+atial Offset (@)" class=3D"section"><h4 class=3D"title"><span class=3D"link=
+-marker"><a href=3D"#sec-path-terminating-spatial" title=3D"Link here" clas=
+s=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.6 Terminating Step =E2=80=
+=93 Spatial Offset (<code class=3D"literal">@</code>)</h4><p>A terminating=
+ step with a leading at sign (<code class=3D"literal">@</code>) followed by=
+ two colon-separated numbers indicates a 2D spatial position within an imag=
+e or video. The two numbers represent scaled locations in the <code class=
+=3D"literal">x</code> and <code class=3D"literal">y</code> axes, and must=
+ be in the range <code class=3D"literal">0</code> to <code class=3D"literal=
+">100</code> regardless of the image&#x27;s native or display dimensions (i=
+.e., the upper left is <code class=3D"literal">0:0</code> and the lower rig=
+ht is <code class=3D"literal">100:100</code>).</p><p>No other steps can fol=
+low a spatial offset terminating step.</p></div><div id=3D"sec-path-termina=
+ting-tempspatial" title=3D"3.1.7 Terminating Step =E2=80=93 Temporal-Spatia=
+l Offset (~ + @)" class=3D"section"><h4 class=3D"title"><span class=3D"link=
+-marker"><a href=3D"#sec-path-terminating-tempspatial" title=3D"Link here"=
+ class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.7 Terminating Step=
+ =E2=80=93 Temporal-Spatial Offset (<code class=3D"literal">~</code> + <cod=
+e class=3D"literal">@</code>)</h4><p>A temporal and a spatial position may=
+ be used together. In this case, the temporal specification must precede th=
+e spatial one syntactically (e.g., <code class=3D"literal">~23.5@5.75:97.6<=
+/code> refers to a point 23.5 seconds into a video in the lower left of the=
+ frame).</p><p>No other steps can follow a temporal-spatial position termin=
+ating step.</p></div><div id=3D"sec-path-text-location" title=3D"3.1.8 Text=
+ Location Assertion ([)" class=3D"section"><h4 class=3D"title"><span class=
+=3D"link-marker"><a href=3D"#sec-path-text-location" title=3D"Link here" cl=
+ass=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.8 Text Location Asserti=
+on (<code class=3D"literal">[</code>)</h4><p>An EPUB CFI may specify a subs=
+tring that should precede and/or follow the encountered point, but such ass=
+ertions must occur only after a <a title=3D"3.1.4 Terminating Step =E2=80=
+=93 Character Offset (:)" href=3D"#sec-path-terminating-char" class=3D"link=
+">character offset terminating step</a>. </p><p>For example, the following=
+ expression asserts that <code class=3D"literal">yyy</code> is expected imm=
+ediately before the encountered point using the <a title=3D"3.1.10 Examples=
+" href=3D"#sec-path-examples" class=3D"link">sample content below</a>:</p><=
+div class=3D"informalexample"><pre class=3D"synopsis">epubcfi(/6/4[chap01re=
+f]!/4[body01]/10[para05]/2/1:3[yyy])</pre></div><p>An additional substring=
+ that follows the encountered point can be given after a comma. For example=
+:</p><div class=3D"informalexample"><pre class=3D"synopsis">epubcfi(/6/4[ch=
+ap01ref]!/4[body01]/10[para05]/1:3[xx,y])</pre></div><p>refers to the posit=
+ion marked by the asterisk:</p><div class=3D"informalexample"><pre class=3D=
+"synopsis">x x x y y y 0 1 2 3 4 5 6 7 8 9
+| | | * | | | | | | | | | | | |</pre></div><p>If there is no preceding text=
+, or only trailing text is specified, a comma must immediately precede the=
+ text assertion:</p><div class=3D"informalexample"><pre class=3D"synopsis">=
+epubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/2/1:3[,y])</pre></div><p>Ther=
+e is no restriction on the amount of the preceding and following text that=
+ can be included in the match. Text is taken from the document ignoring ele=
+ment boundaries and whitespace is always collapsed (i.e., a non-empty seque=
+nce of contiguous whitespace characters is always replaced with a single sp=
+ace character).</p><p>A Reading System may determine that the location refe=
+renced by the CFI is not the original intended location (due to non-matchin=
+g text), and may use the preceding/trailing text to compute the set of step=
+s that reach the desired destination in the content (see <a title=3D"3.5 In=
+tended Target Location Correction" href=3D"#sec-target-correction" class=3D=
+"xref">Intended Target Location Correction</a>). The cost of this added rob=
+ustness is that comparison (and sorting) of CFI strings may be performed on=
+ly after logically stripping all bracketed substrings (see <a title=3D"3.2=
+ Sorting Rules" href=3D"#sec-sorting" class=3D"xref">Sorting Rules</a>).</p=
+></div><div id=3D"sec-path-side-bias" title=3D"3.1.9 Side Bias ([ + ;s=3D)"=
+ class=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-path-side-bias" title=3D"Link here" class=3D"hidden-reveal">=E2=80=
+=BA</a>&nbsp;</span>3.1.9 Side Bias (<code class=3D"literal">[</code> + <co=
+de class=3D"literal">;s=3D</code>)</h4><p>In some situations, it is importa=
+nt to preserve which side of a location a reference points to. For example,=
+ when resolving a location in a dynamically paginated environment, it would=
+ make a difference if a location is attached to the content before or after=
+ it (e.g., to determine whether to display the verso or recto side at a pag=
+e break).</p><p>The <code class=3D"literal">s</code> parameter is used to=
+ preserve this sided-ness aspect of a location. It can take two values: <co=
+de class=3D"literal">b</code> means that the location belongs with the cont=
+ent <em>before</em> it and <code class=3D"literal">a</code> with the conten=
+t <em>after</em>. This parameter must always be used inside square brackets=
+ at the end of the CFI, even if the ID <a title=3D"Extensible Markup Langua=
+ge (XML) 1.0 (Fifth Edition)" href=3D"#refXML" class=3D"biblioref">[<abbr>X=
+ML</abbr>]</a> or text location assertion is empty.</p><p>The location just=
+ after <code class=3D"literal">yyy</code> in the <a title=3D"3.1.10 Example=
+s" href=3D"#sec-path-examples" class=3D"link">sample content below</a> can=
+ be expressed as belonging with the content before it as follows:</p><div=
+ class=3D"informalexample"><pre class=3D"synopsis">epubcfi(/6/4[chap01ref]!=
+/4[body01]/10[para05]/2/1:3[;s=3Db])</pre></div><p>Equally, it can be expre=
+ssed including a text location assertion as:</p><div class=3D"informalexamp=
+le"><pre class=3D"synopsis">epubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/2=
+/1:3[yyy;s=3Db])</pre></div><p>The location at the start of <code>em</code>=
+ element can be attached to the content preceding the <code>em</code> eleme=
+nt as follows:</p><div class=3D"informalexample"><pre class=3D"synopsis">ep=
+ubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/2[;s=3Db])</pre></div><p>If the=
+ side bias in the preceding example was set to <code class=3D"literal">a</c=
+ode> rather than <code class=3D"literal">b</code>, the location would be at=
+tached to the child content of the <code>em</code> element, not the content=
+ following the <code>em</code> element.</p><p>Since side bias is expressed=
+ as a parameter, it does not participate in CFI comparison (see <a title=3D=
+"3.2 Sorting Rules" href=3D"#sec-sorting" class=3D"xref">Sorting Rules</a>)=
+.</p><p>Side is not defined for locations with spatial terminus.</p><div ti=
+tle=3D"note" class=3D"note"><h3 class=3D"title">note</h3><p>Side bias is on=
+ly meaningful when some type of break falls at the location (e.g., a page=
+ break or line break).</p></div></div><div id=3D"sec-path-examples" title=
+=3D"3.1.10 Examples" class=3D"section"><h4 class=3D"title"><span class=3D"l=
+ink-marker"><a href=3D"#sec-path-examples" title=3D"Link here" class=3D"hid=
+den-reveal">=E2=80=BA</a>&nbsp;</span>3.1.10 Examples</h4><p class=3D"infor=
+mative"> This section is informative</p><p>Given the following Package Docu=
+ment:</p><div class=3D"informalexample"><pre class=3D"synopsis">&lt;?xml ve=
+rsion=3D&quot;1.0&quot;?&gt;
+
+&lt;package version=3D&quot;2.0&quot;=20
+         unique-identifier=3D&quot;bookid&quot;=20
+         xmlns=3D&quot;http://www.idpf.org/2007/opf&quot;
+         xmlns:dc=3D&quot;http://purl.org/dc/elements/1.1/&quot;=20
+         xmlns:opf=3D&quot;http://www.idpf.org/2007/opf&quot;&gt;
+   =20
+    &lt;metadata&gt;
+        &lt;dc:title&gt;...&lt;/dc:title&gt;
+        &lt;dc:identifier id=3D&quot;bookid&quot;&gt;...&lt;/dc:identifier&=
+gt;
+        &lt;dc:creator&gt;...&lt;/dc:creator&gt;
+        &lt;dc:language&gt;en&lt;/dc:language&gt;
+    &lt;/metadata&gt;
+   =20
+    &lt;manifest&gt;
+        &lt;item id=3D&quot;toc&quot;
+              properties=3D&quot;nav&quot;
+              href=3D&quot;toc.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+        &lt;item id=3D&quot;titlepage&quot;=20
+              href=3D&quot;titlepage.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+        &lt;item id=3D&quot;chapter01&quot;=20
+              href=3D&quot;chapter01.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+        &lt;item id=3D&quot;chapter02&quot;=20
+              href=3D&quot;chapter02.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+        &lt;item id=3D&quot;chapter03&quot;=20
+              href=3D&quot;chapter03.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+        &lt;item id=3D&quot;chapter04&quot;=20
+              href=3D&quot;chapter04.xhtml&quot;=20
+              media-type=3D&quot;application/xhtml+xml&quot;/&gt;
+    &lt;/manifest&gt;
+   =20
+    &lt;spine&gt;
+        &lt;itemref id=3D&quot;titleref&quot;  idref=3D&quot;titlepage&quot=
+;/&gt;
+        &lt;itemref id=3D&quot;chap01ref&quot; idref=3D&quot;chapter01&quot=
+;/&gt;
+        &lt;itemref id=3D&quot;chap02ref&quot; idref=3D&quot;chapter02&quot=
+;/&gt;
+        &lt;itemref id=3D&quot;chap03ref&quot; idref=3D&quot;chapter03&quot=
+;/&gt;
+        &lt;itemref id=3D&quot;chap04ref&quot; idref=3D&quot;chapter04&quot=
+;/&gt;
+    &lt;/spine&gt;
+   =20
+&lt;/package&gt;
+</pre></div><p>and the XHTML Content Document <code class=3D"filename">chap=
+ter01.xhtml</code>:</p><div class=3D"informalexample"><pre class=3D"synopsi=
+s">&lt;html xmlns=3D&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+    &lt;head&gt;
+        &lt;title&gt;...&lt;/title&gt;
+    &lt;/head&gt;
+   =20
+    &lt;body id=3D&quot;body01&quot;&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p id=3D&quot;para05&quot;&gt;xxx&lt;em&gt;yyy&lt;/em&gt;0123456=
+789&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;img id=3D&quot;svgimg&quot; src=3D&quot;foo.svg&quot; alt=3D&qu=
+ot;...&quot;/&gt;
+        &lt;p&gt;...&lt;/p&gt;
+        &lt;p&gt;...&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</pre></div><p>Then the EPUB CFI:</p><div class=3D"informalexample"><pre cl=
+ass=3D"synopsis">epubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/3:10)</pre><=
+/div><p>refers to the position right after the digit <code class=3D"literal=
+">9</code> in the paragraph with the ID <code class=3D"literal">para05</cod=
+e>. When producing CFIs for text locations, unless the text is defined by=
+ an <code>img</code> element&#x27;s <code>alt</code> tag, one should always=
+ start with the text node or text node collection (even if empty) that corr=
+esponds to the location and then trace the ancestor and reference chain to=
+ the Package Document root.</p><p>The following examples show how EPUB CFIs=
+ can be constructed to reference additional content locations.</p><div clas=
+s=3D"informalexample"><p>Reference to the <code>img</code> element.</p><pre=
+ class=3D"synopsis">epubcfi(/6/4[chap01ref]!/4[body01]/16[svgimg])</pre></d=
+iv><div class=3D"informalexample"><p>Reference to the location just before=
+ <code class=3D"literal">xxx</code>.</p><pre class=3D"synopsis">epubcfi(/6/=
+4[chap01ref]!/4[body01]/10[para05]/1:0)</pre></div><div class=3D"informalex=
+ample"><p>Reference to the location just before <code class=3D"literal">yyy=
+</code>.</p><pre class=3D"synopsis">epubcfi(/6/4[chap01ref]!/4[body01]/10[p=
+ara05]/2/1:0)</pre></div><div class=3D"informalexample"><p>Reference to the=
+ location just after <code class=3D"literal">yyy</code>.</p><pre class=3D"s=
+ynopsis">epubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/2/1:3)</pre></div></=
+div></div><div id=3D"sec-sorting" title=3D"3.2 Sorting Rules" class=3D"sect=
+ion"><h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-sortin=
+g" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.=
+2 Sorting Rules</h3><p>In order to sort or compute relative locations of mu=
+ltiple EPUB CFIs referencing the same EPUB Publication, the following rules=
+ must be applied:</p><div class=3D"orderedlist"><ol class=3D"orderedlist"><=
+li class=3D"listitem"><p> The EPUB CFI scheme data must be in unescaped for=
+m, as per the rules described in <a title=3D"2.3 Character Escaping" href=
+=3D"#sec-epubcfi-escaping" class=3D"xref">Character Escaping</a>. </p></li>=
+<li class=3D"listitem"><p>all bracketed assertions are removed (ignored) en=
+tirely;</p></li><li class=3D"listitem"><p>steps that come earlier in the se=
+quence are more important;</p></li><li class=3D"listitem"><p>XML child node=
+s, character offsets and temporal positions are sorted in natural order;</p=
+></li><li class=3D"listitem"><p>the <code class=3D"literal">y</code> positi=
+on is more important than <code class=3D"literal">x</code>;</p></li><li cla=
+ss=3D"listitem"><p>omitted spatial position precedes all other spatial posi=
+tions;</p></li><li class=3D"listitem"><p>omitted temporal position precedes=
+ all other temporal positions;</p></li><li class=3D"listitem"><p>temporal=
+ position is more important than spatial;</p></li><li class=3D"listitem"><p=
+>different step types come in the following order from least important to=
+ most important: character offset (<code class=3D"literal">:</code>), child=
+ (<code class=3D"literal">/</code>), temporal-spatial (<code class=3D"liter=
+al">~</code> or <code class=3D"literal">@</code>), reference/indirect (<cod=
+e class=3D"literal">!</code>).</p></li></ol></div></div><div id=3D"sec-intr=
+a-cfis" title=3D"3.3 Intra-Publication CFIs" class=3D"section"><h3 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-intra-cfis" title=3D"Li=
+nk here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.3 Intra-Public=
+ation CFIs</h3><p>An EPUB CFI can be used to reference content inside the=
+ container. This kind of referencing can be achieved by specifying a refere=
+nce to the Package Document followed by a CFI, which must be resolved start=
+ing from the root <code>package</code> element.</p><p>For example, using th=
+e Package Document in the <a title=3D"3.1.10 Examples" href=3D"#sec-path-ex=
+amples" class=3D"link">previous example</a>, a reference to the last locati=
+on in <code class=3D"filename">chapter02.xhtml</code> might be written as=
+ follows:</p><div class=3D"informalexample"><pre class=3D"synopsis">&lt;a=
+ href=3D&quot;../pub.opf#epubcfi(/6/4[chap01ref]!/4[body01]/10[para05]/2/1:=
+3[;s=3Db])&quot;&gt;location&lt;/a&gt;</pre></div></div><div id=3D"sec-rang=
+es" title=3D"3.4 Simple Ranges" class=3D"section"><h3 class=3D"title"><span=
+ class=3D"link-marker"><a href=3D"#sec-ranges" title=3D"Link here" class=3D=
+"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.4 Simple Ranges</h3><p>EPUB CFI=
+s allow the expression of simple ranges extending from a start location to=
+ an end location. A range must be expressed as a triple of <em>parent</em>=
+ path (<code class=3D"literal">P</code>), <em>start</em> subpath (<code cla=
+ss=3D"literal">S</code>) and <em>end</em> subpath (<code class=3D"literal">=
+E</code>), or of the form:</p><div class=3D"informalexample"><pre class=3D"=
+synopsis">epubcfi(P,S,E)</pre></div><p>The parent path must end at a step=
+ that is common for resolving both the path of the start and end locations=
+ of the range, and each start and end subpath must resolve to a location in=
+ non-decreasing order in the document.</p><p>To determine the start and end=
+ locations of the range, the start and end subpaths must be concatenated to=
+ the parent path to create the start location path (<code class=3D"literal"=
+>PS</code>) and end location path (<code class=3D"literal">PE</code>).</p><=
+p>Using the <a title=3D"3.1.10 Examples" href=3D"#sec-path-examples" class=
+=3D"link">sample documents above</a>, the following range would represents=
+ the text from the second <code class=3D"literal">y</code> in <code class=
+=3D"literal">yyy</code> up to (and including) digit <code class=3D"literal"=
+>3</code>:</p><div class=3D"informalexample"><pre class=3D"synopsis">epubcf=
+i(/6/4[chap01ref]!/4[body01]/10[para05],/2/1:1,/3:4)</pre></div><p>Ranges=
+ must be compared according to their <code class=3D"literal">PS</code>, the=
+n <code class=3D"literal">PE</code>, components.</p><p>It is not valid to=
+ use a path to an element as a shorthand for the range from the beginning=
+ to the end of the element. Single path notation always denotes a location=
+ point, and range is represented by the notation described above. There is=
+ no special step to produce a reference to the end of an element, as that=
+ would make sorting impossible without consulting the content of the docume=
+nt.</p><p>If range is used where single location is expected by the context=
+, the start location must be used.</p><p>Side-bias parameters must not be=
+ used for ranges; the start of a range is implicitly attached to the conten=
+t after the start location and the end is implicitly attached to the conten=
+t before the end location.</p></div><div id=3D"sec-target-correction" title=
+=3D"3.5 Intended Target Location Correction" class=3D"section"><h3 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-target-correction" titl=
+e=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.5 Inten=
+ded Target Location Correction</h3><p>As an EPUB Publication may be updated=
+, corrected or otherwise altered over time, it is useful to be able to deri=
+ve an EPUB CFI for the modified document from one that targeted a previous=
+ version. This specification provides two mechanisms to detect and adapt to=
+ content changes that impact CFIs: IDs <a title=3D"Extensible Markup Langua=
+ge (XML) 1.0 (Fifth Edition)" href=3D"#refXML" class=3D"biblioref">[<abbr>X=
+ML</abbr>]</a> and <a title=3D"3.1.8 Text Location Assertion ([)" href=3D"#=
+sec-path-text-location" class=3D"link">text location assertions</a>. </p><p=
+>When a Reading System is processing a CFI, it should check the correctness=
+ of any encountered assertions. For example, given the path <code class=3D"=
+literal">/6/4[chap01ref]!...</code>, the Reading System should verify that=
+ the element has the ID matching <code class=3D"literal">chap01ref</code>=
+ when processing element <code class=3D"literal">4</code> (for this example=
+, an <code>itemref</code> in the <code>spine</code>). If not, the Reading=
+ System should locate the ID <code class=3D"literal">chap01ref</code> withi=
+n the document and correct the CFI (e.g., if a new <code>itemref</code> was=
+ inserted before the <code class=3D"literal">chap01ref</code> <code>itemref=
+</code>, the desired element number would now be <code class=3D"literal">6<=
+/code> and the corrected CFI would be <code class=3D"literal">/6/6[chap01re=
+f]!...</code>). Likewise, text location assertions should be used to check=
+ referenced target locations, and used to derive a corrected CFI that targe=
+ts the desired text location.</p><p>If one of the assertions fails during=
+ processing, and a corrected CFI can not be derived (the ID is not found in=
+ the document, or text matches could not be found), the CFI must be conside=
+red an invalid reference. In cases where a Reading System cannot check for=
+ correctness (e.g., document-resident XML IDs are not available at CFI proc=
+essing time), a Reading System must ignore the CFI assertions.</p><p>This=
+ notion of correcting CFIs can lead to circumstances where two different CF=
+Is point to the same location (i.e., the &quot;stale&quot; CFI, pre-correct=
+ion, and the corrected CFI). The corrected CFI should be used where possibl=
+e. A Reading System and any surrounding content management system should at=
+tempt to replace stale CFIs with their corrected versions where possible.</=
+p><div title=3D"note" class=3D"note"><h3 class=3D"title">note</h3><p>This=
+ specification encourages the development of custom functions to assist wit=
+h CFI correction where the intrinsic functionality is insufficient. Refer=
+ to <a title=3D"4 Extending EPUB CFIs" href=3D"#sec-extensions" class=3D"xr=
+ef"><em>Extending EPUB CFIs</em></a> for more information on how to develop=
+ such functionality.</p></div></div></div><div id=3D"sec-extensions" title=
+=3D"4 Extending EPUB CFIs" class=3D"chapter"><h2 class=3D"title"><span clas=
+s=3D"link-marker"><a href=3D"#sec-extensions" title=3D"Link here" class=3D"=
+hidden-reveal">=E2=80=BA</a>&nbsp;</span>4 Extending EPUB CFIs</h2><p>The=
+ provision for extensions (CSV parameter lists, prefixed by a parameter nam=
+e, and separated by semicolons) allow Reading Systems to apply new or exper=
+imental heuristics to assist, for example, in migrating EPUB CFI fragments=
+ to updated documents.</p><p>It is recommended that any vendor-specific par=
+ameter names start with <code class=3D"literal">vnd.</code> followed by the=
+ vendor name.</p><p>Implementations must ignore all parameters that they do=
+ not understand or cannot parse.</p></div><div id=3D"references" title=3D"R=
+eferences" class=3D"bibliography"><div class=3D"titlepage"><div><div><h2 cl=
+ass=3D"title"><span class=3D"link-marker"><a href=3D"#references" title=3D"=
+Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>References</h2=
+></div></div></div><div title=3D"Normative References" class=3D"bibliodiv">=
+<h3 class=3D"title">Normative References</h3><div id=3D"refEPUBCFI" title=
+=3D"EPUB Canonical Fragment Identifier (epubcfi) Specification" class=3D"bi=
+blioentry"><p>[<abbr>EPUBCFI</abbr>] <span class=3D"title"><em> <a href=3D"=
+http://www.idpf.org/epub/linking/cfi/epub-cfi.html" class=3D"link">EPUB Can=
+onical Fragment Identifier (epubcfi) Specification</a> </em>. </span></p></=
+div><div id=3D"refHTML5" title=3D"HTML5: A vocabulary and associated APIs=
+ for HTML and XHTML" class=3D"biblioentry"><p>[<abbr>HTML5</abbr>] <span cl=
+ass=3D"title"><em> <a href=3D"http://www.w3.org/TR/html5/" class=3D"link">H=
+TML5: A vocabulary and associated APIs for HTML and XHTML</a> </em>. </span=
+></p></div><div id=3D"refRFC2119" title=3D"Key words for use in RFCs to Ind=
+icate Requirement Levels (RFC 2119)" class=3D"biblioentry"><p>[<abbr>RFC211=
+9</abbr>] <span class=3D"title"><em> <a href=3D"http://tools.ietf.org/html/=
+rfc2119" class=3D"link">Key words for use in RFCs to Indicate Requirement=
+ Levels</a> (RFC 2119) </em>. </span><span class=3D"date">March 1997. </spa=
+n></p></div><div id=3D"refRFC2279" title=3D"UTF-8, a transformation format=
+ of ISO 10646 (RFC 2279)" class=3D"biblioentry"><p>[<abbr>RFC2279</abbr>]=
+ <span class=3D"title"><em> <a href=3D"http://tools.ietf.org/html/rfc2279"=
+ class=3D"link"> UTF-8, a transformation format of ISO 10646 </a> (RFC 2279=
+) </em>. </span><span class=3D"author">F. Yergeau, et al. </span><span clas=
+s=3D"date">January 1998. </span></p></div><div id=3D"refRFC2396" title=3D"U=
+niform Resource Identifiers (URI): Generic Syntax (RFC 2396)" class=3D"bibl=
+ioentry"><p>[<abbr>RFC2396</abbr>] <span class=3D"title"><em> <a href=3D"ht=
+tp://tools.ietf.org/html/rfc2396" class=3D"link"> Uniform Resource Identifi=
+ers (URI): Generic Syntax </a> (RFC 2396) </em>. </span><span class=3D"auth=
+or">T. Berners-Lee, et al. </span><span class=3D"date">August 1998. </span>=
+</p></div><div id=3D"refRFC2732" title=3D"Format for Literal IPv6 Addresses=
+ in URL&#x27;s (RFC 2732)" class=3D"biblioentry"><p>[<abbr>RFC2732</abbr>]=
+ <span class=3D"title"><em> <a href=3D"http://tools.ietf.org/html/rfc2732"=
+ class=3D"link"> Format for Literal IPv6 Addresses in URL&#x27;s </a> (RFC=
+ 2732) </em>. </span><span class=3D"author">R. Hinden, et al. </span><span=
+ class=3D"date">December 1999. </span></p></div><div id=3D"refRFC3986" titl=
+e=3D"Uniform Resource Identifier (URI): Generic Syntax (RFC 3986)" class=3D=
+"biblioentry"><p>[<abbr>RFC3986</abbr>] <span class=3D"title"><em> <a href=
+=3D"http://tools.ietf.org/html/rfc3986" class=3D"link">Uniform Resource Ide=
+ntifier (URI): Generic Syntax</a> (RFC 3986) </em>. </span><span class=3D"a=
+uthor">Berners-Lee, et al. </span><span class=3D"date">January 2005. </span=
+></p></div><div id=3D"refRFC3987" title=3D"Internationalized Resource Ident=
+ifiers (IRIs) (RFC 3987)" class=3D"biblioentry"><p>[<abbr>RFC3987</abbr>]=
+ <span class=3D"title"><em> <a href=3D"http://tools.ietf.org/html/rfc3987"=
+ class=3D"link">Internationalized Resource Identifiers (IRIs)</a> (RFC 3987=
+) </em>. </span><span class=3D"author">M Duerst, et al. </span><span class=
+=3D"date">January 2005. </span></p></div><div id=3D"refSVG" title=3D"Scalab=
+le Vector Graphics (SVG) 1.1 (Second Edition)" class=3D"biblioentry"><p>[<a=
+bbr>SVG</abbr>] <span class=3D"title"><em> <a href=3D"http://www.w3.org/TR/=
+SVG11/" class=3D"link">Scalable Vector Graphics (SVG) 1.1 (Second Edition)<=
+/a> </em>. </span><span class=3D"author">Erik Dahlstr=C3=B6m, et al. </span=
+><span class=3D"date">09 June 2011. </span></p></div><div id=3D"refXML" tit=
+le=3D"Extensible Markup Language (XML) 1.0 (Fifth Edition)" class=3D"biblio=
+entry"><p>[<abbr>XML</abbr>] <span class=3D"title"><em> <a href=3D"http://w=
+ww.w3.org/TR/2008/REC-xml-20081126/" class=3D"link">Extensible Markup Langu=
+age (XML) 1.0 (Fifth Edition)</a> </em>. </span><span class=3D"author">T.=
+ Bray, et al. </span><span class=3D"date">26 November 2008. </span></p></di=
+v></div><div title=3D"Informative References" class=3D"bibliodiv"><h3 class=
+=3D"title">Informative References</h3><div id=3D"refXPTRSH" title=3D"XPoint=
+er Shorthand Notation" class=3D"biblioentry"><p>[<abbr>XPTRSH</abbr>] <span=
+ class=3D"title"><em> <a href=3D"http://www.w3.org/TR/xptr-framework/#short=
+hand" class=3D"link">XPointer Shorthand Notation</a> </em>. </span></p></di=
+v></div></div></div></body></html>
+------=_NextPart_000_0000_415EAC37.C9B59647
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/css/epub-spec.css
+
+@charset "utf-8";
+
+body {
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-right: 15em;
+    margin-bottom: 2em;
+    font-family: arial, helvetica, sans-serif;
+    color: black;
+    background: white;
+    background-position: 97% 20px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url(http://idpf.org/sites/idpf.org/files/idpflogo_web=
+_125.jpg);
+   =20
+}
+
+/**************************************************************************=
+*/
+/*    dl      *************************************************************=
+*/
+/**************************************************************************=
+*/
+
+dl dt {
+    font-weight: bold;
+}
+
+dt span.term {
+    color: #005A9C;
+    font-weight: normal;
+}
+
+dd > dl {
+    margin-top: 1px;
+    padding-top: 0px;
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+}
+
+/**************************************************************************=
+*/
+/*    ul      *************************************************************=
+*/
+/**************************************************************************=
+*/
+
+ul.conformance-list li {
+    list-style-type: none;
+}
+
+/**************************************************************************=
+*/
+/*  glosslist      ********************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.glosslist dl {
+    margin-left: 2em
+}
+div.glosslist dl dt {
+    color: #005A9C
+}
+
+dt.glossentry {
+    font-size: .9em;
+}
+
+/**************************************************************************=
+*/
+/*  misc block      *******************************************************=
+*/
+/**************************************************************************=
+*/
+
+p.informative, p.normative {
+    font-weight: bold;
+    font-size: 100%;
+    color: #8B0000;
+    padding: 5px 0px 10px;
+}
+
+.biblioentry:target {
+    border: 1px dashed rgb(200,200,225);
+}
+
+
+/**************************************************************************=
+*/
+/*  misc inline      ******************************************************=
+*/
+/**************************************************************************=
+*/
+
+code, span.property, a.codelink {
+    color: #660099;
+    font-family: monospace;
+    font-weight: bold
+}
+*.RFC2119 {
+    font-style: italic;
+    font-size: 80%;
+}
+
+*.todo, *.TODO {
+    background-color: yellow
+}
+
+/* vocab */
+*.subproplabel, *.subpropref {
+    font-style: italic;
+    font-size: 90%;
+}
+
+/**************************************************************************=
+*/
+/*  elem-synopsis       ***************************************************=
+*/
+/**************************************************************************=
+*/
+
+*.elem-synopsis {
+    border: 1px solid rgb(200,200,225);
+	border-top: 1px solid rgb(210,210,245);
+	border-left: 1px solid rgb(210,210,245);
+    background: rgb(240,240,255);
+    padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 2em;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+}
+
+/* special case for the code.option fields in elem-synopsis */
+code.option {
+    color: black;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: normal
+}
+/* for the special case when an attlist occurs outside of an elem-synopsis*/
+div.section > div.elem-synopsis-attlist {
+    border: 2px solid rgb(200,200,225);
+    background: rgb(230,230,255);
+    padding: 1em
+}
+
+
+/**************************************************************************=
+*/
+/*   toc     **************************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.toc dl dt {
+    font-weight: normal
+}
+
+div.toc p, div.list-of-examples p {
+    font: small-caps 105% sans-serif;
+    color: #005A9C;
+}
+
+div.toc {
+    margin-top: 3em
+}
+div.toc > dl > dt > span > a {
+    color: #0000ff
+}
+div.toc > dl > dd > dl > dt > span > a {
+    color: #0033ff
+}
+div.toc > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0066ff;
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl > dt > span=
+ > a {
+    font-size: .9em;
+    color: #0099ff
+}
+
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl >=
+ dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+
+/**************************************************************************=
+*/
+/*   examples     *********************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.informalexample {
+    margin: 1.5em auto 2em auto;
+}
+
+div.informalexample > p {
+    margin: 0px 20px;
+    font-style: italic;
+    font-size: .8em
+}
+
+div.informalexample > p code {
+    color: black;
+}
+
+pre {
+    font-family: "Courier New", Courier, Monospace;
+    color: #000;
+    background-color: #eee;
+    margin: 0;
+    border: 1px solid #ddd;
+    padding: 9px;
+    overflow: auto;   =20
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+
+}
+
+pre.synopsis, p.syntax {
+    background-color:rgb(253,253,253);
+    border: 1px solid rgb(220,220,220);
+	border-left: 1px solid rgb(230,230,230);
+	border-top: 1px solid rgb(230,230,230);
+	margin-bottom: 1em;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-box-shadow: 5px 5px 5px #888;
+}
+
+p.syntax {
+    font-family: courier, fixed, monospace;
+    padding: 9px;
+}
+
+/**************************************************************************=
+*/
+/*   note, caution     ****************************************************=
+*/
+/**************************************************************************=
+*/
+
+.caution .note {
+    font-style : italic;
+    font-size : .9em;
+}
+
+div.note, div.caution {
+	margin: 2em 1em;
+	border: solid gray 1px;
+	background-color: rgb(255,255,224);
+	padding: .5em
+}
+
+=20
+div.caution {
+    background-color: rgb(255,235,205)
+}
+
+div.note > *, div.caution > * {
+	/* margin: .25em 0em;
+	padding: 0em; */
+}
+
+div.note > h2, div.note > h3, div.note > h4, div.note > h5,
+div.caution > h2, div.caution > h3, div.caution > h4, div.caution > h5 {
+	font-size: 1em;
+	font-style: italic;
+	font-variant: small-caps;
+	float: left;
+	padding: .18em .6em .18em .5em;=09
+	margin: -1em -0.5em -0.5em auto;
+	width: auto;=20
+	border: solid 1px;=20
+	background: white;=20
+}
+
+/**************************************************************************=
+*/
+/*   headings   ***********************************************************=
+*/
+/**************************************************************************=
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    color: #005A9C;
+}
+h1 {
+    font: 170% sans-serif;
+    padding-bottom: 1em;
+}
+h2 {
+    font: 140% sans-serif;
+    padding-top: 2em;
+    border-bottom: 1px solid #005A9C
+}
+h3 {
+    font: 120% sans-serif;
+    padding-top: 1.5em;
+}
+h4 {
+    font: bold 110% sans-serif;
+    padding-top: 1.2em;
+}
+h5 {
+    font: italic 105% sans-serif
+}
+h6 {
+    font: italic 100% sans-serif
+}
+p.bridgehead {
+    font: 110% sans-serif;
+    padding-top: 0.7em;
+    color: #005A9C;
+}
+
+
+/**************************************************************************=
+*/
+/* links ******************************************************************=
+*/
+/**************************************************************************=
+*/
+
+a.glossterm {
+    color: black;
+    text-decoration: none;
+    border-bottom : 1px dotted rgb(210,210,210);
+}
+a.biblioref {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.glossterm:hover, a.biblioref:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #0000FF;
+}
+
+/**************************************************************************=
+*/
+/* "link here" anchor  ****************************************************=
+*/
+/**************************************************************************=
+*/
+
+a.hidden-reveal {
+    color: #005A9C;
+}
+a.hidden-reveal:link {
+    text-decoration: none;
+    color: #005A9C;
+}
+a.hidden-reveal:visited {
+    text-decoration: none;
+    color: #005A9C;
+}
+a.hidden-reveal:hover {
+    text-decoration: underline;
+    background-color: #005A9C;
+    color: #FFFFFF;
+}
+a.hidden-reveal:active {
+    text-decoration: none;
+    color: #005A9C;
+}
+
+/**************************************************************************=
+*/
+/*  frontmatter     *******************************************************=
+*/
+/**************************************************************************=
+*/
+
+*.releaseinfo {
+    font-size: 140%;
+    color: #005A9C;
+    margin-right: 0.4em
+}
+*.pubdate {
+    font-size: 140%;
+    color: #005A9C
+}
+*.legalnotice {
+    font-size: 90%
+}
+dl.printhistory {
+    margin-top: 2em;
+    margin-bottom: 2em
+}
+dl.printhistory dt {
+    font: small-caps 105% sans-serif;
+    color: #005A9C;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em
+}
+div.authorgroup p.editor {
+    margin-left: 2em;
+    font-size: 90%
+}
+
+/**************************************************************************=
+*/
+/*  table      ************************************************************=
+*/
+/**************************************************************************=
+*/
+
+table {
+    border: 1px solid #005A9C;
+    border-spacing: 0px;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;   =20
+    -moz-box-shadow: 2px 2px 2px rgb(240,240,240);
+	-webkit-box-shadow: 2px 2px 2px rgb(190,190,190);
+	-box-shadow: 2px 2px 2px rgb(190,190,190);
+}
+th {
+    border: 1px solid #005A9C;
+    font-weight: bold;
+    padding: 0.5em;
+    font-weight: bold;
+    color: #005A9C;
+    font-size: 90%
+}
+td {
+    border: 1px solid #005A9C;
+    padding: 0.5em;
+    text-align: left
+}
+td *, td > * {
+    text-align: left;
+}
+table, tbody {
+    padding: 0;
+}
+
+caption {
+    text-align: left;
+    font-size: 90%
+}
+/* the xsl renders db:simplelist as single-column tables */
+table.simplelist, table.simplelist th, table.simplelist td, table.simplelis=
+t tr {
+    border-style: none;
+    -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-box-shadow: none;
+}
+
+/* ensure confomity of width for property tables */
+div.informaltable > table {
+    border-spacing: 0px;
+    border: 1px solid rgb(210,210,225);
+    font-size: 1em;
+    width: 100%
+}
+
+div.informaltable > table td, div.informaltable > table th {
+  border: none;
+}
+
+div.informaltable > table td.rdfa-property {
+    padding: 3px;
+    text-indent: 15px;
+    color: rgb(0,90,156);
+    background-color: rgb(240,240,255);
+    border-bottom: 1px solid rgb(210,210,225);
+}
+td.rdfa-property > code {
+    color: rgb(0,50,116);
+    font-weight: bold;
+    font-size: 1.1em
+}
+div.informaltable > table td.rdfa-property-header {
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    border-right: 1px solid rgb(210,210,225);
+    color: rgb(0,90,156);
+    background-color: rgb(240,240,255);
+}
+td.rdfa-property-desc {
+    padding: 3px
+}
+
+td.rdfa-cardinality > p {
+	padding: 0em;
+	margin: 0em
+}
+
+/* the core media types table */
+table#tbl-core-media-types > thead > tr > th,
+table#tbl-epubReadingSystem-properties > thead > tr > th,
+table#tbl-epubReadingSystem-features > thead > tr > th {
+    background-color: rgb(240,240,255);
+    text-align: left;
+    white-space:nowrap;
+}
+
+table#tbl-core-media-types > tbody > tr > th {   =20
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding: 3px;
+}
+
+table#tbl-core-media-types td, table#tbl-core-media-types th, table#tbl-cor=
+e-media-types tr {
+    border-color: #005A9C;
+    margin: 0em;
+}
+
+table#tbl-core-media-types td code, table#tbl-core-media-types td a {
+    white-space:nowrap;
+}
+
+td[headers=3D"tbl-cmt-appl"] {
+    font-size: .9em;
+}
+
+/* ns prefix table in contentdocs */
+table#tbl-nspfx {
+    border:none;
+    border-spacing: 0px;
+    margin-left: 1em;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.link-marker {
+    float: left;
+}
+
+/* display prop examples as block */
+
+code.prop-example {
+   display: block;
+}
+
+/* participant listings */
+ul.personlist {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+*.personlist span.affiliation {
+    color: rgb(75,75,75);
+}
+
+*.personlist span.wg-role {
+    font-style: italic;
+}
+
+/*
+span.surname {
+    text-transform: uppercase;
+}
+*/
+
+table.productionset tbody tr {
+    border: none;
+}
+
+table.productionset tbody tr td {
+    border: none;
+    border-bottom: 1px solid #CCC;
+}
+
+table.productionset tbody tr td a {
+    text-decoration: none;
+    border-bottom: 1px dotted #0000ff;
+}
+
+table.productionset tbody tr td a:hover {
+    text-decoration: underline;
+}
+
+table.productionset tbody tr td a:visited,
+table.productionset tbody tr td a:active,
+table.productionset tbody tr td a:hover {
+    color: #0000ff;
+}
+
+
+p.diff, p.errata {
+	font-size: 0.9em;
+	font-style: italic
+}
+
+code {
+  font-style: normal; =20
+}
+
+div.informalexample > p code {
+    font-size: 1.2em;
+}
+
+/* vocab experimental term labels */
+strong.experimental {
+	color: rgb(255,0,0)
+}
+
+------=_NextPart_000_0000_415EAC37.C9B59647
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/css/epub-print.css
+
+@charset "utf-8";
+
+/* remove margins to get full page for printing */
+
+body {
+    margin: 0em;
+}
+
+------=_NextPart_000_0000_415EAC37.C9B59647
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://idpf.org/sites/idpf.org/files/idpflogo_web_125.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/4QqbRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
+AAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAbAAAAcgEyAAIAAAAUAAAAjYdp
+AAQAAAABAAAApAAAANAAAABIAAAAAQAAAEgAAAABQWRvYmUgUGhvdG9zaG9wIENTIFdpbmRvd3MA
+MjAwNjowNzowNiAxMTo0NToyNQAAAAAAA6ABAAMAAAAB//8AAKACAAQAAAABAAAAfaADAAQAAAAB
+AAAAOAAAAAAAAAAGAQMAAwAAAAEABgAAARoABQAAAAEAAAEeARsABQAAAAEAAAEmASgAAwAAAAEA
+AgAAAgEABAAAAAEAAAEuAgIABAAAAAEAAAllAAAAAAAAAEgAAAABAAAASAAAAAH/2P/gABBKRklG
+AAECAQBIAEgAAP/tAAxBZG9iZV9DTQAC/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBEL
+CgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsN
+Dg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwM/8AAEQgAOAB9AwEiAAIRAQMRAf/dAAQACP/EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYH
+CAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQh
+EjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXi
+ZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIE
+BAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKy
+gwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dX
+Z3eHl6e3x//aAAwDAQACEQMRAD8A9VSSTcalJS6qP6r0tlxx35lDbg7aajY0P3H8zZu3blm/88Oi
+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
+2f/tD0pQaG90b3Nob3AgMy4wADhCSU0EJQAAAAAAEAAAAAAAAAAAAAAAAAAAAAA4QklNA+0AAAAA
+ABAASAAAAAEAAQBIAAAAAQABOEJJTQQmAAAAAAAOAAAAAAAAAAAAAD+AAAA4QklNBA0AAAAAAAQA
+AAAeOEJJTQQZAAAAAAAEAAAAHjhCSU0D8wAAAAAACQAAAAAAAAAAAQA4QklNBAoAAAAAAAEAADhC
+SU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEA
+oZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAA
+AHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gA
+AAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAA
+OEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA00A
+AAAGAAAAAAAAAAAAAAA4AAAAfQAAAAwAaQBkAHAAZgBsAG8AZwBvAF8AdwBlAGIAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAH0AAAA4AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAAAEAAAAAAABudWxsAAAAAgAAAAZib3VuZHNPYmpjAAAAAQAAAAAAAFJjdDEA
+AAAEAAAAAFRvcCBsb25nAAAAAAAAAABMZWZ0bG9uZwAAAAAAAAAAQnRvbWxvbmcAAAA4AAAAAFJn
+aHRsb25nAAAAfQAAAAZzbGljZXNWbExzAAAAAU9iamMAAAABAAAAAAAFc2xpY2UAAAASAAAAB3Ns
+aWNlSURsb25nAAAAAAAAAAdncm91cElEbG9uZwAAAAAAAAAGb3JpZ2luZW51bQAAAAxFU2xpY2VP
+cmlnaW4AAAANYXV0b0dlbmVyYXRlZAAAAABUeXBlZW51bQAAAApFU2xpY2VUeXBlAAAAAEltZyAA
+AAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxv
+bmcAAAAAAAAAAEJ0b21sb25nAAAAOAAAAABSZ2h0bG9uZwAAAH0AAAADdXJsVEVYVAAAAAEAAAAA
+AABudWxsVEVYVAAAAAEAAAAAAABNc2dlVEVYVAAAAAEAAAAAAAZhbHRUYWdURVhUAAAAAQAAAAAA
+DmNlbGxUZXh0SXNIVE1MYm9vbAEAAAAIY2VsbFRleHRURVhUAAAAAQAAAAAACWhvcnpBbGlnbmVu
+dW0AAAAPRVNsaWNlSG9yekFsaWduAAAAB2RlZmF1bHQAAAAJdmVydEFsaWduZW51bQAAAA9FU2xp
+Y2VWZXJ0QWxpZ24AAAAHZGVmYXVsdAAAAAtiZ0NvbG9yVHlwZWVudW0AAAARRVNsaWNlQkdDb2xv
+clR5cGUAAAAATm9uZQAAAAl0b3BPdXRzZXRsb25nAAAAAAAAAApsZWZ0T3V0c2V0bG9uZwAAAAAA
+AAAMYm90dG9tT3V0c2V0bG9uZwAAAAAAAAALcmlnaHRPdXRzZXRsb25nAAAAAAA4QklNBCgAAAAA
+AAwAAAABP/AAAAAAAAA4QklNBBEAAAAAAAEBADhCSU0EFAAAAAAABAAAAAE4QklNBAwAAAAACYEA
+AAABAAAAfQAAADgAAAF4AABSQAAACWUAGAAB/9j/4AAQSkZJRgABAgEASABIAAD/7QAMQWRvYmVf
+Q00AAv/uAA5BZG9iZQBkgAAAAAH/2wCEAAwICAgJCAwJCQwRCwoLERUPDAwPFRgTExUTExgRDAwM
+DAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBDQsLDQ4NEA4OEBQODg4UFA4ODg4UEQwM
+DAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIADgAfQMBIgACEQED
+EQH/3QAEAAj/xAE/AAABBQEBAQEBAQAAAAAAAAADAAECBAUGBwgJCgsBAAEFAQEBAQEBAAAAAAAA
+AAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggFAwwzAQACEQMEIRIxBUFRYRMicYEyBhSRobFCIyQV
+UsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNUZEXCo3Q2F9JV4mXys4TD03Xj80YnlKSFtJXE1OT0
+pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3EQACAgECBAQDBAUGBwcGBTUBAAIRAyExEgRB
+UWFxIhMFMoGRFKGxQiPBUtHwMyRi4XKCkkNTFWNzNPElBhaisoMHJjXC0kSTVKMXZEVVNnRl4vKz
+hMPTdePzRpSkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2JzdHV2d3h5ent8f/2gAMAwEAAhEDEQA/
+APVUkk3GpSUuqj+q9LZccd+ZQ24O2mo2ND9x/M2bt25Zv/PDol3Wauh4l32rMu3hxq91bNjXWH1L
+fo7vZ9CtcnX9Qeu29dZn2muuoXtucXukw1zX7fbu9ztqkxRhInjlwUNPNZOUgBwx4tX0lJJJRr2F
+l1VQBte2sHQFxA1+aVdtdrd1bg9vEtMj8FzX1pJ+31NnT0pjtO5y0/q1/wAmD+u5QjMffOKtBHit
+Zx+vhrpbqpJJKZepQtupoYbLntrrHL3kNA/tOU1499eer5fU+uWYznn7Pju2UUz7QT+fH771Lgxe
+7PhutLJY8uT248VXrQfWMfqXT8p5Zi5VN7wJLa7GuMf1WOKsrivqt9Sbvq9nO6pl5LHCupzXMY0k
+Q6HOdu/kbf3FsdE+ufQus3vxaLxVl1vcz7Pb7XO2nbup/Nua7+Qm5IwEqhLij3ql0DIi5DhPZ3Uk
+kkxc/wD/0O1+sf136H9Xw6vIt9fMAkYlMF//AF0/Qpb/AMYuMdd9evr47bS39mdHcdTJYxzf5T/5
+7L/sfoFT+sf1S670zqzusVVsyps9Xa9osaXDxbZ7Lf6r/wBIul+rv+NDpuUW4fWa/wBmZTYZv19A
+niNffj/9c9n/AAqSnV+rX1E6P9XR9orByc9rSPtVnLZHu9Gse2r/AKtcRZ9Zuvv+sravt1zaX5Vb
+TU1xDNpexpYGfur1gWV2U+pW4PY5stc0yCCOWuC8Qynur+sBe3RzchrgfMOaVa5OIMp2AfT1a/NE
+gRo16g+pdX6/Y2x+NhnbsO193eR9Jtf/AJNZ3o9c2+uG5BHO4F0x47Z3IXTKm3dQx636tc8FwPeP
+eu3WNigeYlOc5S4YnhhGJpMR7hJJNA0AHg8jLvy3Nfe/e5jdgcRrE7vcrQz8vGwMeqiw1te6xzi3
+QyCB9JF+seMyjqW9ggXsD3AfvA7XH+0qd/8ARcX/AK7/ANU1RzjKGXKOIyrGeGR+alpBjKWt+ndt
+09T6vkU/ZaHPsfJc57dXwe278xir3P6ph2A3Oupc76LnOMH+1O1bn1XqaMO23859m0nyaBH/AFS0
+eo4teXhW0PE7mktPg4fQcpcXL+5ijKc5cRHp1+Xsvjj4ogkm+jyHVOq/WHO6cMPpr3DMLgfUrO17
+mj3LzzOrza857Mtxdlhw3uJk7jx7l6F0yxzM3GeORY0H5na5cT9YP/FFf/xrf4LS+DZ5yE8U6Jx3
+6v0v8Zr5tYWSbEhHwe9+p/T/AK1+vlf84LbbMSyk1tZbZJ3Et9zW/wDF7ves76x/4sKrnOyulONd
+s7to5nmdun+dXsXoQQczNxMHHdk5lzMehmrrLHBrR83Js5mcuIgD+6KDchHhFAk+b5f0766/Wn6r
+2DE65S7Ow2naLHH9I0fyLz9P/i8j3/y12Y/xhfVU9LPUhl+xpDTj7T6+8gubX6H9h3v/AJn/AIRc
+r9Zvrzjdbt/Zf1f6eeoX2e0ZL2Ekj/gqPpPZ/KyP0f8AwazR/ir+sP7MOYTV9u3BzcGR9D3F02/z
+Xq7tn6L+a/4RNXv/0fVHNa9pa8BzToQdQVy31h+oHSurNL6mim/sRp9zvzf+oXVJJKfOPqn0L61d
+A68zDNlj+juD/XYSNglj/SfsdO39K1vvx/8Ari5TIrNv1i9McvyWNHxLmtXuLhLSPELh6v8AFvYe
+rM6hfmABtrbixjZ1aQ9rfd/VVjlskcZkZGrjQYeYhKYjw9JWwxrn4uSy2PfQ/wBzfNphzV2mPn4m
+RULa7W7SJIJAI8nArN6r9Xm5VpycV4qud9NrvouP72n0XLNb9WupudDhW0fvbif++rLGPNhnL24j
+JCZ4qvhMVCM4E8I4olH17Lry+oE1ndXU0VtcOCZ3OIVa/wDouL/13/qmrWv+q1sV/Z7WyGn1C+RL
+p/Na0H2ql1jCOC3Exy7e4Me5x7SS2YUWTFmvLlyAerGdj8v9VbKM/VKXWLa+rvUqccvxr3BjbDuY
+86Dd9FzStnqPUMfGw7LPUaXlpFbQQSXHRq5zB6Ldn4rr6LA17XlhY/ggAH6Q/rItX1Z6i58P9Otv
+d27d/wBEBPwy5iOKIhATBHpN1w/3gmByCIoX2LW6LjOv6hQ0CW1kWPPk3X/qlwnX/wDxRX/8a3+C
+9k6f03HwKtlQlzvp2HlxXIZf+LezN6m/NuzBWx795axskAcRuV/4YBy/Ech9Uwb66rcmGRxgDWXF
+xF7XJtdTjW2sG51bC5o8SBK84q+pH1m+tGc7O+suU/HxA9xpx9N+yTtFVP8ANY3t/Of+lXpiSDZc
+7o3QOk9Eo9DpuO2kH6b+Xv8AOy13vetFJJJT/9L1VJfKqSSn6qSXyqkkp+qkl8qpJKfqpYH1kw8v
+IyKHUUuta1jg4tHBJC+dElHm4fblx3w16q3pbOuE3s/S/QMS/Fwi29uxz3F4b3AIA933LTXyqklh
+4fbjwXw1pe6oVwitn6qSXyqkpFz9VJL5VSSU/VSS+VUklP8A/9kAOEJJTQQhAAAAAABTAAAAAQEA
+AAAPAEEAZABvAGIAZQAgAFAAaABvAHQAbwBzAGgAbwBwAAAAEgBBAGQAbwBiAGUAIABQAGgAbwB0
+AG8AcwBoAG8AcAAgAEMAUwAAAAEAOEJJTQQGAAAAAAAHAAgAAQABAQD/4RgCaHR0cDovL25zLmFk
+b2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49J++7vycgaWQ9J1c1TTBNcENlaGlIenJl
+U3pOVGN6a2M5ZCc/Pgo8eDp4bXBtZXRhIHhtbG5zOng9J2Fkb2JlOm5zOm1ldGEvJyB4OnhtcHRr
+PSdYTVAgdG9vbGtpdCAzLjAtMjgsIGZyYW1ld29yayAxLjYnPgo8cmRmOlJERiB4bWxuczpyZGY9
+J2h0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMnIHhtbG5zOmlYPSdo
+dHRwOi8vbnMuYWRvYmUuY29tL2lYLzEuMC8nPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0
+PSd1dWlkOjYwN2M2M2Y5LTBkMDYtMTFkYi05ZTNiLWY0NWY1N2I1ZDg0MycKICB4bWxuczpleGlm
+PSdodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyc+CiAgPGV4aWY6Q29sb3JTcGFjZT40Mjk0
+OTY3Mjk1PC9leGlmOkNvbG9yU3BhY2U+CiAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjEyNTwvZXhp
+ZjpQaXhlbFhEaW1lbnNpb24+CiAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjU2PC9leGlmOlBpeGVs
+WURpbWVuc2lvbj4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFi
+b3V0PSd1dWlkOjYwN2M2M2Y5LTBkMDYtMTFkYi05ZTNiLWY0NWY1N2I1ZDg0MycKICB4bWxuczpw
+ZGY9J2h0dHA6Ly9ucy5hZG9iZS5jb20vcGRmLzEuMy8nPgogPC9yZGY6RGVzY3JpcHRpb24+Cgog
+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2It
+ZjQ1ZjU3YjVkODQzJwogIHhtbG5zOnBob3Rvc2hvcD0naHR0cDovL25zLmFkb2JlLmNvbS9waG90
+b3Nob3AvMS4wLyc+CiAgPHBob3Rvc2hvcDpIaXN0b3J5PjwvcGhvdG9zaG9wOkhpc3Rvcnk+CiA8
+L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0ndXVpZDo2MDdj
+NjNmOS0wZDA2LTExZGItOWUzYi1mNDVmNTdiNWQ4NDMnCiAgeG1sbnM6dGlmZj0naHR0cDovL25z
+LmFkb2JlLmNvbS90aWZmLzEuMC8nPgogIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50
+YXRpb24+CiAgPHRpZmY6WFJlc29sdXRpb24+NzIvMTwvdGlmZjpYUmVzb2x1dGlvbj4KICA8dGlm
+ZjpZUmVzb2x1dGlvbj43Mi8xPC90aWZmOllSZXNvbHV0aW9uPgogIDx0aWZmOlJlc29sdXRpb25V
+bml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRl
+c2NyaXB0aW9uIHJkZjphYm91dD0ndXVpZDo2MDdjNjNmOS0wZDA2LTExZGItOWUzYi1mNDVmNTdi
+NWQ4NDMnCiAgeG1sbnM6eGFwPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICA8eGFw
+OkNyZWF0ZURhdGU+MjAwNi0wNy0wNlQxMTo0NToyNS0wNTowMDwveGFwOkNyZWF0ZURhdGU+CiAg
+PHhhcDpNb2RpZnlEYXRlPjIwMDYtMDctMDZUMTE6NDU6MjUtMDU6MDA8L3hhcDpNb2RpZnlEYXRl
+PgogIDx4YXA6TWV0YWRhdGFEYXRlPjIwMDYtMDctMDZUMTE6NDU6MjUtMDU6MDA8L3hhcDpNZXRh
+ZGF0YURhdGU+CiAgPHhhcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ1MgV2luZG93czwv
+eGFwOkNyZWF0b3JUb29sPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiBy
+ZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2ItZjQ1ZjU3YjVkODQzJwogIHht
+bG5zOnhhcE1NPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vJz4KICA8eGFwTU06RG9j
+dW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6NjA3YzYzZjgtMGQwNi0xMWRiLTllM2ItZjQ1
+ZjU3YjVkODQzPC94YXBNTTpEb2N1bWVudElEPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpE
+ZXNjcmlwdGlvbiByZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2ItZjQ1ZjU3
+YjVkODQzJwogIHhtbG5zOmRjPSdodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyc+CiAg
+PGRjOmZvcm1hdD5pbWFnZS9qcGVnPC9kYzpmb3JtYXQ+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCjwv
+cmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+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
+------=_NextPart_000_0000_415EAC37.C9B59647--

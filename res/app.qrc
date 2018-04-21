@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/buttons">
+        <file>move-down.png</file>
+        <file>move-left.png</file>
+        <file>move-right.png</file>
+        <file>move-up.png</file>
+        <file>file-open.png</file>
+        <file>file-quit.png</file>
+        <file>file-info.png</file>
+        <file>zoom-in.png</file>
+        <file>zoom-out.png</file>
+        <file>zoom.png</file>
+        <file>about.png</file>
+        <file>keep-style.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>file.png</file>
+        <file>folder.png</file>
+        <file>app.png</file>
+    </qresource>
+</RCC>

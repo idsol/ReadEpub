@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+  The .ncx file contains the hierarchical table of contents for the EPUB file.
+  The specification for .ncx was developed for Digital Talking Book (DTB), which is 
+  maintained by the DAISY Consortium, and is not a part of the EPUB specification.
+  The .ncx file has a mimetype of application/x-dtbncx+xml.
+  Of note here is that the values for the <docTitle>, <docAuthor> and <meta name="dtb:uid"> 
+  elements should match their analogs in the .opf file.
+  Also, the <meta name="dtb:depth"> element is set equal to the depth of the <navMap> 
+  element. <navPoint> elements can be nested to create a hierarchical table of contents.
+  <navLabel>'s content is the text that will appear in the table of contents generated 
+  by reading systems that use the .ncx.
+  <navPoint>'s content element points a content document listed in the manifest and can 
+  also include an element identifier (e.g. #section1).
+  <ncx>: <!ELEMENT ncx (head, docTitle, docAuthor*, navMap, pageList?, navList*)>
+-->
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-CN">
+
+  <head>
+    <!--
+      The following four metadata items are required for all NCX documents, 
+      including those conforming to the relaxed constraints of OPS 2.0
+    -->
+    <meta name="dtb:uid" content="980158a2-3816-4f42-9bc0-7d017ef81ff0"/> <!-- same as in .opf -->
+    <meta name="dtb:depth" content="2"/> <!-- 1 or higher -->
+    <meta name="dtb:totalPageCount" content="0"/> <!-- must be 0 -->
+    <meta name="dtb:maxPageNumber" content="0"/> <!-- must be 0 -->
+    <!-- optional -->
+    <meta name="dtb:generator" content="calibre (0.7.7)"/>
+  </head>
+
+  <docTitle>
+    <text>德川家康（第十一部 王道无敌）</text>
+  </docTitle>
+
+  <docAuthor>
+    <text>山冈庄八</text>
+  </docAuthor>
+
+  <navMap>
+    <navPoint class="chapter" id="coverpage" playOrder="0">
+      <navLabel>
+        <text>封面</text>
+      </navLabel>
+      <content src="OPS/coverpage.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter2" playOrder="1">
+      <navLabel>
+        <text>第一章 谋生四条河</text>
+      </navLabel>
+      <content src="OPS/chapter2.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter3" playOrder="2">
+      <navLabel>
+        <text>第二章 倚红拥翠</text>
+      </navLabel>
+      <content src="OPS/chapter3.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter4" playOrder="3">
+      <navLabel>
+        <text>第三章 敢违天命</text>
+      </navLabel>
+      <content src="OPS/chapter4.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter5" playOrder="4">
+      <navLabel>
+        <text>第四章 家康问道</text>
+      </navLabel>
+      <content src="OPS/chapter5.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter6" playOrder="5">
+      <navLabel>
+        <text>第五章 筑城风波</text>
+      </navLabel>
+      <content src="OPS/chapter6.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter7" playOrder="6">
+      <navLabel>
+        <text>第六章 借病施疑</text>
+      </navLabel>
+      <content src="OPS/chapter7.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter8" playOrder="7">
+      <navLabel>
+        <text>第七章 良教良子</text>
+      </navLabel>
+      <content src="OPS/chapter8.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter9" playOrder="8">
+      <navLabel>
+        <text>第八章 红毛“海盗”</text>
+      </navLabel>
+      <content src="OPS/chapter9.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter10" playOrder="9">
+      <navLabel>
+        <text>第九章 南蛮野心</text>
+      </navLabel>
+      <content src="OPS/chapter10.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter11" playOrder="10">
+      <navLabel>
+        <text>第十章 出航大洋</text>
+      </navLabel>
+      <content src="OPS/chapter11.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter12" playOrder="11">
+      <navLabel>
+        <text>第十一章 祸端初显</text>
+      </navLabel>
+      <content src="OPS/chapter12.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter13" playOrder="12">
+      <navLabel>
+        <text>第十二章 联名状</text>
+      </navLabel>
+      <content src="OPS/chapter13.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter14" playOrder="13">
+      <navLabel>
+        <text>第十三章 密盒天机</text>
+      </navLabel>
+      <content src="OPS/chapter14.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter15" playOrder="14">
+      <navLabel>
+        <text>第十四章 窗开三百年</text>
+      </navLabel>
+      <content src="OPS/chapter15.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter16" playOrder="15">
+      <navLabel>
+        <text>第十五章 身后计</text>
+      </navLabel>
+      <content src="OPS/chapter16.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter17" playOrder="16">
+      <navLabel>
+        <text>第十六章 血浓血薄</text>
+      </navLabel>
+      <content src="OPS/chapter17.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter18" playOrder="17">
+      <navLabel>
+        <text>第十七章 大坂回心</text>
+      </navLabel>
+      <content src="OPS/chapter18.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter19" playOrder="18">
+      <navLabel>
+        <text>第十八章 平地风波</text>
+      </navLabel>
+      <content src="OPS/chapter19.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter20" playOrder="19">
+      <navLabel>
+        <text>第十九章 微服探病</text>
+      </navLabel>
+      <content src="OPS/chapter20.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter21" playOrder="20">
+      <navLabel>
+        <text>第二十章 匹夫忧国</text>
+      </navLabel>
+      <content src="OPS/chapter21.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter22" playOrder="21">
+      <navLabel>
+        <text>第二十一章 忠义之臣</text>
+      </navLabel>
+      <content src="OPS/chapter22.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter23" playOrder="22">
+      <navLabel>
+        <text>第二十二章 相会二条城</text>
+      </navLabel>
+      <content src="OPS/chapter23.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter24" playOrder="23">
+      <navLabel>
+        <text>第二十三章 大坂刁妇</text>
+      </navLabel>
+      <content src="OPS/chapter24.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter25" playOrder="24">
+      <navLabel>
+        <text>第二十四章 流浪圣人</text>
+      </navLabel>
+      <content src="OPS/chapter25.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter26" playOrder="25">
+      <navLabel>
+        <text>第二十五章 恶人恶心</text>
+      </navLabel>
+      <content src="OPS/chapter26.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter27" playOrder="26">
+      <navLabel>
+        <text>第二十六章 大坂隐患</text>
+      </navLabel>
+      <content src="OPS/chapter27.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter28" playOrder="27">
+      <navLabel>
+        <text>第二十七章 一期一会</text>
+      </navLabel>
+      <content src="OPS/chapter28.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter29" playOrder="28">
+      <navLabel>
+        <text>第二十八章 命有反骨</text>
+      </navLabel>
+      <content src="OPS/chapter29.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter30" playOrder="29">
+      <navLabel>
+        <text>第二十九章 命如虫豸</text>
+      </navLabel>
+      <content src="OPS/chapter30.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter31" playOrder="30">
+      <navLabel>
+        <text>第三十章 长安事败</text>
+      </navLabel>
+      <content src="OPS/chapter31.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter32" playOrder="31">
+      <navLabel>
+        <text>第三十一章 以剑止杀</text>
+      </navLabel>
+      <content src="OPS/chapter32.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter33" playOrder="32">
+      <navLabel>
+        <text>第三十二章 万雷惊落</text>
+      </navLabel>
+      <content src="OPS/chapter33.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="chapter34" playOrder="33">
+      <navLabel>
+        <text>第三十三章 不败之地</text>
+      </navLabel>
+      <content src="OPS/chapter34.html"/>
+    </navPoint>
+  </navMap>
+
+</ncx>

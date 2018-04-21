@@ -1,0 +1,154 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!--
+  The .opf file houses the EPUB book's metadata, file manifest, and linear reading order.
+  This file has a root element package and four child elements: <metadata>, <manifest>, <spine>, and <guide>.
+  All of these except <guide> are required.
+  Furthermore, the package node must have the unique-identifier attribute.
+  The .opf file's mimetype is application/oebps-package+xml.
+-->
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+
+  <!--
+    The <metadata> element contains all the metadata information for a particular EPUB file.
+    Three metadata tags are required (though many more are available): <title>, <language> and <identifier>.
+    <title> contains the title of the book, <language> contains the language of the book's contents,
+    and <identifier> contains a unique identifier for the book, such as its ISBN or a URL.
+    <identifier> can appear multiple times using different shcemes such as: ISBN, uuid, etc, 
+    and if uuid scheme presents, the <identifier>'s id attribute should equal the unique-identifier from
+    the <package> element.
+    '<identifier opf:shceme="uuid" id="uuid_id">980158a2-3816-4f42-9bc0-7d017ef81ff0</identifier>'
+  -->
+  <metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator opf:role="aut" opf:file-as="山冈庄八">山冈庄八</dc:creator>
+    <dc:publisher>南海出版社</dc:publisher>
+    <meta name="calibre:series_index" content="11.0"/>
+    <dc:rights>本电子书由epubBuilder制作生成，欢迎访问http://www.cnepub.com浏览海量电子书。</dc:rights>
+    <meta name="calibre:rating" content="10"/>
+    <dc:description>丰臣秀赖进京未果，德川家康不仅不加责怪，反而令六子忠辉往大坂探病。但淀夫人仍无动于衷，反而生起疑心。德川家康重用英吉利人三浦按针，激起旧教国葡萄牙与西班牙传教士的不满与恐慌。但家康内心对新旧教并无区别对待，对其明争暗斗浑无知觉，一方面重用林道春等儒家学人，治理国内礼仪风气，一方面愈热衷于海外发展，逐渐取得成果。
+不料值此天下太平、百废俱兴之际，大久保长安竟生起狼子野心，私藏黄金，制联名状，想让主子忠辉与将军秀忠平分天下，但尚未及起事，长安突然病亡。长安身亡后，联名状事发，德川家重臣大久保家受连累败落。
+德川家康进京，丰臣秀赖上洛相会。祖孙携手言欢。但双方重臣心怀宿怨，出言相讥，致使丰臣家重臣怀恨在心，生起反意，而因联名状上又有丰臣秀赖之名，天下形势再陷危机……</dc:description>
+    <dc:language>zh-CN</dc:language>
+    <meta name="calibre:timestamp" content="2010-07-04T16:00:00+00:00"/>
+    <dc:title>德川家康（第十一部 王道无敌）</dc:title>
+    <meta name="cover" content="cover"/>
+    <dc:date>2008-06-01 00:00:00+08:00</dc:date>
+    <meta name="calibre:series" content="德川家康"/>
+    <dc:contributor opf:role="bkp">calibre (0.7.7) [http://calibre-ebook.com]</dc:contributor>
+    <dc:identifier opf:scheme="ISBN">9787544238939</dc:identifier>
+    <dc:identifier opf:scheme="uuid" id="uuid_id">980158a2-3816-4f42-9bc0-7d017ef81ff0</dc:identifier>
+    <dc:subject>历史</dc:subject>
+    <dc:subject>小说</dc:subject>
+    <dc:subject>传记</dc:subject>
+</metadata>
+
+  <!--
+    The <manifest> element lists all the files contained in the package.
+    Each file is represented by an <item> element, and has the attributes id, href, media-type.
+    All XHTML content documents, stylesheets, images or other media, embedded fonts, and the 
+    ncx file should be listed here.
+    Only the .opf file itself, the container.xml, and the mimetype files should not be included.
+  -->
+  <manifest>
+    <item href="OPS/chapter10.html" id="chapter10" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter11.html" id="chapter11" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter12.html" id="chapter12" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter13.html" id="chapter13" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter14.html" id="chapter14" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter15.html" id="chapter15" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter16.html" id="chapter16" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter17.html" id="chapter17" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter18.html" id="chapter18" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter19.html" id="chapter19" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter2.html" id="chapter2" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter20.html" id="chapter20" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter21.html" id="chapter21" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter22.html" id="chapter22" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter23.html" id="chapter23" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter24.html" id="chapter24" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter25.html" id="chapter25" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter26.html" id="chapter26" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter27.html" id="chapter27" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter28.html" id="chapter28" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter29.html" id="chapter29" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter3.html" id="chapter3" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter30.html" id="chapter30" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter31.html" id="chapter31" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter32.html" id="chapter32" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter33.html" id="chapter33" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter34.html" id="chapter34" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter4.html" id="chapter4" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter5.html" id="chapter5" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter6.html" id="chapter6" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter7.html" id="chapter7" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter8.html" id="chapter8" media-type="application/xhtml+xml"/>
+    <item href="OPS/chapter9.html" id="chapter9" media-type="application/xhtml+xml"/>
+    <item href="OPS/cover.jpeg" id="cover" media-type="image/jpeg"/>
+    <item href="OPS/stylesheet.css" id="css" media-type="text/css"/>
+    <item href="OPS/titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml"/>
+	<!-- embedded font -->
+	<item id="myfont" href="OPS/myfont.otf" media-type="application/x-font-opentype"/>
+	<!-- ncx file -->
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+
+  <!--
+    The <spine> element lists all the XHTML content documents in their linear reading order.
+    Also, any content document that can be reached through linknig or the table of contents 
+    must be listed as well.
+    The toc attribute of <spine> must contain the id of the .ncx file listed in the <manifest>.
+    Each <itemref> element's idref is set to the id of its respective content document.
+  -->
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="chapter2"/>
+    <itemref idref="chapter3"/>
+    <itemref idref="chapter4"/>
+    <itemref idref="chapter5"/>
+    <itemref idref="chapter6"/>
+    <itemref idref="chapter7"/>
+    <itemref idref="chapter8"/>
+    <itemref idref="chapter9"/>
+    <itemref idref="chapter10"/>
+    <itemref idref="chapter11"/>
+    <itemref idref="chapter12"/>
+    <itemref idref="chapter13"/>
+    <itemref idref="chapter14"/>
+    <itemref idref="chapter15"/>
+    <itemref idref="chapter16"/>
+    <itemref idref="chapter17"/>
+    <itemref idref="chapter18"/>
+    <itemref idref="chapter19"/>
+    <itemref idref="chapter20"/>
+    <itemref idref="chapter21"/>
+    <itemref idref="chapter22"/>
+    <itemref idref="chapter23"/>
+    <itemref idref="chapter24"/>
+    <itemref idref="chapter25"/>
+    <itemref idref="chapter26"/>
+    <itemref idref="chapter27"/>
+    <itemref idref="chapter28"/>
+    <itemref idref="chapter29"/>
+    <itemref idref="chapter30"/>
+    <itemref idref="chapter31"/>
+    <itemref idref="chapter32"/>
+    <itemref idref="chapter33"/>
+    <itemref idref="chapter34"/>
+  </spine>
+
+  <!--
+    The <guide> element is an optional element for the purpose of identifying fundamental 
+    structural components of the book.
+    Each <reference> element has the attributes type, title, href.
+    Files referenced in href must be listed in the manifest, and are allowed to have an 
+    element identifier (e.g. #figures in the example).
+    Possible values for type can be found in Section 2.6 of OPF spec 2.0.1.
+    (http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.6)
+    for example: type="cover": the book cover, jacket information, etc;
+    type="loi": list of illustrations
+  -->
+  <guide>
+    <reference type="cover" title="Cover" href="OPS/titlepage.xhtml"/>
+    <reference type="loi" title="List of Illustration" href="appendix.html#figures"/>
+  </guide>
+
+</package>

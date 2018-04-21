@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">ReadEpub</string>
+  </property>
+  <widget class="QSplitter" name="splitter">
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QWidget" name="leftPane" native="true">
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <property name="rightMargin">
+      <number>4</number>
+     </property>
+     <item>
+      <widget class="QTreeView" name="tocTreeView">
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <attribute name="headerVisible">
+        <bool>false</bool>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="rightPane" native="true">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>4</number>
+     </property>
+     <item>
+      <widget class="QWebView" name="webView">
+       <property name="url">
+        <url>
+         <string>about:blank</string>
+        </url>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string notr="true">toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="fileOpenAction"/>
+   <addaction name="toggleStyleAction"/>
+   <addaction name="fileInfoAction"/>
+   <addaction name="separator"/>
+   <addaction name="viewZoomOutAction"/>
+   <addaction name="viewZoomResetAction"/>
+   <addaction name="viewZoomInAction"/>
+   <addaction name="separator"/>
+   <addaction name="navFirstAction"/>
+   <addaction name="navPrevAction"/>
+   <addaction name="navNextAction"/>
+   <addaction name="navLastAction"/>
+   <addaction name="separator"/>
+   <addaction name="aboutAction"/>
+   <addaction name="fileQuitAction"/>
+  </widget>
+  <action name="fileOpenAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/file-open.png</normaloff>:/buttons/file-open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Open EPUB File&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+O&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+O</string>
+   </property>
+  </action>
+  <action name="navPrevAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/move-left.png</normaloff>:/buttons/move-left.png</iconset>
+   </property>
+   <property name="text">
+    <string>Prev</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Previous Chapter&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+Left&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Left</string>
+   </property>
+  </action>
+  <action name="navNextAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/move-right.png</normaloff>:/buttons/move-right.png</iconset>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Next Chapter&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+Right&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Right</string>
+   </property>
+  </action>
+  <action name="fileInfoAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/file-info.png</normaloff>:/buttons/file-info.png</iconset>
+   </property>
+   <property name="text">
+    <string>Info</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Information&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;F1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F1</string>
+   </property>
+  </action>
+  <action name="fileQuitAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/file-quit.png</normaloff>:/buttons/file-quit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Quit&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Esc&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Esc</string>
+   </property>
+  </action>
+  <action name="navFirstAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/move-up.png</normaloff>:/buttons/move-up.png</iconset>
+   </property>
+   <property name="text">
+    <string>First</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;First Chapter&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+Home&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Home</string>
+   </property>
+  </action>
+  <action name="navLastAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/move-down.png</normaloff>:/buttons/move-down.png</iconset>
+   </property>
+   <property name="text">
+    <string>Last</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Last Chapter&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+End&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+End</string>
+   </property>
+  </action>
+  <action name="viewZoomInAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/zoom-in.png</normaloff>:/buttons/zoom-in.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom In</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Zoom In&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl++&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl++</string>
+   </property>
+  </action>
+  <action name="viewZoomOutAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/zoom-out.png</normaloff>:/buttons/zoom-out.png</iconset>
+   </property>
+   <property name="text">
+    <string>Zoom Out</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Zoom Out&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+-&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+-</string>
+   </property>
+  </action>
+  <action name="viewZoomResetAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/zoom.png</normaloff>:/buttons/zoom.png</iconset>
+   </property>
+   <property name="text">
+    <string notr="true">100%</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">100%</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Zoom Reset&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+0&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+0</string>
+   </property>
+  </action>
+  <action name="aboutAction">
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/about.png</normaloff>:/buttons/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;About&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;F2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">F2</string>
+   </property>
+  </action>
+  <action name="toggleStyleAction">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../res/app.qrc">
+     <normaloff>:/buttons/keep-style.png</normaloff>:/buttons/keep-style.png</iconset>
+   </property>
+   <property name="text">
+    <string>Style</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;!DOCTYPE&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+* { margin: 0; }
+body { font-size: 9pt; }
+p, li { white-space: pre-wrap; -qt-block-indent: 0; text-indent: 0; margin: 3px 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p&gt;Style&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot; color:#999999;&quot;&gt;Ctrl+T&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../res/app.qrc"/>
+ </resources>
+ <connections/>
+</ui>

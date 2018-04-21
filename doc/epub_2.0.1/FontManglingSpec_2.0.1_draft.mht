@@ -1,0 +1,1365 @@
+From: <Saved by UnMHT>
+Subject: =?iso-2022-jp?B??=
+Date: Mon, Oct 10 2011 23:29:33 GMT+0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_61423C84.770A63A3";
+	type="text/html"
+
+------=_NextPart_000_0000_61423C84.770A63A3
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/20/spec/FontManglingSpec_2.0.1_draft.htm
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "ht=
+tp://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+
+
+
+
+
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type">
+
+<base target=3D"_top"></base>
+
+<style type=3D"text/css">
+ =20
+
+/*<![CDATA[ */
+       del {display:none}
+       ins {text-decoration:none}=20
+/* ]]> */
+/* <![CDATA[
+       del {color: red}
+       ins {color: red}
+]]> */
+
+/* default css */
+
+table {
+  font-size: 1em;
+  line-height: inherit;
+}
+
+
+tr {
+ =20
+  text-align: left;
+ =20
+}
+
+
+div, address, ol, ul, li, option, select {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 6px;
+  padding: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  background-color: #ffffff;
+}
+
+
+img {
+  -moz-force-broken-image-icon: 1;
+}
+
+@media screen {
+  html.pageview {
+    background-color: #f3f3f3 !important;
+  }
+
+ =20
+
+  body {
+    min-height: 1100px;
+  }
+  * html body {
+    height: 1100px;
+  }
+  .pageview body {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+    width: 648px !important;
+    margin: 15px auto 25px;
+    padding: 40px 50px;
+  }
+  /* IE6 */
+  * html {
+    overflow-y: scroll;
+  }
+  * html.pageview body {
+    overflow-x: auto;
+  }
+  /* Prevent repaint errors when scrolling in Safari. This "Star-7" css hack
+     targets Safari 3.1, but not WebKit nightlies and presumably Safari 4.
+     That's OK because this bug is fixed in WebKit nightlies/Safari 4 :-).=
+ */
+  html*#wys_frame::before {
+    content: '\A0';
+    position: fixed;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+  }
+ =20
+ =20
+
+ =20
+    .writely-callout-data {
+      display: none;
+      *display: inline-block;
+      *width: 0;
+      *height: 0;
+      *overflow: hidden;
+    }
+    .writely-footnote-marker {
+      background-image: url('MISSING');
+      background-color: transparent;
+      background-repeat: no-repeat;
+      width: 7px;
+      overflow: hidden;
+      height: 16px;
+      vertical-align: top;
+
+     =20
+      -moz-user-select: none;
+    }
+    .editor .writely-footnote-marker {
+      cursor: move;
+    }
+    .writely-footnote-marker-highlight {
+      background-position: -15px 0;
+    }
+    .writely-footnote-hide-selection ::-moz-selection, .writely-footnote-hi=
+de-selection::-moz-selection {
+      background: transparent;
+    }
+    .writely-footnote-hide-selection ::selection, .writely-footnote-hide-se=
+lection::selection {
+      background: transparent;
+    }
+    .writely-footnote-hide-selection {
+      cursor: move;
+    }
+
+   =20
+    .editor .writely-comment-yellow {
+      background-color: #FF9;
+      background-position: -240px 0;
+    }
+    .editor .writely-comment-yellow-hover {
+      background-color: #FF0;
+      background-position: -224px 0;
+    }
+    .editor .writely-comment-blue {
+      background-color: #C0D3FF;
+      background-position: -16px 0;
+    }
+    .editor .writely-comment-blue-hover {
+      background-color: #6292FE;
+      background-position: 0 0;
+    }
+    .editor .writely-comment-orange {
+      background-color: #FFDEAD;
+      background-position: -80px 0;
+    }
+    .editor .writely-comment-orange-hover {
+      background-color: #F90;
+      background-position: -64px 0;
+    }
+    .editor .writely-comment-green {
+      background-color: #99FBB3;
+      background-position: -48px 0;
+    }
+    .editor .writely-comment-green-hover {
+      background-color: #00F442;
+      background-position: -32px 0;
+    }
+    .editor .writely-comment-cyan {
+      background-color: #CFF;
+      background-position: -208px 0;
+    }
+    .editor .writely-comment-cyan-hover {
+      background-color: #0FF;
+      background-position: -192px 0;
+    }
+    .editor .writely-comment-purple {
+      background-color: #EBCCFF;
+      background-position: -144px 0;
+    }
+    .editor .writely-comment-purple-hover {
+      background-color: #90F;
+      background-position: -128px 0;
+    }
+    .editor .writely-comment-magenta {
+      background-color: #FCF;
+      background-position: -112px 0;
+    }
+    .editor .writely-comment-magenta-hover {
+      background-color: #F0F;
+      background-position: -96px 0;
+    }
+    .editor .writely-comment-red {
+      background-color: #FFCACA;
+      background-position: -176px 0;
+    }
+    .editor .writely-comment-red-hover {
+      background-color: #FF7A7A;
+      background-position: -160px 0;
+    }
+
+    .editor .writely-comment-marker {
+      background-image: url('MISSING');
+      background-color: transparent;
+      padding-right: 11px;
+      background-repeat: no-repeat;
+      width: 16px;
+      height: 16px;
+      -moz-user-select: none;
+    }
+
+    .editor .writely-comment-hidden {
+      padding: 0;
+      background: none;
+    }
+    .editor .writely-comment-marker-hidden {
+      background: none;
+      padding: 0;
+      width: 0;
+    }
+    .editor .writely-comment-none {
+      opacity: .2;
+      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=3D20);
+      -moz-opacity: .2;
+    }
+    .editor .writely-comment-none-hover {
+      opacity: .2;
+      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=3D20);
+      -moz-opacity: .2;
+    }
+ =20
+
+
+ =20
+  .br_fix br:not(:-moz-last-node):not(:-moz-first-node) {
+   =20
+    position:relative;
+   =20
+    left: -1ex
+   =20
+  }
+ =20
+  .br_fix br+br {
+    position: static !important
+  }
+}
+
+h6 { font-size: 8pt }
+h5 { font-size: 8pt }
+h4 { font-size: 10pt }
+h3 { font-size: 12pt }
+h2 { font-size: 14pt }
+h1 { font-size: 18pt }
+
+blockquote {padding: 10px; border: 1px #DDD dashed }
+
+a img {border: 0}
+
+.pb {
+  border-width: 0;
+  page-break-after: always;
+  /* We don't want this to be resizeable, so enforce a width and height
+     using !important */
+  height: 1px !important;
+  width: 100% !important;
+}
+
+.editor .pb {
+  border-top: 1px dashed #C0C0C0;
+  border-bottom: 1px dashed #C0C0C0;
+}
+
+div.google_header, div.google_footer {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/* Table of contents */
+.editor div.writely-toc {  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+}
+.writely-toc > ol {
+  padding-left: 3em;
+  font-weight: bold;
+}
+ol.writely-toc-subheading {
+  padding-left: 1em;
+  font-weight: normal;
+}
+/* IE6 only */
+* html writely-toc ol {
+  list-style-position: inside;
+}
+.writely-toc-none {
+  list-style-type: none;
+}
+.writely-toc-decimal {
+  list-style-type: decimal;
+}
+.writely-toc-upper-alpha {
+  list-style-type: upper-alpha;
+}
+.writely-toc-lower-alpha {
+  list-style-type: lower-alpha;
+}
+.writely-toc-upper-roman {
+  list-style-type: upper-roman;
+}
+.writely-toc-lower-roman {
+  list-style-type: lower-roman;
+}
+.writely-toc-disc {
+  list-style-type: disc;
+}
+
+/* end default css */
+
+
+  /* default print css */
+ =20
+  @media print {
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    div.google_header, div.google_footer {
+      display: block;
+      min-height: 0;
+      border: none;
+    }
+
+    div.google_header {
+      flow: static(header);
+    }
+
+    /* used to insert page numbers */
+    div.google_header::before, div.google_footer::before {
+      position: absolute;
+      top: 0;
+    }
+
+    div.google_footer {
+      flow: static(footer);
+    }
+
+    /* always consider this element at the start of the doc */
+    div#google_footer {
+      flow: static(footer, start);
+    }
+
+    span.google_pagenumber {
+      content: counter(page);
+    }
+
+    span.google_pagecount {
+      content: counter(pages);
+    }
+
+
+    callout.google_footnote {
+     =20
+      display: prince-footnote;
+      footnote-style-position: inside;
+      /* These styles keep the footnote from taking on the style of the text
+         surrounding the footnote marker. They can be overridden in the
+         document CSS. */
+      color: #000;
+      font-family: Verdana;
+      font-size: 10.0pt;
+      font-weight: normal;
+    }
+
+    /* Table of contents */
+    #WritelyTableOfContents a::after {
+      content: leader('.') target-counter(attr(href), page);
+    }
+
+    #WritelyTableOfContents a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  @page {
+    @top {
+      content: flow(header);
+    }
+    @bottom {
+      content: flow(footer);
+    }
+    @footnotes {
+      border-top: solid black thin;
+      padding-top: 8pt;
+    }
+  }
+  /* end default print css */
+
+
+/* custom css */
+
+
+/* end custom css */
+
+
+
+  /* ui edited css */
+ =20
+  body {
+    font-family: Verdana;
+   =20
+    font-size: 10.0pt;
+    line-height: normal;
+    background-color: #ffffff;
+  }
+  /* end ui edited css */
+
+
+
+/* editor CSS */
+.editor a:visited {color: #551A8B}
+.editor table.zeroBorder {border: 1px dotted gray}
+.editor table.zeroBorder td {border: 1px dotted gray}
+.editor table.zeroBorder th {border: 1px dotted gray}
+
+
+.editor div.google_header, .editor div.google_footer {
+  border: 2px #DDDDDD dashed;
+  position: static;
+  width: 100%;
+  min-height: 2em;
+}
+
+.editor .misspell {background-color: yellow}
+
+.editor .writely-comment {
+  font-size: 9pt;
+  line-height: 1.4;
+  padding: 1px;
+  border: 1px dashed #C0C0C0
+}
+
+
+/* end editor CSS */
+
+</style>
+
+<base href=3D"http://idpf.org/epub/20/spec/"></base></head><body revision=
+=3D"dfcc68q2_9dpg9dxfh:228" onload=3D"DoPageLoad();">
+
+   =20
+   =20
+<ins><p style=3D"text-align: right;">
+<em>Version 2.0.1 v1.0; May 9, 2010</em>
+</p>
+</ins>
+   =20
+<h1 style=3D"text-align: left;">
+
+  Font Embedding for Open Container Format Files
+
+</h1>
+
+        <ins>
+          <dl>
+            <dt>
+              This version
+           =20
+
+            </dt><dd>
+              <a title=3D"This OPS Specification" target=3D"_blank" href=3D=
+"http://www.idpf.org/doc_library/informationaldocs/FontManglingSpec_2.0.1_d=
+raft.htm">http://www.idpf.org/doc_library/informationaldocs/FontManglingSpe=
+c_2.0.1_draft.htm</a>
+           =20
+            </dd><dt>
+              Latest version
+           =20
+
+            </dt><dd>
+              <a title=3D"Latest OPS 2.0 Specification" target=3D"_blank"=
+ href=3D"http://www.idpf.org/doc_library/informationaldocs/FontManglingSpec=
+_2.0_latest.htm">http://www.idpf.org/doc_library/informationaldocs/FontMang=
+lingSpec_2.0_latest.htm</a>
+           =20
+
+            </dd><dt>
+              Previous version
+           =20
+
+            </dt><dd>
+              <a title=3D"Previous OPS 2.0 Specification" target=3D"_blank"=
+ href=3D"http://www.idpf.org/doc_library/informationaldocs/FontManglingSpec=
+.html">http://www.idpf.org/doc_library/informationaldocs/FontManglingSpec.h=
+tml</a>
+           =20
+
+            </dd><dt>
+              Diffs to previous version
+           =20
+
+            </dt><dd>
+              <a title=3D"OPS Diffs to Previous" target=3D"_blank" href=3D"=
+http://www.idpf.org/doc_library/informationaldocs/FontManglingSpec_2.0.1_di=
+ffs_to_2.0.htm">http://www.idpf.org/doc_library/informationaldocs/FontMangl=
+ingSpec_2.0.1_diffs_to_2.0.htm</a>
+           =20
+		  </dd></dl>
+		</ins>
+	=09
+<p>
+
+</p>
+
+<p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+  <font size=3D"3">OCF [1] is a technology which is well-suited to package
+
+  OPF/OPS-compliant [2]&nbsp;electronic publications. Since OCF is fundamen=
+tally
+
+  a zip file, commonly available zip&nbsp;tools can be used to extract any
+
+  unencrypted content stream from the package. On&nbsp;some systems, the
+
+  contents of the zip file may appear like any other native container (e.g.=
+ a
+
+  folder). While the ability to do this is quite useful, it can pose a prob=
+lem
+
+  for an author of the&nbsp;publication who wishes to include a&nbsp;third-=
+party
+
+  font. Many commercial fonts allow embedding, but embedding a font
+
+  implies&nbsp;making it an integral part of the publication, not providing=
+ the
+
+  original font file along with the content. Since integrated zip support=
+ is so
+
+  ubiquitous in modern operating systems, simply placing the font in the zip
+
+  archive is insufficient to signify that the font is not intended to be re=
+used
+
+  in other contexts. This uncertainty can undermine the otherwise
+
+  very&nbsp;useful font embedding capability that OPF/OPS provides.&nbsp;</=
+font>
+
+</p>
+
+<p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+  <br>
+
+  <font size=3D"3"> </font>
+
+</p>
+
+<p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+  <font size=3D"3">In order to discourage reuse of the font, some font vend=
+ors may
+
+  allow use of their fonts in OCF containers <ins>only</ins> if those fonts=
+ are bound in some
+
+  way to the publication. That is, if the font file can not be installed
+
+  directly for use on an operating system with the built-in tools of that
+
+  computing device, and it can not be directly used by other OPF/OPS
+
+  publications. It is beyond the scope of this document to provide a digital
+
+  rights management or enforcement system for font files. It will instead
+
+  propose a method of obfuscation that will require additional work on the=
+ part
+
+  of the final OCF recipient to gain general access to any included fonts.=
+ It is
+
+  the hope of the IDPF that this will meet the requirements of most font
+
+  vendors. However, no claim is made in this document or by the IDPF that=
+ this
+
+  constitutes encryption, nor does it guarantee that the font file will be
+
+  secure from copyright infringement. The proposed mechanism will simply pr=
+ovide
+
+  a stumbling block for those who are unaware of the license details of the
+
+  supplied font. It will not prevent a determined user from gaining full ac=
+cess
+
+  to the font. Given the original OCF publication, it is possible to apply=
+ the
+
+  algorithms described in this document to extract the raw font file. Wheth=
+er
+
+  this satisfies the requirements of individual font licenses remains a que=
+stion
+
+  for the licensor and licensee.</font>
+
+</p>
+
+<p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+  <br>
+
+</p>
+
+<h2>
+
+  Obfuscation Algorithm
+
+</h2>
+
+<p>
+
+  <br>
+
+</p>
+
+<span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3">=
+The algorithm employed
+
+to obfuscate the font file consists of modifying the first 1040 bytes (~1KB=
+) of
+
+the font file. In the unlikely event that the file is less than 1040 bytes,=
+ then
+
+the entire file will be modified. The key for the algorithm must be a 20 by=
+te
+
+(160 bit) SHA-1 digest[3] of the publication<ins>&#x27;</ins>s unique ident=
+ifier. Details on
+
+generating this key are given in the section &quot;Generating the Obfuscati=
+on Key&quot;.
+
+To obfuscate the original data, the result of performing a logical exclusiv=
+e or
+
+(XOR) on the first byte of the raw file and the first byte of the key is st=
+ored
+
+as the first byte of the embedded font file. This process is repeated with=
+ the
+
+next byte of source and key, until all bytes in the key have been used. At=
+ this
+
+point, the process continues starting with the first byte of the key and 21=
+st
+
+byte of the source. Once 1040 bytes have been encoded in this way (or the=
+ end of
+
+the source is reached), any remaining data in the source is directly copied=
+ to
+
+the destination. In pseudo-code, this is the algorithm:</font></span><br>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">set source to font=
+ file</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">set destination to=
+ obfuscated
+
+  file</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">set keyData to key=
+ for font</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">set outer to 0</spa=
+n>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">while outer &lt; 52=
+ and not (source at
+
+  EOF)</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+set inner to
+
+  0</span><span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+while inner &lt; 20
+
+  and not (source at EOF)</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp; &nbsp;read 1
+
+  byte from source</span><span style=3D"font-family: &#x27;Courier New&#x27=
+;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;"> //Ass=
+umes read advances
+
+  file position</span><span style=3D"font-family: &#x27;Courier New&#x27;;"=
+><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp; &nbsp;set
+
+  sourceByte to result of
+
+  read</span><span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp; &nbsp;set
+
+  keyByte to byte inner of keyData</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp; &nbsp;set
+
+  obfuscatedByte to (sourceByte XOR
+
+  keyByte)</span><span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp; &nbsp;write
+
+  obfuscatedByte to destination</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp;
+
+  &nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;=
+&nbsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&n=
+bsp;</span><span style=3D"font-family: &#x27;Courier New&#x27;;">increment
+
+  inner</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+end
+
+  while</span><span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+increment
+
+  outer</span><span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">end while</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">if not (source at=
+ EOF) then</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+read source to
+
+  EOF</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">&nbsp;&nbsp; &nbsp;=
+write result of
+
+  read to destination</span>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;">end if&nbsp;</span>
+
+</div>
+
+<div>
+
+  <br>
+
+</div>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3=
+">To get the original
+
+  font data back, the process is simply reversed. That is, the source file
+
+  becomes the obfuscated data and the destination file will contain the raw=
+ font
+
+  data.</font></span>
+
+</div>
+
+<h2>
+
+  <del>Identifying</del><ins>Generating</ins> the Obfuscation Key
+
+</h2>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3=
+">To tie a font to a
+
+  particular publication, it is necessary to bind to a unique property of=
+ that
+
+  publication. Such a value is required by the OPF 2.0 specification, as
+
+  detailed in its section 2.1&quot;Package Identity&quot;. Every compliant=
+ OPF file has a
+
+  <i>dc:identifier</i> element which uniquely identifies the publication.=
+ The
+
+  OPF 2.0 specification details finding this element by examining the
+
+  <i>unique-identifier</i>&nbsp;attribute of the package files
+
+  <i>package</i>&nbsp;element. This element provides the required character=
+istic
+
+  of being unique to a publication, however it is not suitable for use dire=
+ctly
+
+  as the obfuscation key (for instance, its length is not
+
+  defined).</font></span>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><br>
+
+  </span>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3=
+">In order to create a
+
+  suitable key that is tied to the publication, a SHA-1 digest of the <ins>=
+UTF-8 encoded</ins> unique
+
+  identifier should be generated as specified by the Secure Hash Standard[3=
+].
+
+  Before generating the digest, all white space characters as defined by th=
+e XML
+
+  1.0 specification[4], section 2.3 are removed. Specifically the Unicode=
+ code
+
+  points 0x20, 0x09, 0x0D and 0x0A will be stripped from the string before=
+ the
+
+  digest is computed.  This digest is then directly used as the key for the
+
+  algorithm described in the &quot;Obfuscation Algorithm&quot; section.</fo=
+nt></span>
+
+</p>
+
+<p>
+
+  <br>
+
+</p>
+
+<h2>
+
+  Specifying Obfuscated Resources
+
+</h2>
+
+<p>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3=
+">All encrypted data in
+
+  an OCF <b>must</b> have an entry in the
+
+  encryption.xml file accompanying the publication, per section 3.5.5 of th=
+e OCF
+
+  specification.&nbsp;</font><font size=3D"3">The EncryptionMethod element=
+ child of
+
+  the EncryptedData
+
+  </font><b><font size=3D"3">must</font></b><font size=3D"3">&nbsp;have an=
+ Algorithm
+
+  attribute with the value &quot;http://www.idpf.org/2008/embedding&quot;.=
+ The presence of
+
+  this attribute signals the use of the algorithm described in this
+
+  specification. All resource that have been obfuscated using this approach
+
+  <b>must</b> be listed in the CipherData element.</font></span>
+
+</p>
+
+<p>
+
+  <br>
+
+</p>
+
+<p>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3=
+">An example encryption
+
+  file might look like this:</font></span>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><br>
+
+  </span>
+
+</p>
+
+<p>
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"></span>
+
+</p>
+
+<p style=3D"margin: 0pt 0pt 6pt;" class=3D"MsoNormal">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">&l=
+t;encryption</font></span><span style=3D"font-family: &#x27;Courier New&#x2=
+7;;"><font size=3D"3">&nbsp;</font></span><span style=3D"font-family: &#x27=
+;Courier New&#x27;;"></span>
+
+</p>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">xm=
+lns=3D&quot;</font></span><a style=3D"color: blue;"><span style=3D"color:=
+ black; text-decoration: none;"><span style=3D"font-family: &#x27;Courier=
+ New&#x27;;"><font size=3D"3">urn:oasis</font></span></span></a><span style=
+=3D"color: black;"><span style=3D"font-family: &#x27;Courier New&#x27;;"><f=
+ont size=3D"3">:names:tc:opendocument:xmlns:container</font></span></span><=
+span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">&quot=
+;&nbsp;</font></span><span style=3D"font-family: &#x27;Courier New&#x27;;">=
+<font size=3D"3">xmlns:enc=3D&quot;</font></span><a style=3D"color: blue;"=
+ href=3D"http://www.w3.org/2001/04/xmlenc"><u><span style=3D"font-family:=
+ &#x27;Courier New&#x27;;"><font size=3D"3">http://www.w3.org/2001/04/xmlen=
+c#</font></span></u></a><span style=3D"font-family: &#x27;Courier New&#x27;=
+;"><font size=3D"3">&quot;</font></span><span style=3D"font-family: &#x27;C=
+ourier New&#x27;;"><font size=3D"3">&gt;<br>
+
+  </font></span>
+
+</blockquote>
+
+<p style=3D"margin: 0pt 0pt 6pt;" class=3D"MsoNormal">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"></span>
+
+</p>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">&l=
+t;enc:EncryptedData&gt;&nbsp;</font></span><br>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; paddi=
+ng: 0px;" class=3D"webkit-indent-blockquote">
+
+    <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">=
+&lt;enc:EncryptionMethod
+
+    Algorithm=3D&quot;http://www.idpf.org/2008/embedding&quot;/&gt;</font><=
+/span>
+
+  </blockquote>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; paddi=
+ng: 0px;" class=3D"webkit-indent-blockquote">
+
+  </blockquote>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; paddi=
+ng: 0px;" class=3D"webkit-indent-blockquote">
+
+    <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; pad=
+ding: 0px;" class=3D"webkit-indent-blockquote">
+
+      <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3=
+">&lt;enc:CipherData&gt;&nbsp;</font></span><br>
+
+    </blockquote>
+
+  </blockquote>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; paddi=
+ng: 0px;" class=3D"webkit-indent-blockquote">
+
+    <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; pad=
+ding: 0px;" class=3D"webkit-indent-blockquote">
+
+      <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none;=
+ padding: 0px;" class=3D"webkit-indent-blockquote">
+
+        <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D=
+"3">&lt;enc:CipherReference
+
+        URI=3D&quot;OEBPS/Fonts/BKANT.TTF&quot;/&gt;&nbsp;</font></span>
+
+      </blockquote>
+
+    </blockquote>
+
+  </blockquote>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; paddi=
+ng: 0px;" class=3D"webkit-indent-blockquote">
+
+    <blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; pad=
+ding: 0px;" class=3D"webkit-indent-blockquote">
+
+      <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3=
+">&lt;/enc:CipherData&gt;</font></span>
+
+    </blockquote>
+
+  </blockquote>
+
+</blockquote>
+
+<blockquote style=3D"margin: 0pt 0pt 0pt 40px; border: medium none; padding=
+: 0px;" class=3D"webkit-indent-blockquote">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">&l=
+t;/enc:EncryptedData&gt;&nbsp;</font></span>
+
+</blockquote>
+
+<p style=3D"margin: 0px; font: 10px Courier New;">
+
+</p>
+
+<p>
+
+</p>
+
+<p>
+
+</p>
+
+<p style=3D"margin: 0pt 0pt 6pt;" class=3D"MsoNormal">
+
+  <span style=3D"font-family: &#x27;Courier New&#x27;;"><font size=3D"3">&l=
+t;/encryption&gt;</font></span>
+
+</p>
+
+<p>
+
+</p>
+
+<span style=3D"font-family: &#x27;Times New Roman&#x27;;"><font size=3D"3">=
+To prevent trivial
+
+copying of the embedded font to other publications, the explicit
+
+key <b>must not</b> be provided in the
+
+encryption.xml file. Reading systems that implement this specification
+
+<b>must</b> derive the key from the packages unique
+
+identifier.</font></span><br>
+
+<div>
+
+  <span style=3D"font-family: &#x27;Times New Roman&#x27;;"><br>
+
+  <font size=3D"3"> </font></span>
+
+</div>
+
+<h1>
+
+  References
+
+</h1>
+
+<h1>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><font size=3D"3">[1] OCF<ins>:</ins>
+
+    <a title=3D"OCF Specfication" target=3D"_blank" href=3D"http://www.idpf=
+.org/doc_library/epub/OCF_2.0.1_draft.htm">http://www.idpf.org/<del>ocf/ocf=
+1.0/index.htm</del><ins>doc_library/epub/OCF_2.0.1_draft.htm</ins></a>
+
+    &nbsp;</font></span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><br>
+
+    <font size=3D"3"> </font></span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><font size=3D"3">[2] OPF: <del>late=
+st draft is
+
+    available at&nbsp;</del>
+=20
+    <a title=3D"OPF Specfication" target=3D"_blank" href=3D"http://www.idpf=
+.org/doc_library/epub/OPF_2.0.1_draft.htm">http://www.idpf.org/doc_library/=
+<del>informationaldocs/OPS/OPF_2.0_0.7_draft.htm</del><ins>epub/OPF_2.0.1_d=
+raft.htm</ins></a>
+   =20
+   &nbsp;</font></span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><br>
+
+    <font size=3D"3"> </font></span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><font size=3D"3">[3] SHA-1:
+
+    <a title=3D"SHA-1 Specification" target=3D"_blank" href=3D"http://csrc.=
+nist.gov/publications/fips/fips180-2/fips180-2withchangenotice.pdf">http://=
+csrc.nist.gov/publications/fips/fips180-2/fips180-2withchangenotice.pdf</a>
+   =20
+
+    &nbsp;</font></span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><br>
+
+    </span>
+
+  </p>
+
+  <p style=3D"margin: 0px; font: 12px Times New Roman;">
+
+    <span style=3D"font-family: Arial;"><font size=3D"3">[4] XML
+
+    1.0:</font></span><span style=3D"font-family: Arial;"><font size=3D"3">=
+&nbsp;</font></span><span style=3D"font-family: Arial;"><font size=3D"3">
+
+    <a title=3D"XML Specification" target=3D"_blank" href=3D"http://www.w3.=
+org/TR/REC-xml/">http://www.w3.org/TR/REC-xml/</a>
+   =20
+
+    </font></span><span style=3D"font-family: Arial;"><font size=3D"3">&nbs=
+p;</font></span>
+
+  </p>
+
+  <div>
+
+    <span style=3D"font-family: &#x27;Times New Roman&#x27;; font-weight:=
+ normal;"><br>
+
+    <font size=3D"2"> </font></span>
+
+  </div>
+
+</h1>
+
+<br></body></html>
+------=_NextPart_000_0000_61423C84.770A63A3--

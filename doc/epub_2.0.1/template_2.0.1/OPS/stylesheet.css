@@ -1,0 +1,52 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+.calibre {
+    display: block;
+    font-family: "cnepub", serif;
+    font-size: 1em;
+    line-height: 130%;
+    margin-bottom: 0;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    margin-top: 0;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    page-break-before: always;
+    text-align: justify
+    }
+.calibre1 {
+    display: block;
+    font-family: "cnepub", serif;
+    line-height: 130%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: justify
+    }
+.calibre2 {
+    display: block;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 130%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: center
+    }
+.calibre3 {
+    display: block;
+    line-height: 130%;
+    margin-bottom: -0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    text-align: justify;
+    text-indent: 2em
+    }

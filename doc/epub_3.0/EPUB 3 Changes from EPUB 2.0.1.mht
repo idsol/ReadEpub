@@ -1,0 +1,2143 @@
+From: <Saved by UnMHT>
+Subject: =?iso-2022-jp?B?RVBVQiAzIENoYW5nZXMgZnJvbSBFUFVCIDIuMC4x?=
+Date: Mon, Oct 10 2011 23:15:05 GMT+0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_70A39A7B.5275E60E";
+	type="text/html"
+
+------=_NextPart_000_0000_70A39A7B.5275E60E
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/30/spec/epub30-changes.html
+
+=EF=BB=BF<html xmlns=3D"http://www.w3.org/1999/xhtml"><head><title>EPUB 3=
+ Changes from EPUB 2.0.1</title><link href=3D"../../css/epub-spec.css" type=
+=3D"text/css" rel=3D"stylesheet"></link><meta content=3D"DocBook XSL-NS Sty=
+lesheets V1.76.1" name=3D"generator"><meta content=3D"EPUB 3 Changes from=
+ EPUB 2.0.1 EPUB 3 defines the third major revision of EPUB, a digital publ=
+ication interchange and delivery format based on XML and Web Standards. Thi=
+s document informatively describes the changes in EPUB 3 from the previous=
+ release, EPUB 2.0.1." name=3D"description"><meta content=3D"text/html; cha=
+rset=3Dutf-8" http-equiv=3D"Content-Type"><link media=3D"print" type=3D"tex=
+t/css" href=3D"../../css/epub-print.css" rel=3D"stylesheet"></link><base hr=
+ef=3D"http://idpf.org/epub/30/spec/"></base></head><body><div title=3D"EPUB=
+ 3 Changes from EPUB 2.0.1" class=3D"book"><h1 class=3D"title">EPUB 3 Chang=
+es from EPUB 2.0.1</h1><p class=3D"identity"><span class=3D"releaseinfo">Pr=
+oposed Specification</span> <span class=3D"pubdate">8 September 2011</span>=
+</p><dl class=3D"printhistory"><dt>This version</dt><dd><a href=3D"http://w=
+ww.idpf.org/epub/30/spec/epub30-changes-20110908.html" class=3D"link">http:=
+//www.idpf.org/epub/30/spec/epub30-changes-20110908.html</a></dd><dt>Latest=
+ version</dt><dd><a href=3D"http://www.idpf.org/epub/30/spec/epub30-changes=
+.html" class=3D"link">http://www.idpf.org/epub/30/spec/epub30-changes.html<=
+/a></dd><dt>Previous version</dt><dd><a href=3D"http://www.idpf.org/epub/30=
+/spec/epub30-changes-20110523.html" class=3D"link">http://www.idpf.org/epub=
+/30/spec/epub30-changes-20110523.html</a></dd></dl><p class=3D"diff"> A dif=
+f of changes from the previous draft is available at <a href=3D"http://code=
+.google.com/p/epub-revision/source/diff?spec=3Dsvn3183&amp;old=3D2997&amp;r=
+=3D3183&amp;format=3Dside&amp;path=3D%2Ftrunk%2Fsrc%2Fspec%2Fepub30-changes=
+.xml" class=3D"link">this link</a>. </p><div class=3D"legal"><p class=3D"co=
+pyright">Copyright =C2=A9 2010, 2011 International Digital Publishing Forum=
+=E2=84=A2</p><div title=3D"Legal Notice" class=3D"legalnotice"><a id=3D"d74=
+54e37"></a><p><a id=3D"d7454e37">All rights reserved. This work is protecte=
+d under Title 17 of the United States Code. Reproduction and dissemination=
+ of this work with changes is prohibited except with the written permission=
+ of the </a><a href=3D"http://www.idpf.org" class=3D"link">International Di=
+gital Publishing Forum (IDPF)</a>. </p><p>EPUB is a registered trademark of=
+ the International Digital Publishing Forum.</p></div></div><div class=3D"a=
+uthorgroup"><p class=3D"bridgehead">Editors</p><p class=3D"editor">William=
+ McCoy, International Digital Publishing Forum (IDPF) </p><p class=3D"edito=
+r">Markus Gylling, DAISY Consortium </p></div><div class=3D"toc"><p><strong=
+>Table of Contents</strong></p><dl><dt><span class=3D"chapter"><a href=3D"#=
+sec-introduction">1. Introduction</a></span></dt><dd><dl><dt><span class=3D=
+"section"><a href=3D"#sec-diff-intro-history">1.1. EPUB Revision History</a=
+></span></dt></dl></dd><dt><span class=3D"chapter"><a href=3D"#sec-history"=
+>2. Changes to EPUB Specification Documents</a></span></dt><dd><dl><dt><spa=
+n class=3D"section"><a href=3D"#sec-history-intro">2.1. Changes in Document=
+ Organization </a></span></dt><dt><span class=3D"section"><a href=3D"#sec-t=
+erminology-changes">2.2. Changes in Terminology </a></span></dt></dl></dd><=
+dt><span class=3D"chapter"><a href=3D"#sec-new-changed">3. New and Changed=
+ Functionality in EPUB 3</a></span></dt><dd><dl><dt><span class=3D"section"=
+><a href=3D"#sec-new-changed-cd">3.1. Content Documents</a></span></dt><dd>=
+<dl><dt><span class=3D"section"><a href=3D"#sec-new-changed-xhtml5">3.1.1.=
+ HTML5</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-new-chang=
+ed-svg">3.1.2. SVG</a></span></dt><dt><span class=3D"section"><a href=3D"#s=
+ec-new-changed-mathml">3.1.3. MathML</a></span></dt><dt><span class=3D"sect=
+ion"><a href=3D"#sec-new-changed-semantic-inflection">3.1.4. Semantic Infle=
+ction</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-new-change=
+d-switch">3.1.5. Content Switching</a></span></dt></dl></dd><dt><span class=
+=3D"section"><a href=3D"#sec-new-changed-nav">3.2. Navigation</a></span></d=
+t><dt><span class=3D"section"><a href=3D"#sec-new-changed-linking">3.3. Lin=
+king</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-new-changed=
+-scrp">3.4. Scripting and Interactivity</a></span></dt><dd><dl><dt><span cl=
+ass=3D"section"><a href=3D"#sec-new-changed-scripting">3.4.1. Scripting</a>=
+</span></dt><dt><span class=3D"section"><a href=3D"#sec-new-changed-trigger=
+">3.4.2. Triggers</a></span></dt><dt><span class=3D"section"><a href=3D"#se=
+c-new-changed-bindings">3.4.3. Bindings</a></span></dt></dl></dd><dt><span=
+ class=3D"section"><a href=3D"#sec-new-changed-styling">3.5. Styling and La=
+yout</a></span></dt><dd><dl><dt><span class=3D"section"><a href=3D"#sec-new=
+-changed-css">3.5.1. CSS</a></span></dt><dt><span class=3D"section"><a href=
+=3D"#sec-new-changed-embedded-fonts">3.5.2. Embedded Fonts</a></span></dt><=
+dt><span class=3D"section"><a href=3D"#sec-new-changed-ocf-obf">3.5.3. Font=
+ Obfuscation</a></span></dt></dl></dd><dt><span class=3D"section"><a href=
+=3D"#sec-new-changed-media">3.6. Rich Media</a></span></dt><dd><dl><dt><spa=
+n class=3D"section"><a href=3D"#sec-new-changed-audio-video">3.6.1. Audio=
+ and Video</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-new-c=
+hanged-mo">3.6.2. Media Overlays</a></span></dt></dl></dd><dt><span class=
+=3D"section"><a href=3D"#sec-new-changed-meta">3.7. Metadata</a></span></dt=
+><dd><dl><dt><span class=3D"section"><a href=3D"#sec-new-changed-meta-packa=
+ge">3.7.1. Publication Metadata and Identity</a></span></dt><dt><span class=
+=3D"section"><a href=3D"#sec-new-changed-meta-resources">3.7.2. Resource Me=
+tadata</a></span></dt></dl></dd><dt><span class=3D"section"><a href=3D"#sec=
+-new-changed-speech">3.8. Speech</a></span></dt><dt><span class=3D"section"=
+><a href=3D"#sec-new-changed-package">3.9. Manifest Fallbacks</a></span></d=
+t><dt><span class=3D"section"><a href=3D"#sec-new-changed-ocf">3.10. Contai=
+nment</a></span></dt><dd><dl><dt><span class=3D"section"><a href=3D"#sec-ne=
+w-changed-remote">3.10.1. Remote Resources</a></span></dt><dt><span class=
+=3D"section"><a href=3D"#sec-new-changed-ocf-white-space">3.10.2. Whitespac=
+e in MIMETYPE file</a></span></dt><dt><span class=3D"section"><a href=3D"#s=
+ec-new-changed-ocf-namechars">3.10.3. Disallowed characters in OCF file nam=
+es</a></span></dt></dl></dd><dt><span class=3D"section"><a href=3D"#sec-new=
+-changed-xml-unicode">3.11. XML and Unicode</a></span></dt></dl></dd><dt><s=
+pan class=3D"chapter"><a href=3D"#sec-replaced">4. EPUB 2.0.1 Features Repl=
+aced in EPUB 3</a></span></dt><dd><dl><dt><span class=3D"section"><a href=
+=3D"#sec-removals">4.1. Features Removed from EPUB 3</a></span></dt><dd><dl=
+><dt><span class=3D"section"><a href=3D"#sec-removals-dtbook">4.1.1. DTBook=
+</a></span></dt><dt><span class=3D"section"><a href=3D"#sec-removals-out-of=
+-line-XML-islands">4.1.2. Out-of-Line XML Islands</a></span></dt><dt><span=
+ class=3D"section"><a href=3D"#sec-removals-tours">4.1.3. Tours</a></span><=
+/dt><dt><span class=3D"section"><a href=3D"#sec-removals-filesystem-contain=
+er">4.1.4. Filesystem Container</a></span></dt></dl></dd><dt><span class=3D=
+"section"><a href=3D"#sec-deprecations">4.2. Features Deprecated/Obsoleted=
+ in EPUB 3</a></span></dt><dd><dl><dt><span class=3D"section"><a href=3D"#s=
+ec-deprecations-guide">4.2.1. Guide</a></span></dt><dt><span class=3D"secti=
+on"><a href=3D"#sec-deprecations-ncx">4.2.2. NCX</a></span></dt><dt><span=
+ class=3D"section"><a href=3D"#sec-deprecations-meta201">4.2.3. 2.0.1 meta=
+ element</a></span></dt></dl></dd></dl></dd><dt><span class=3D"appendix"><a=
+ href=3D"#app-contributors">A. Acknowledgements and Contributors</a></span>=
+</dt><dt><span class=3D"bibliography"><a href=3D"#references">References</a=
+></span></dt></dl></div><div id=3D"sec-introduction" title=3D"1 Introductio=
+n" class=3D"chapter"><h2 class=3D"title"><span class=3D"link-marker"><a hre=
+f=3D"#sec-introduction" title=3D"Link here" class=3D"hidden-reveal">=E2=80=
+=BA</a>&nbsp;</span>1 Introduction</h2><p>EPUB=C2=AE is an interchange and=
+ delivery format for digital publications, based on XML and Web Standards.=
+ An EPUB Publication can be thought of as a reliable packaging of Web conte=
+nt that represents a digital book, magazine, or other type of publication,=
+ and able to distributed for online and offline consumption. </p><p>This do=
+cument, EPUB 3 Changes from EPUB 2.0.1, describes changes made in the third=
+ major revision of EPUB, including some rationale for the changes, and some=
+ guidance for content authors and Reading System developers regarding backw=
+ards compatibility considerations.</p><p>This document is non-normative. Th=
+e EPUB specification documents should be consulted for definitive informati=
+on on EPUB 3:</p><div id=3D"sibling-specs" class=3D"itemizedlist"><ul class=
+=3D"itemizedlist"><li class=3D"listitem"><p>EPUB Publications 3.0 <a title=
+=3D"EPUB Publications 3.0" href=3D"#refPublications3" class=3D"biblioref">[=
+<abbr>Publications30</abbr>]</a>, which defines publication-level semantics=
+ and overarching conformance requirements for EPUB Publications.</p></li><l=
+i class=3D"listitem"><p>EPUB Content Documents 3.0 <a title=3D"EPUB Content=
+ Documents 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>Conten=
+tDocs30</abbr>]</a>, which defines profiles of XHTML, SVG and CSS for use=
+ in the context of EPUB Publications.</p></li><li class=3D"listitem"><p>EPU=
+B Open Container Format (OCF) 3.0 <a title=3D"Open Container Format 3.0" hr=
+ef=3D"#refOCF30" class=3D"biblioref">[<abbr>OCF3</abbr>]</a>, which defines=
+ a file format and processing model for encapsulating a set of related reso=
+urces into a single-file (ZIP) Container.</p></li><li class=3D"listitem"><p=
+>EPUB Media Overlays 3.0 <a title=3D"EPUB Media Overlays 3.0" href=3D"#refO=
+verlays3" class=3D"biblioref">[<abbr>MediaOverlays30</abbr>]</a>, which def=
+ines a format and a processing model for synchronization of text and audio.=
+</p></li></ul></div><p>Unless otherwise specified, terms used herein have=
+ the meaning defined in these specifications.</p><div id=3D"sec-diff-intro-=
+history" title=3D"1.1 EPUB Revision History" class=3D"section"><h3 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-diff-intro-history" tit=
+le=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>1.1 EPUB=
+ Revision History</h3><p>EPUB had its roots in the interchange format known=
+ as the Open EBook Publication Structure (OEBPS). OEBPS 1.0 was approved in=
+ 1999 by the Open eBook Forum, an organization that later became the Intern=
+ational Digital Publishing Forum (IDPF). Subsequent revisions 1.1 and 1.2=
+ were approved by the IDPF in 2001 and 2002 respectively.</p><p> It was rea=
+lized that a need existed for a format standard that could be used for deli=
+very as well as interchange, and work began in late 2005 on a single-file=
+ container format for OEPBS, which was approved by the IDPF as the OEBPS Co=
+ntainer Format (OCF) in 2006. Work on a 2.0 revision of OEBPS began in para=
+llel which was approved as the renamed EPUB 2.0 in October, 2007, consistin=
+g of a triumvirate of specifications: Open Package Format (OPF), Open Publi=
+cation Format (OPF) together with OCF. EPUB 2.0.1, a maintenance update to=
+ the 2.0 specification set primarily intended clarify and correct errata in=
+ the specifications, was approved in September, 2010. <a title=3D"Open Pack=
+aging Format 2.0.1" href=3D"#refOPF2" class=3D"biblioref">[<abbr>OPF2</abbr=
+>]</a> <a title=3D"Open Publication Structure 2.0.1" href=3D"#refOPS2" clas=
+s=3D"biblioref">[<abbr>OPS2</abbr>]</a> <a title=3D"Open Container Format=
+ 2.0.1" href=3D"#refOCF2" class=3D"biblioref">[<abbr>OCF2</abbr>]</a></p></=
+div></div><div id=3D"sec-history" title=3D"2 Changes to EPUB Specification=
+ Documents" class=3D"chapter"><h2 class=3D"title"><span class=3D"link-marke=
+r"><a href=3D"#sec-history" title=3D"Link here" class=3D"hidden-reveal">=E2=
+=80=BA</a>&nbsp;</span>2 Changes to EPUB Specification Documents</h2><p>In=
+ addition to significant changes in functionality, the EPUB 3 specification=
+s are structured and named differently than EPUB 2.0.1, and certain termino=
+logy changes have been made to improve clarity. The following sections desc=
+ribe these changes.</p><div id=3D"sec-history-intro" title=3D"2.1 Changes=
+ in Document Organization" class=3D"section"><h3 class=3D"title"><span clas=
+s=3D"link-marker"><a href=3D"#sec-history-intro" title=3D"Link here" class=
+=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>2.1 Changes in Document Organi=
+zation </h3><p>In order to help those familiar with EPUB 2.0.1 to understan=
+d the mapping of information in EPUB 3, the following table shows where inf=
+ormation in EPUB 3 is located relative to the EPUB 2.0.1 specifications.</p=
+><div id=3D"spec-org" title=3D"Specification Document Organization" class=
+=3D"table"><span class=3D"link-marker"><a href=3D"#spec-org" title=3D"Link=
+ here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span><p class=3D"title"=
+><strong>Specification Document Organization</strong></p><div class=3D"tabl=
+e-contents"><table border=3D"1" summary=3D"Specification Document Organizat=
+ion"><colgroup><col class=3D"c1"></col><col class=3D"c2"></col><col class=
+=3D"c3"></col></colgroup><thead><tr><th class=3D"entry">Area</th><th class=
+=3D"entry">EPUB 3 Specification</th><th class=3D"entry">EPUB 2.0.1 Specific=
+ation</th></tr></thead><tbody><tr><td class=3D"entry">Overview</td><td clas=
+s=3D"entry"><a title=3D"EPUB 3 Overview" href=3D"#refEPUB3Overview" class=
+=3D"biblioref">EPUB 3 Overview</a></td><td class=3D"entry">(throughout)</td=
+></tr><tr><td class=3D"entry">Publication-level Specification &amp; Package=
+ Docs</td><td class=3D"entry"><a title=3D"EPUB Publications 3.0" href=3D"#r=
+efPublications3" class=3D"biblioref">EPUB Publications 3.0</a></td><td clas=
+s=3D"entry"><a title=3D"Open Packaging Format 2.0.1" href=3D"#refOPF2" clas=
+s=3D"biblioref">Open Packaging Format 2.0.1</a></td></tr><tr><td class=3D"e=
+ntry">Content-level Specification</td><td class=3D"entry"><a title=3D"EPUB=
+ Content Documents 3.0" href=3D"#refContentDocs3" class=3D"biblioref">EPUB=
+ Content Documents 3.0</a></td><td class=3D"entry"><a title=3D"Open Publica=
+tion Structure 2.0.1" href=3D"#refOPS2" class=3D"biblioref">Open Publicatio=
+n Structure 2.0.1</a></td></tr><tr><td class=3D"entry">EPUB Navigation Docu=
+ments</td><td class=3D"entry"><a title=3D"EPUB Content Documents 3.0" href=
+=3D"#refContentDocs3" class=3D"biblioref">EPUB Content Documents 3.0</a></t=
+d><td class=3D"entry">N/A (NCX referenced as DAISY specification)</td></tr>=
+<tr><td class=3D"entry">Media Overlays</td><td class=3D"entry"><a title=3D"=
+EPUB Media Overlays 3.0" href=3D"#refOverlays3" class=3D"biblioref">EPUB Me=
+dia Overlays 3.0</a></td><td class=3D"entry">N/A</td></tr><tr><td class=3D"=
+entry">Container packaging</td><td class=3D"entry"><a title=3D"Open Contain=
+er Format 3.0" href=3D"#refOCF30" class=3D"biblioref">EPUB Open Container=
+ Format 3.0</a></td><td class=3D"entry"><a title=3D"Open Container Format=
+ 2.0.1" href=3D"#refOCF2" class=3D"biblioref">Open Container Format 2.0.1</=
+a></td></tr><tr><td class=3D"entry">Changes from previous version</td><td=
+ class=3D"entry">EPUB 3 Changes from EPUB 2.0.1</td><td class=3D"entry">(th=
+roughout)</td></tr></tbody></table></div></div><br class=3D"table-break"></=
+div><div id=3D"sec-terminology-changes" title=3D"2.2 Changes in Terminology=
+" class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-terminology-changes" title=3D"Link here" class=3D"hidden-reveal">=
+=E2=80=BA</a>&nbsp;</span>2.2 Changes in Terminology </h3><p>Maintaining co=
+nsistent use of terminology from EPUB 2.0.1 to EPUB 3 was a consideration=
+ during development, but changes in document organization, feature set and=
+ conformance requirements inevitably resulted in a number of changes.</p><p=
+>Each specification contains a Terminology section near the top that define=
+s and explains the new terms (e.g., <span class=3D"phrase"><a href=3D"epub3=
+0-publications.html#sec-terminology" class=3D"link">Terminology</a> <a titl=
+e=3D"EPUB Publications 3.0" href=3D"#refPublications3" class=3D"biblioref">=
+[<abbr>Publications30</abbr>]</a></span>). </p></div></div><div id=3D"sec-n=
+ew-changed" title=3D"3 New and Changed Functionality in EPUB 3" class=3D"ch=
+apter"><h2 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-=
+changed" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</s=
+pan>3 New and Changed Functionality in EPUB 3</h2><p>This section describes=
+ the major new and changed functionality and constructs present in EPUB 3.<=
+/p><div id=3D"sec-new-changed-cd" title=3D"3.1 Content Documents" class=3D"=
+section"><h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-ne=
+w-changed-cd" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbs=
+p;</span>3.1 Content Documents</h3><div id=3D"sec-new-changed-xhtml5" title=
+=3D"3.1.1 HTML5" class=3D"section"><h4 class=3D"title"><span class=3D"link-=
+marker"><a href=3D"#sec-new-changed-xhtml5" title=3D"Link here" class=3D"hi=
+dden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.1 HTML5</h4><p>EPUB 3&#x27;s bas=
+e content format is now based on the XML serialization of HTML5 (XHTML5) <a=
+ title=3D"EPUB Content Documents 3.0" href=3D"#refContentDocs3" class=3D"bi=
+blioref">[<abbr>ContentDocs30</abbr>]</a>, whereas EPUB2 supported two basi=
+c content types: a profile of XHTML 1.1 and DTBook <a title=3D"Open Publica=
+tion Structure 2.0.1" href=3D"#refOPS2" class=3D"biblioref">[<abbr>OPS2</ab=
+br>]</a> (a semantically-enhanced markup focused on accessibility concerns)=
+.</p><p>The EPUB 3 XHTML Content Document definition includes both extensio=
+ns to and restrictions on its HTML5 base, many of which are discussed below=
+. Refer to <span class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xh=
+tml-additions" class=3D"link">HTML5 Extensions and Enhancements</a> <a titl=
+e=3D"EPUB Content Documents 3.0" href=3D"#refContentDocs3" class=3D"biblior=
+ef">[<abbr>ContentDocs30</abbr>]</a></span> and <span class=3D"phrase"><a=
+ href=3D"epub30-contentdocs.html#sec-xhtml-deviations" class=3D"link">HTML5=
+ Deviations and Constraints</a> <a title=3D"EPUB Content Documents 3.0" hre=
+f=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30</abbr>]</a>=
+</span> for complete information.</p></div><div id=3D"sec-new-changed-svg"=
+ title=3D"3.1.2 SVG" class=3D"section"><h4 class=3D"title"><span class=3D"l=
+ink-marker"><a href=3D"#sec-new-changed-svg" title=3D"Link here" class=3D"h=
+idden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.2 SVG</h4><p>SVG documents can=
+ now appear in the spine in EPUB 3 (i.e., SVG no longer needs to be nested=
+ within an XHTML document).</p></div><div id=3D"sec-new-changed-mathml" tit=
+le=3D"3.1.3 MathML" class=3D"section"><h4 class=3D"title"><span class=3D"li=
+nk-marker"><a href=3D"#sec-new-changed-mathml" title=3D"Link here" class=3D=
+"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.1.3 MathML</h4><p><span class=
+=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-mathml" class=3D"l=
+ink">Support for MathML</a> <a title=3D"EPUB Content Documents 3.0" href=3D=
+"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30</abbr>]</a></sp=
+an> is new in EPUB 3.</p></div><div id=3D"sec-new-changed-semantic-inflecti=
+on" title=3D"3.1.4 Semantic Inflection" class=3D"section"><h4 class=3D"titl=
+e"><span class=3D"link-marker"><a href=3D"#sec-new-changed-semantic-inflect=
+ion" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>=
+3.1.4 Semantic Inflection</h4><p>A method for inflecting domain-specific se=
+mantics in XHTML Content Documents using attributes has been added. Refer=
+ to <span class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-sem=
+antic-inflection" class=3D"link">Semantic Inflection</a> <a title=3D"EPUB=
+ Content Documents 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abb=
+r>ContentDocs30</abbr>]</a></span> for more information.</p></div><div id=
+=3D"sec-new-changed-switch" title=3D"3.1.5 Content Switching" class=3D"sect=
+ion"><h4 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-ch=
+anged-switch" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbs=
+p;</span>3.1.5 Content Switching</h4><p>The <code>switch</code> element, in=
+itially introduced in <a title=3D"Open Publication Structure 2.0.1" href=3D=
+"#refOPS2" class=3D"biblioref">[<abbr>OPS2</abbr>]</a>, has been simplified=
+ by having its processing model defined so that it does not require documen=
+t preprocessing, and by removing the <code>requiredModules</code> attribute=
+. This simplification is backwards compatible with existing EPUB 2 Reading=
+ System implementations. Refer to <span class=3D"phrase"><a href=3D"epub30-=
+contentdocs.html#sec-xhtml-content-switch" class=3D"link">Content Switching=
+</a> <a title=3D"EPUB Content Documents 3.0" href=3D"#refContentDocs3" clas=
+s=3D"biblioref">[<abbr>ContentDocs30</abbr>]</a></span> for more informatio=
+n.</p></div></div><div id=3D"sec-new-changed-nav" title=3D"3.2 Navigation"=
+ class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-new-changed-nav" title=3D"Link here" class=3D"hidden-reveal">=E2=
+=80=BA</a>&nbsp;</span>3.2 Navigation</h3><p>EPUB 3 defines a new human- an=
+d machine-readable grammar for publication-wide navigation information via=
+ a specialized adaptation of the general EPUB XHTML Content Document. <span=
+ class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-nav" class=
+=3D"link">EPUB Navigation Documents</a> <a title=3D"EPUB Content Documents=
+ 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30</a=
+bbr>]</a></span> supersedes the NCX grammar used in EPUB 2.</p><p>While NCX=
+ support was optional for EPUB2 Reading Systems, inclusion of and support=
+ for EPUB Navigation Documents is required in EPUB 3.</p><p>As noted in <sp=
+an class=3D"phrase"><a href=3D"epub30-publications.html#ncx-superseded" cla=
+ss=3D"link">NCX Superseded</a> <a title=3D"EPUB Publications 3.0" href=3D"#=
+refPublications3" class=3D"biblioref">[<abbr>Publications30</abbr>]</a></sp=
+an>, EPUB 3 Publications may include the EPUB 2 NCX for EPUB 2 Reading Syst=
+em forward compatibility purposes.</p></div><div id=3D"sec-new-changed-link=
+ing" title=3D"3.3 Linking" class=3D"section"><h3 class=3D"title"><span clas=
+s=3D"link-marker"><a href=3D"#sec-new-changed-linking" title=3D"Link here"=
+ class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.3 Linking</h3><p>The=
+ IDPF has established a <a href=3D"http://idpf.org/epub/linking/" class=3D"=
+link">registry of linking schemes</a>. </p><p><a title=3D"EPUB Canonical Fr=
+agment Identifier (epubcfi) Specification" href=3D"#refEPUBCFI" class=3D"bi=
+blioref">[<abbr>EPUBCFI</abbr>]</a> is the first scheme added to the regist=
+ry, and can be used for linking into, between and within Publications. Read=
+ing System support for this scheme is required.</p></div><div id=3D"sec-new=
+-changed-scrp" title=3D"3.4 Scripting and Interactivity" class=3D"section">=
+<h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-changed=
+-scrp" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</spa=
+n>3.4 Scripting and Interactivity</h3><div id=3D"sec-new-changed-scripting"=
+ title=3D"3.4.1 Scripting" class=3D"section"><h4 class=3D"title"><span clas=
+s=3D"link-marker"><a href=3D"#sec-new-changed-scripting" title=3D"Link here=
+" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.4.1 Scripting</h4><p>=
+EPUB 3 Reading Systems may optionally support scripting, which was explicit=
+ly discouraged in EPUB 2. Scripted content <span class=3D"phrase"><a href=
+=3D"epub30-publications.html#scripted" class=3D"link">must be identified as=
+ such in the package manifest</a> <a title=3D"EPUB Publications 3.0" href=
+=3D"#refPublications3" class=3D"biblioref">[<abbr>Publications30</abbr>]</a=
+></span> and is subject to other restrictions and limitations as further de=
+scribed in <span class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-sc=
+ripted-content" class=3D"link">Scripted Content Documents</a> <a title=3D"E=
+PUB Content Documents 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<=
+abbr>ContentDocs30</abbr>]</a></span>.</p><p>The new custom <span class=3D"=
+phrase"><a href=3D"epub30-contentdocs.html#app-epubReadingSystem" class=3D"=
+link">epubReadingSystem JavaScript object</a> <a title=3D"EPUB Content Docu=
+ments 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs=
+30</abbr>]</a></span>, provides scripts a means of querying a Reading Syste=
+m to determine its capabilities.</p></div><div id=3D"sec-new-changed-trigge=
+r" title=3D"3.4.2 Triggers" class=3D"section"><h4 class=3D"title"><span cla=
+ss=3D"link-marker"><a href=3D"#sec-new-changed-trigger" title=3D"Link here"=
+ class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.4.2 Triggers</h4><p>To=
+ facilitate content-specific user experiences for audio and video controls=
+ without requiring scripting, a new <code>trigger</code> element is defined=
+ in the <span class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml=
+" class=3D"link">EPUB profile of HTML5</a> <a title=3D"EPUB Content Documen=
+ts 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30<=
+/abbr>]</a></span> that allows declarative binding of activation events fro=
+m image or textual elements to properties of audio and video players (e.g.,=
+ play, stop, pause).</p></div><div id=3D"sec-new-changed-bindings" title=3D=
+"3.4.3 Bindings" class=3D"section"><h4 class=3D"title"><span class=3D"link-=
+marker"><a href=3D"#sec-new-changed-bindings" title=3D"Link here" class=3D"=
+hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.4.3 Bindings</h4><p>The new <cod=
+e><span class=3D"phrase"><a href=3D"epub30-publications.html#sec-bindings-e=
+lem" class=3D"link">bindings</a> <a title=3D"EPUB Publications 3.0" href=3D=
+"#refPublications3" class=3D"biblioref">[<abbr>Publications30</abbr>]</a></=
+span></code> element provides a means to define script-based handlers for=
+ non-standard media types.</p></div></div><div id=3D"sec-new-changed-stylin=
+g" title=3D"3.5 Styling and Layout" class=3D"section"><h3 class=3D"title"><=
+span class=3D"link-marker"><a href=3D"#sec-new-changed-styling" title=3D"Li=
+nk here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.5 Styling and=
+ Layout</h3><div id=3D"sec-new-changed-css" title=3D"3.5.1 CSS" class=3D"se=
+ction"><h4 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-=
+changed-css" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp=
+;</span>3.5.1 CSS</h4><p>EPUB 3 defines a profile of CSS based on CSS 2.1=
+ with added modules from CSS3, whereas EPUB 2 was based on a specific subse=
+t of CSS 2. Refer to <span class=3D"phrase"><a href=3D"epub30-contentdocs.h=
+tml#sec-css" class=3D"link">EPUB Style Sheets</a> <a title=3D"EPUB Content=
+ Documents 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>Conten=
+tDocs30</abbr>]</a></span> for more information.</p><p>Support for <span cl=
+ass=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-alternate-style=
+-tags" class=3D"link">Alternate Style Tags</a> <a title=3D"EPUB Content Doc=
+uments 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDoc=
+s30</abbr>]</a></span> has been added, allowing Users to switch between pre=
+defined alternate viewing modes, such as day/night and horizontal/vertical=
+ modes.</p></div><div id=3D"sec-new-changed-embedded-fonts" title=3D"3.5.2=
+ Embedded Fonts" class=3D"section"><h4 class=3D"title"><span class=3D"link-=
+marker"><a href=3D"#sec-new-changed-embedded-fonts" title=3D"Link here" cla=
+ss=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.5.2 Embedded Fonts</h4><p>=
+EPUB 3 requires Reading Systems to support the OpenType and WOFF font forma=
+ts for embedded fonts in conjunction with the CSS <code class=3D"literal">@=
+font-face</code> rules. Refer to <span class=3D"phrase"><a href=3D"epub30-c=
+ontentdocs.html#sec-css-fonts" class=3D"link">CSS Fonts Level 3</a> <a titl=
+e=3D"EPUB Content Documents 3.0" href=3D"#refContentDocs3" class=3D"biblior=
+ef">[<abbr>ContentDocs30</abbr>]</a></span> for more information.</p></div>=
+<div id=3D"sec-new-changed-ocf-obf" title=3D"3.5.3 Font Obfuscation" class=
+=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=3D"#se=
+c-new-changed-ocf-obf" title=3D"Link here" class=3D"hidden-reveal">=E2=80=
+=BA</a>&nbsp;</span>3.5.3 Font Obfuscation</h4><p>A new normative section=
+ on <span class=3D"phrase"><a href=3D"epub30-ocf.html#font-obfuscation" cla=
+ss=3D"link">Font Obfuscation</a> <a title=3D"Open Container Format 3.0" hre=
+f=3D"#refOCF30" class=3D"biblioref">[<abbr>OCF3</abbr>]</a></span> has been=
+ added the Open Container Format specification. This issue was previously=
+ outlined in <a href=3D"http://www.idpf.org/doc_library/informationaldocs/F=
+ontManglingSpec_2.0.1_draft.htm" class=3D"link">an IPDF informational docum=
+ent</a>. </p></div></div><div id=3D"sec-new-changed-media" title=3D"3.6 Ric=
+h Media" class=3D"section"><h3 class=3D"title"><span class=3D"link-marker">=
+<a href=3D"#sec-new-changed-media" title=3D"Link here" class=3D"hidden-reve=
+al">=E2=80=BA</a>&nbsp;</span>3.6 Rich Media</h3><div id=3D"sec-new-changed=
+-audio-video" title=3D"3.6.1 Audio and Video" class=3D"section"><h4 class=
+=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-changed-audio-vi=
+deo" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>=
+3.6.1 Audio and Video</h4><p>EPUB 3 inherits support for the HTML5 <code>au=
+dio</code> and <code>video</code> elements.</p><p>EPUB 3 further specifies=
+ in its <span class=3D"phrase"><a href=3D"epub30-publications.html#sec-core=
+-media-types" class=3D"link">definition of support for Core Media Types</a>=
+ <a title=3D"EPUB Publications 3.0" href=3D"#refPublications3" class=3D"bib=
+lioref">[<abbr>Publications30</abbr>]</a></span> that all Reading Systems=
+ that support audio playback must support MP3 audio and should support MP4=
+ AAC LC audio. While no video Core Media Types are defined in this version=
+ of EPUB, an <span class=3D"phrase"><a href=3D"epub30-publications.html#not=
+e-video-codecs" class=3D"link">informative recommendation on codec support<=
+/a></span> is provided as guidance to publishers and Reading System develop=
+ers.</p></div><div id=3D"sec-new-changed-mo" title=3D"3.6.2 Media Overlays"=
+ class=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-new-changed-mo" title=3D"Link here" class=3D"hidden-reveal">=E2=80=
+=BA</a>&nbsp;</span>3.6.2 Media Overlays</h4><p>The EPUB Media Overlays 3.0=
+ <a title=3D"EPUB Media Overlays 3.0" href=3D"#refOverlays3" class=3D"bibli=
+oref">[<abbr>MediaOverlays30</abbr>]</a> specification defines a format and=
+ a processing model for publication-wide synchronization of text and audio.=
+</p></div></div><div id=3D"sec-new-changed-meta" title=3D"3.7 Metadata" cla=
+ss=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#=
+sec-new-changed-meta" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA=
+</a>&nbsp;</span>3.7 Metadata</h3><div id=3D"sec-new-changed-meta-package"=
+ title=3D"3.7.1 Publication Metadata and Identity" class=3D"section"><h4 cl=
+ass=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-changed-meta-=
+package" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</s=
+pan>3.7.1 Publication Metadata and Identity</h4><p>The minimally required=
+ Package metadata as defined in EPUB 2.0.1 remains fundamentally unchanged.=
+ Only one new required metadata property, <code>dcterms:modified</code>, ha=
+s been added. This new property contributes to the new solution to persiste=
+nce in Publication Identifiers, as further discussed in <span class=3D"phra=
+se"><a href=3D"epub30-publications.html#sec-package-metadata-identifiers"=
+ class=3D"link">Publication Identifiers</a> <a title=3D"EPUB Publications=
+ 3.0" href=3D"#refPublications3" class=3D"biblioref">[<abbr>Publications30<=
+/abbr>]</a></span>.</p><p id=3D"new-meta-elem">The generic Package Document=
+ <code>meta</code> element <span class=3D"phrase"><a href=3D"epub30-publica=
+tions.html#sec-meta-elem" class=3D"link">has been enhanced</a> <a title=3D"=
+EPUB Publications 3.0" href=3D"#refPublications3" class=3D"biblioref">[<abb=
+r>Publications30</abbr>]</a></span> with a declarative term vocabulary asso=
+ciation mechanism, as well as the ability to describe not only the Publicat=
+ion as a whole, but also individual resources and/or fragments within it.=
+ A set of EPUB-specific metadata properties has been added, allowing for ex=
+ample the identification of the Publication cover image, and sorting of rel=
+ated titles in the bookshelf.</p><p>A new metadata <code><span class=3D"phr=
+ase"><a href=3D"epub30-publications.html#sec-link-elem" class=3D"link">link=
+</a> <a title=3D"EPUB Publications 3.0" href=3D"#refPublications3" class=3D=
+"biblioref">[<abbr>Publications30</abbr>]</a></span></code> element has bee=
+n added to the Package Document, allowing the association of external suppl=
+ementary metadata resources with the publication (e.g., ONIX or XMP records=
+).</p></div><div id=3D"sec-new-changed-meta-resources" title=3D"3.7.2 Resou=
+rce Metadata" class=3D"section"><h4 class=3D"title"><span class=3D"link-mar=
+ker"><a href=3D"#sec-new-changed-meta-resources" title=3D"Link here" class=
+=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.7.2 Resource Metadata</h4><p=
+>The new <code>properties</code> attribute on the Package Document manifest=
+ <code>item</code> and spine <code>itemref</code> elements allows for the=
+ declaration of metadata about individual Publication Resources.</p><p> The=
+se declarations are required in EPUB 3 in certain defined circumstances (e.=
+g., for declaring that a Content Document contains scripting). Refer to <sp=
+an class=3D"phrase"><a href=3D"epub30-publications.html#sec-item-property-v=
+alues" class=3D"link">Manifest item Properties</a> <a title=3D"EPUB Publica=
+tions 3.0" href=3D"#refPublications3" class=3D"biblioref">[<abbr>Publicatio=
+ns30</abbr>]</a></span> and <span class=3D"phrase"><a href=3D"epub30-public=
+ations.html#sec-itemref-property-values" class=3D"link">Spine itemref Prope=
+rties</a> <a title=3D"EPUB Publications 3.0" href=3D"#refPublications3" cla=
+ss=3D"biblioref">[<abbr>Publications30</abbr>]</a></span> for more informat=
+ion.</p></div></div><div id=3D"sec-new-changed-speech" title=3D"3.8 Speech"=
+ class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-new-changed-speech" title=3D"Link here" class=3D"hidden-reveal">=
+=E2=80=BA</a>&nbsp;</span>3.8 Speech</h3><p>Multiple features to assist Tex=
+t-to-Speech (TTS) engines have been added. These include Package-level Pron=
+unciation Lexicons, SSML attributes in XHTML Content Documents, and support=
+ for the CSS3 Speech Module. <a title=3D"EPUB Content Documents 3.0" href=
+=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30</abbr>]</a><=
+/p></div><div id=3D"sec-new-changed-package" title=3D"3.9 Manifest Fallback=
+s" class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a hre=
+f=3D"#sec-new-changed-package" title=3D"Link here" class=3D"hidden-reveal">=
+=E2=80=BA</a>&nbsp;</span>3.9 Manifest Fallbacks</h3><p>The <span class=3D"=
+phrase"><a href=3D"epub30-publications.html#attrdef-item-fallback" class=3D=
+"link">manifest fallback mechanism</a></span> has been restricted to only=
+ apply to documents in the <code>spine</code>. Publication Resources refere=
+nced from XHTML and SVG Content Documents and CSS must now be Core Media Ty=
+pes unless referenced in a context that provides <span class=3D"phrase"><a=
+ href=3D"epub30-publications.html#sec-fallback-processing-flow" class=3D"li=
+nk">native intrinsic fallback capabilities</a></span>.</p></div><div id=3D"=
+sec-new-changed-ocf" title=3D"3.10 Containment" class=3D"section"><h3 class=
+=3D"title"><span class=3D"link-marker"><a href=3D"#sec-new-changed-ocf" tit=
+le=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.10 Con=
+tainment</h3><div id=3D"sec-new-changed-remote" title=3D"3.10.1 Remote Reso=
+urces" class=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a=
+ href=3D"#sec-new-changed-remote" title=3D"Link here" class=3D"hidden-revea=
+l">=E2=80=BA</a>&nbsp;</span>3.10.1 Remote Resources</h4><p>There are new=
+ <span class=3D"phrase"><a href=3D"epub30-publications.html#sec-resource-lo=
+cations" class=3D"link">restrictions on references</a> <a title=3D"EPUB Pub=
+lications 3.0" href=3D"#refPublications3" class=3D"biblioref">[<abbr>Public=
+ations30</abbr>]</a></span> to remote resources (i.e., Publication Resource=
+s not located in the OCF Container). The implications of this change are mo=
+re fully described in <a title=3D"4.1.4 Filesystem Container" href=3D"#sec-=
+removals-filesystem-container" class=3D"link">Removal of Filesystem Contain=
+er</a>. </p></div><div id=3D"sec-new-changed-ocf-white-space" title=3D"3.10=
+.2 Whitespace in MIMETYPE file" class=3D"section"><h4 class=3D"title"><span=
+ class=3D"link-marker"><a href=3D"#sec-new-changed-ocf-white-space" title=
+=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3.10.2 Whi=
+tespace in MIMETYPE file</h4><p><a title=3D"Open Container Format 2.0.1" hr=
+ef=3D"#refOCF2" class=3D"biblioref">[<abbr>OCF2</abbr>]</a> restricted the=
+ required MIMETYPE file from having any leading or trailing spaces; in <a=
+ title=3D"Open Container Format 3.0" href=3D"#refOCF30" class=3D"biblioref"=
+>[<abbr>OCF3</abbr>]</a> the restriction against trailing whitespace has be=
+en removed.</p></div><div id=3D"sec-new-changed-ocf-namechars" title=3D"3.1=
+0.3 Disallowed characters in OCF file names" class=3D"section"><h4 class=3D=
+"title"><span class=3D"link-marker"><a href=3D"#sec-new-changed-ocf-namecha=
+rs" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>3=
+.10.3 Disallowed characters in OCF file names</h4><p>The list of characters=
+ disallowed in OCF file names has been <span class=3D"phrase"><a href=3D"ep=
+ub30-ocf.html#ocf-fn-chars" class=3D"link">extended</a></span>.</p></div></=
+div><div id=3D"sec-new-changed-xml-unicode" title=3D"3.11 XML and Unicode"=
+ class=3D"section"><h3 class=3D"title"><span class=3D"link-marker"><a href=
+=3D"#sec-new-changed-xml-unicode" title=3D"Link here" class=3D"hidden-revea=
+l">=E2=80=BA</a>&nbsp;</span>3.11 XML and Unicode</h3><p>Support for XML 1.=
+1, which was deprecated in OPS 2.0.1, has been removed. All XML documents=
+ must now be conformant to XML 1.0.</p><p>The referenced version of XML 1.0=
+ is the fifth edition, which means that Unicode version 5.0.0 is now suppor=
+ted (OPS 2.0.1, via its use of XML 1.0 fourth edition, supported Unicode 2.=
+0).</p></div></div><div id=3D"sec-replaced" title=3D"4 EPUB 2.0.1 Features=
+ Replaced in EPUB 3" class=3D"chapter"><h2 class=3D"title"><span class=3D"l=
+ink-marker"><a href=3D"#sec-replaced" title=3D"Link here" class=3D"hidden-r=
+eveal">=E2=80=BA</a>&nbsp;</span>4 EPUB 2.0.1 Features Replaced in EPUB 3</=
+h2><p>A number of features in EPUB 3 and its building-block Web Standards=
+ replace existing features in EPUB 2.0.1, and several features in EPUB 2.0.=
+1 that were not widely adopted by content authors or Reading Systems are di=
+scontinued. Such features, from a content conformance perspective, are eith=
+er <span class=3D"italic">removed</span> (which means that conformant EPUB=
+ 3 content might not use the construct) or <span class=3D"italic">deprecate=
+d</span> (which means that use of the construct in EPUB 3 is allowed but no=
+t recommended). Note that, in most cases, Reading Systems are still require=
+d to support these constructs for backwards compatibility reasons (as norma=
+tively stated in the relevant specifications).</p><p>The following sections=
+ list the EPUB 2.0.1 features removed and deprecated in EPUB 3.</p><div id=
+=3D"sec-removals" title=3D"4.1 Features Removed from EPUB 3" class=3D"secti=
+on"><h3 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-removal=
+s" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>4.=
+1 Features Removed from EPUB 3</h3><div id=3D"sec-removals-dtbook" title=3D=
+"4.1.1 DTBook" class=3D"section"><h4 class=3D"title"><span class=3D"link-ma=
+rker"><a href=3D"#sec-removals-dtbook" title=3D"Link here" class=3D"hidden-=
+reveal">=E2=80=BA</a>&nbsp;</span>4.1.1 DTBook</h4><p>DAISY DTBook <a title=
+=3D"ANSI/NISO Z39.86-2005: Specifications for the Digital Talking Book" hre=
+f=3D"#refZ39862005" class=3D"biblioref">[<abbr>Z3986-2005</abbr>]</a> was=
+ an alternative syntax to XHTML 1.1 for Content Documents in OPS 2.0.1 <a=
+ title=3D"Open Publication Structure 2.0.1" href=3D"#refOPS2" class=3D"bibl=
+ioref">[<abbr>OPS2</abbr>]</a> in order to provide an option for more seman=
+tic, and thus more accessible, content. As HTML5 includes intrinsic semanti=
+c markup capabilities of a similar nature to DTBook, DTBook is no longer an=
+ alternative syntax in EPUB 3. </p></div><div id=3D"sec-removals-out-of-lin=
+e-XML-islands" title=3D"4.1.2 Out-of-Line XML Islands" class=3D"section"><h=
+4 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-removals-out-=
+of-line-XML-islands" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA<=
+/a>&nbsp;</span>4.1.2 Out-of-Line XML Islands</h4><p>OPF 2.0.1. specified=
+ an optional extension mechanism enabling a spine item to be a &quot;custom=
+ module&quot; XHTML or arbitrary XML styled with CSS. This feature was not=
+ widely adopted by content or Reading Systems, and has been removed from EP=
+UB 3. As a result the <code>item</code> element no longer has the <code>req=
+uired-namespace</code> and <code>fallback-style</code> attributes.</p></div=
+><div id=3D"sec-removals-tours" title=3D"4.1.3 Tours" class=3D"section"><h4=
+ class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-removals-tours=
+" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>4.1=
+.3 Tours</h4><p>The Package Document schema no longer includes the <code>to=
+urs</code> element (which was deprecated in OPF 2.0.1).</p></div><div id=3D=
+"sec-removals-filesystem-container" title=3D"4.1.4 Filesystem Container" cl=
+ass=3D"section"><h4 class=3D"title"><span class=3D"link-marker"><a href=3D"=
+#sec-removals-filesystem-container" title=3D"Link here" class=3D"hidden-rev=
+eal">=E2=80=BA</a>&nbsp;</span>4.1.4 Filesystem Container</h4><p>OCF 3.0 <a=
+ title=3D"Open Container Format 3.0" href=3D"#refOCF30" class=3D"biblioref"=
+>[<abbr>OCF3</abbr>]</a> only defines a single-file (ZIP-based) container,=
+ and no longer defines a &quot;Filesystem Container&quot; abstraction. This=
+ change was made in conjunction with new restrictions in Publications 3.0=
+ restricting references to remote resources in EPUB Publications to specifi=
+c media types and contexts. Taken together, these changes mean that the onl=
+y instantiation of an EPUB Publication defined at this time is the EPUB ZIP=
+ Container, and that EPUB files must in general contain all constituent par=
+ts of the Publication, with certain well-defined exceptions. </p><p>These=
+ changes may seem counter-intuitive given that online consumption of conten=
+t is increasingly prevalent, as are browser-based Reading System implementa=
+tions. The Working Group recognizes this, and understands that in an online=
+ environment, particularly when browser-based, it will often be inefficient=
+ or even impractical to download an entire EPUB file to a client system bef=
+ore reading can occur. A number of significant issues exist for browser-bas=
+ed Reading Systems, however, including cross-domain resource loading restri=
+ctions in the browser security model and the potential for inadvertent inte=
+raction between script-based interactivity within EPUB 3 content and script=
+-based Reading System implementations. Publishers and content distributors=
+ providing EPUB content are presently utilizing server-based software to ma=
+nage these issues, in effect creating a distributed client-server Reading=
+ System in which a packaged EPUB file is ingested on a server and may be tr=
+ansformed en route to client software into whatever set of resources is con=
+venient for that implementation. Consequently, there was no pressing requir=
+ement to define an interoperable distributed form of an EPUB Publication in=
+ order to meet the requirements of the Working Group charter. </p><p>EPUB=
+ 2.x (via the OCF Filesystem container and by being relatively vague in the=
+ OPF specification about where absolute URLs were legal) can be considered=
+ to have incompletely described distributed publications without specifying=
+ conformance requirements for them. This was a combination of historical (w=
+ith respect to OPF which was a revision to a predecessor specification that=
+ pre-dated any ZIP-based container) and aspirational (with respect to OCF)=
+ factors. </p><p>Since the Working Group did have a goal to improve the int=
+eroperability of the EPUB ecosystem by increasing the clarity and rigor of=
+ our conformance requirements, it was decided that these partial definition=
+s were unhelpful and should be removed from the EPUB 3 base specifications.=
+ The Working Group understands that networked Publications will be increasi=
+ngly important, and expects future work to include development of robust in=
+teroperable conformance definitions for distributed EPUB Publications based=
+ on emerging content publisher and Reading System requirements.</p></div></=
+div><div id=3D"sec-deprecations" title=3D"4.2 Features Deprecated/Obsoleted=
+ in EPUB 3" class=3D"section"><h3 class=3D"title"><span class=3D"link-marke=
+r"><a href=3D"#sec-deprecations" title=3D"Link here" class=3D"hidden-reveal=
+">=E2=80=BA</a>&nbsp;</span>4.2 Features Deprecated/Obsoleted in EPUB 3</h3=
+><div id=3D"sec-deprecations-guide" title=3D"4.2.1 Guide" class=3D"section"=
+><h4 class=3D"title"><span class=3D"link-marker"><a href=3D"#sec-deprecatio=
+ns-guide" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</=
+span>4.2.1 Guide</h4><p>Use of the optional <code>guide</code> element in=
+ the Package Document has been deprecated in favor of the EPUB Navigation=
+ Document <code class=3D"literal">landmarks</code> feature. Refer to <span=
+ class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-nav" class=
+=3D"link">EPUB Navigation Documents</a> <a title=3D"EPUB Content Documents=
+ 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDocs30</a=
+bbr>]</a></span> for more information.</p></div><div id=3D"sec-deprecations=
+-ncx" title=3D"4.2.2 NCX" class=3D"section"><h4 class=3D"title"><span class=
+=3D"link-marker"><a href=3D"#sec-deprecations-ncx" title=3D"Link here" clas=
+s=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>4.2.2 NCX</h4><p>As described=
+ in more detail in <a title=3D"3.2 Navigation" href=3D"#sec-new-changed-nav=
+" class=3D"xref">Navigation</a> above, the NCX has been superseded in favor=
+ of <span class=3D"phrase"><a href=3D"epub30-contentdocs.html#sec-xhtml-nav=
+" class=3D"link">EPUB Navigation Documents</a> <a title=3D"EPUB Content Doc=
+uments 3.0" href=3D"#refContentDocs3" class=3D"biblioref">[<abbr>ContentDoc=
+s30</abbr>]</a></span>. </p></div><div id=3D"sec-deprecations-meta201" titl=
+e=3D"4.2.3 2.0.1 meta element" class=3D"section"><h4 class=3D"title"><span=
+ class=3D"link-marker"><a href=3D"#sec-deprecations-meta201" title=3D"Link=
+ here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>4.2.3 2.0.1 meta=
+ element</h4><p>The <code>meta</code> element as defined in <a title=3D"Ope=
+n Packaging Format 2.0.1" href=3D"#refOPF2" class=3D"biblioref">[<abbr>OPF2=
+</abbr>]</a> has been superseded by the <a href=3D"#new-meta-elem" class=3D=
+"link">new Package Document meta element</a>. </p></div></div></div><div id=
+=3D"app-contributors" title=3D"Appendix&nbsp;A.&nbsp;Acknowledgements and=
+ Contributors" class=3D"acknowledgements"><div class=3D"titlepage"><div><di=
+v><h2 class=3D"title"><span class=3D"link-marker"><a href=3D"#app-contribut=
+ors" title=3D"Link here" class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>=
+Appendix&nbsp;A.&nbsp;Acknowledgements and Contributors</h2></div></div></d=
+iv><p class=3D"informative"> This appendix is informative</p><p>EPUB has be=
+en developed by the International Digital Publishing Forum in a cooperative=
+ effort, bringing together publishers, vendors, software developers, and ex=
+perts in the relevant standards.</p><p>The EPUB 3 specifications were prepa=
+red by the International Digital Publishing Forum=E2=80=99s EPUB Maintenanc=
+e Working Group, operating under a charter approved by the membership in Ma=
+y, 2010 under the leadership of:</p><ul class=3D"personlist"><li class=3D"p=
+erson"><span class=3D"name"><span class=3D"surname">Gylling</span>, <span=
+ class=3D"givenname">Markus</span></span> <span class=3D"affiliation">(DAIS=
+Y Consortium)</span> <span class=3D"wg-role">Chair</span></li><li class=3D"=
+person"><span class=3D"name"><span class=3D"surname">Conboy</span>, <span=
+ class=3D"givenname">Garth</span></span> <span class=3D"affiliation">(Googl=
+e Inc.)</span> <span class=3D"wg-role">Vice-chair</span></li><li class=3D"p=
+erson"><span class=3D"name"><span class=3D"surname">Duga</span>, <span clas=
+s=3D"givenname">Brady</span></span> <span class=3D"affiliation">(Google Inc=
+.)</span> <span class=3D"wg-role">Vice-chair, Subgroup Lead</span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">McCoy</span>=
+, <span class=3D"givenname">Bill</span></span> <span class=3D"affiliation">=
+(International Digital Publishing Forum (IDPF))</span> <span class=3D"wg-ro=
+le">Secretary</span></li><li class=3D"person"><span class=3D"name"><span cl=
+ass=3D"surname">Kasdorf</span>, <span class=3D"givenname">Bill</span></span=
+> <span class=3D"affiliation">(Apex CoVantage)</span> <span class=3D"wg-rol=
+e">Subgroup Lead</span></li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">MURATA</span>, <span class=3D"givenname">Makoto</span></=
+span> <span class=3D"affiliation">(JEPA EPUB Study Group)</span> <span clas=
+s=3D"wg-role">Subgroup Lead</span></li><li class=3D"person"><span class=3D"=
+name"><span class=3D"surname">Sorotokin</span>, <span class=3D"givenname">P=
+eter</span></span> <span class=3D"affiliation">(Adobe)</span> <span class=
+=3D"wg-role">Subgroup Lead</span></li></ul><p>Active members of the working=
+ group included:</p><p title=3D"A.&nbsp;IDPF Members" class=3D"bridgehead">=
+IDPF Members</p><ul class=3D"personlist"><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Abrams</span>, <span class=3D"givenname">=
+Willie</span></span> <span class=3D"affiliation">(Ingram Digital)</span> </=
+li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Acton<=
+/span>, <span class=3D"givenname">Daniel</span></span> <span class=3D"affil=
+iation">(Google)</span> </li><li class=3D"person"><span class=3D"name"><spa=
+n class=3D"surname">Allesi</span>, <span class=3D"givenname">Ana Maria</spa=
+n></span> <span class=3D"affiliation">(HarperCollins)</span> </li><li class=
+=3D"person"><span class=3D"name"><span class=3D"surname">Amos</span>, <span=
+ class=3D"givenname">Dan</span></span> <span class=3D"affiliation">(DNAML=
+ (DNL eBooks))</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Arany</span>, <span class=3D"givenname">Steve</span></sp=
+an> <span class=3D"affiliation">(John Wiley &amp; Sons)</span> </li><li cla=
+ss=3D"person"><span class=3D"name"><span class=3D"surname">Artin</span>, <s=
+pan class=3D"givenname">Michael</span></span> <span class=3D"affiliation">(=
+Barnes &amp; Noble)</span> </li><li class=3D"person"><span class=3D"name"><=
+span class=3D"surname">Badger</span>, <span class=3D"givenname">Brandon</sp=
+an></span> <span class=3D"affiliation">(Google)</span> </li><li class=3D"pe=
+rson"><span class=3D"name"><span class=3D"surname">Ballard</span>, <span cl=
+ass=3D"givenname">Kevin</span></span> <span class=3D"affiliation">(Apple In=
+c.)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"su=
+rname">Beard</span>, <span class=3D"givenname">Elliot</span></span> <span=
+ class=3D"affiliation">(HarperCollins)</span> </li><li class=3D"person"><sp=
+an class=3D"name"><span class=3D"surname">Belfanti</span>, <span class=3D"g=
+ivenname">Paul</span></span> <span class=3D"affiliation">(Pearson)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Bel=
+l</span>, <span class=3D"givenname">Graham</span></span> <span class=3D"aff=
+iliation">(EDItEUR)</span> </li><li class=3D"person"><span class=3D"name"><=
+span class=3D"surname">Bide</span>, <span class=3D"givenname">Mark</span></=
+span> <span class=3D"affiliation">(EDItEUR)</span> </li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">Bogaty</span>, <span class=
+=3D"givenname">Nick</span></span> <span class=3D"affiliation">(Adobe)</span=
+> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Bo=
+wers</span>, <span class=3D"givenname">Micah</span></span> <span class=3D"a=
+ffiliation">(Bluefire Productions)</span> </li><li class=3D"person"><span=
+ class=3D"name"><span class=3D"surname">Brantley</span>, <span class=3D"giv=
+enname">Peter</span></span> <span class=3D"affiliation">(Internet Archive)<=
+/span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surnam=
+e">Breglio</span>, <span class=3D"givenname">Melissa</span></span> <span cl=
+ass=3D"affiliation">(Apple Inc.)</span> </li><li class=3D"person"><span cla=
+ss=3D"name"><span class=3D"surname">Broome</span>, <span class=3D"givenname=
+">Karen</span></span> <span class=3D"affiliation">(Sony)</span> </li><li cl=
+ass=3D"person"><span class=3D"name"><span class=3D"surname">Brugge</span>,=
+ <span class=3D"givenname">John</span></span> <span class=3D"affiliation">(=
+Benetech)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Carbonell</span>, <span class=3D"givenname">Oliver</span></spa=
+n> <span class=3D"affiliation">(Sony)</span> </li><li class=3D"person"><spa=
+n class=3D"name"><span class=3D"surname">Chang</span>, <span class=3D"given=
+name">Phobos</span></span> <span class=3D"affiliation">(Chinese Foundation=
+ for Digitization Technology)</span> </li><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Chen</span>, <span class=3D"givenname">Me=
+i-Li</span></span> <span class=3D"affiliation">(Institute for Information=
+ Industry)</span> </li><li class=3D"person"><span class=3D"name"><span clas=
+s=3D"surname">Chen</span>, <span class=3D"givenname">Peter</span></span> <s=
+pan class=3D"affiliation">(ITRI)</span> </li><li class=3D"person"><span cla=
+ss=3D"name"><span class=3D"surname">Choi</span>, <span class=3D"givenname">=
+Soo</span></span> <span class=3D"affiliation">(HarperCollins)</span> </li><=
+li class=3D"person"><span class=3D"name"><span class=3D"surname">Chow</span=
+>, <span class=3D"givenname">King-Wai</span></span> <span class=3D"affiliat=
+ion">(ASTRI (Hong Kong Applied Science &amp; Technology Research Institute)=
+)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surn=
+ame">Clutter</span>, <span class=3D"givenname">Mat</span></span> <span clas=
+s=3D"affiliation">(Random House)</span> </li><li class=3D"person"><span cla=
+ss=3D"name"><span class=3D"surname">Conboy</span>, <span class=3D"givenname=
+">Garth</span></span> <span class=3D"affiliation">(Google)</span> </li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Cramer</span=
+>, <span class=3D"givenname">Dave</span></span> <span class=3D"affiliation"=
+>(Hachette Book Group)</span> </li><li class=3D"person"><span class=3D"name=
+"><span class=3D"surname">Cronin</span>, <span class=3D"givenname">Margot</=
+span></span> <span class=3D"affiliation">(Bowker)</span> </li><li class=3D"=
+person"><span class=3D"name"><span class=3D"surname">Daly</span>, <span cla=
+ss=3D"givenname">Liza</span></span> <span class=3D"affiliation">(Threepress=
+)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surn=
+ame">De Meulemeester</span>, <span class=3D"givenname">Eric</span></span>=
+ <span class=3D"affiliation">(Jouve/Publishing Dimensions)</span> </li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">DeMeglio</sp=
+an>, <span class=3D"givenname">Marisa</span></span> <span class=3D"affiliat=
+ion">(DAISY Consortium)</span> </li><li class=3D"person"><span class=3D"nam=
+e"><span class=3D"surname">Deltour</span>, <span class=3D"givenname">Romain=
+</span></span> <span class=3D"affiliation">(DAISY Consortium)</span> </li><=
+li class=3D"person"><span class=3D"name"><span class=3D"surname">Dougherty<=
+/span>, <span class=3D"givenname">Casey</span></span> <span class=3D"affili=
+ation">(Apple Inc.)</span> </li><li class=3D"person"><span class=3D"name"><=
+span class=3D"surname">Drake</span>, <span class=3D"givenname">Jama</span><=
+/span> <span class=3D"affiliation">(Impelsys)</span> </li><li class=3D"pers=
+on"><span class=3D"name"><span class=3D"surname">Duga</span>, <span class=
+=3D"givenname">Brady</span></span> <span class=3D"affiliation">(Google)</sp=
+an> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">=
+Elliott</span>, <span class=3D"givenname">Ray</span></span> <span class=3D"=
+affiliation">(Crossway)</span> </li><li class=3D"person"><span class=3D"nam=
+e"><span class=3D"surname">Fahlgren</span>, <span class=3D"givenname">Keith=
+</span></span> <span class=3D"affiliation">(Threepress)</span> </li><li cla=
+ss=3D"person"><span class=3D"name"><span class=3D"surname">Fain</span>, <sp=
+an class=3D"givenname">Guy</span></span> <span class=3D"affiliation">(Cross=
+way)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"s=
+urname">Freese</span>, <span class=3D"givenname">Eric</span></span> <span=
+ class=3D"affiliation">(Aptara)</span> </li><li class=3D"person"><span clas=
+s=3D"name"><span class=3D"surname">Gardeur</span>, <span class=3D"givenname=
+">Hadrien</span></span> <span class=3D"affiliation">(Feedbooks)</span> </li=
+><li class=3D"person"><span class=3D"name"><span class=3D"surname">Gold</sp=
+an>, <span class=3D"givenname">Eric</span></span> <span class=3D"affiliatio=
+n">(Digital Divide Data)</span> </li><li class=3D"person"><span class=3D"na=
+me"><span class=3D"surname">Goodwin</span>, <span class=3D"givenname">Jonat=
+han</span></span> <span class=3D"affiliation">(Appfoundry)</span> </li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Gopinath</sp=
+an>, <span class=3D"givenname">Anith</span></span> <span class=3D"affiliati=
+on">(Impelsys)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Gosling</span>, <span class=3D"givenname">Andreas</span>=
+</span> <span class=3D"affiliation">(Penguin)</span> </li><li class=3D"pers=
+on"><span class=3D"name"><span class=3D"surname">Grazioli</span>, <span cla=
+ss=3D"givenname">Frank</span></span> <span class=3D"affiliation">(John Wile=
+y &amp; Sons)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Gunn</span>, <span class=3D"givenname">Dave</span></span=
+> <span class=3D"affiliation">(RNIB)</span> </li><li class=3D"person"><span=
+ class=3D"name"><span class=3D"surname">Gylling</span>, <span class=3D"give=
+nname">Markus</span></span> <span class=3D"affiliation">(DAISY Consortium)<=
+/span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surnam=
+e">Haas</span>, <span class=3D"givenname">Matt</span></span> <span class=3D=
+"affiliation">(Pearson)</span> </li><li class=3D"person"><span class=3D"nam=
+e"><span class=3D"surname">Hadfield</span>, <span class=3D"givenname">Tom</=
+span></span> <span class=3D"affiliation">(CourseSmart)</span> </li><li clas=
+s=3D"person"><span class=3D"name"><span class=3D"surname">Hagino</span>, <s=
+pan class=3D"givenname">Masaaki</span></span> <span class=3D"affiliation">(=
+Voyager Japan)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Hawkins</span>, <span class=3D"givenname">Kevin</span></=
+span> <span class=3D"affiliation">(University of Michigan Library)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Hay=
+ashi</span>, <span class=3D"givenname">Junichi</span></span> <span class=3D=
+"affiliation">(Voyager Japan)</span> </li><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Heiberger</span>, <span class=3D"givennam=
+e">Richard</span></span> <span class=3D"affiliation">(HarperCollins)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Hep=
+p</span>, <span class=3D"givenname">Mike</span></span> <span class=3D"affil=
+iation">(Dartmouth Journal Services)</span> </li><li class=3D"person"><span=
+ class=3D"name"><span class=3D"surname">Herren</span>, <span class=3D"given=
+name">Matthew</span></span> <span class=3D"affiliation">(BlankPage)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">His=
+ashi</span>, <span class=3D"givenname">Saiga</span></span> <span class=3D"a=
+ffiliation">(Sharp)</span> </li><li class=3D"person"><span class=3D"name"><=
+span class=3D"surname">Hoda</span>, <span class=3D"givenname">Hisashi</span=
+></span> <span class=3D"affiliation">(Voyager Japan)</span> </li><li class=
+=3D"person"><span class=3D"name"><span class=3D"surname">Howard</span>, <sp=
+an class=3D"givenname">William</span></span> <span class=3D"affiliation">(E=
+asypress)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Hughes</span>, <span class=3D"givenname">Dan</span></span> <sp=
+an class=3D"affiliation">(Liguori Publications)</span> </li><li class=3D"pe=
+rson"><span class=3D"name"><span class=3D"surname">Hulse</span>, <span clas=
+s=3D"givenname">Leslie</span></span> <span class=3D"affiliation">(HarperCol=
+lins)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"=
+surname">Imsieke</span>, <span class=3D"givenname">Gerrit</span></span> <sp=
+an class=3D"affiliation">(le-tex)</span> </li><li class=3D"person"><span cl=
+ass=3D"name"><span class=3D"surname">Jain</span>, <span class=3D"givenname"=
+>Anupam</span></span> <span class=3D"affiliation">(Innodata Isogen)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Jie=
+</span>, <span class=3D"givenname">Fan</span></span> <span class=3D"affilia=
+tion">(Gansu DUZHE Digital Sci&amp;Tech)</span> </li><li class=3D"person"><=
+span class=3D"name"><span class=3D"surname">Johnson</span>, <span class=3D"=
+givenname">Rick</span></span> <span class=3D"affiliation">(Ingram Digital)<=
+/span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surnam=
+e">Jung</span>, <span class=3D"givenname">Kanghee</span></span> <span class=
+=3D"affiliation">(Incube Technologies)</span> </li><li class=3D"person"><sp=
+an class=3D"name"><span class=3D"surname">Kakar</span>, <span class=3D"give=
+nname">Samir</span></span> <span class=3D"affiliation">(Aptara)</span> </li=
+><li class=3D"person"><span class=3D"name"><span class=3D"surname">Kanai</s=
+pan>, <span class=3D"givenname">Takeshi</span></span> <span class=3D"affili=
+ation">(Sony)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Kasdorf</span>, <span class=3D"givenname">Bill</span></s=
+pan> <span class=3D"affiliation">(Apex CoVantage)</span> </li><li class=3D"=
+person"><span class=3D"name"><span class=3D"surname">Kasher</span>, <span=
+ class=3D"givenname">Bob</span></span> <span class=3D"affiliation">(BookMas=
+ters and Newgen Imaging)</span> </li><li class=3D"person"><span class=3D"na=
+me"><span class=3D"surname">Kato</span>, <span class=3D"givenname">Kazuyuki=
+</span></span> <span class=3D"affiliation">(East Co.)</span> </li><li class=
+=3D"person"><span class=3D"name"><span class=3D"surname">Keating</span>, <s=
+pan class=3D"givenname">Patrick</span></span> <span class=3D"affiliation">(=
+Bluefire Productions)</span> </li><li class=3D"person"><span class=3D"name"=
+><span class=3D"surname">Kerscher</span>, <span class=3D"givenname">George<=
+/span></span> <span class=3D"affiliation">(DAISY Consortium)</span> </li><l=
+i class=3D"person"><span class=3D"name"><span class=3D"surname">Kida</span>=
+, <span class=3D"givenname">Yasuo</span></span> <span class=3D"affiliation"=
+>(Apple Inc.)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Kim</span>, <span class=3D"givenname">Jean</span></span>=
+ <span class=3D"affiliation">(Barnes &amp; Noble)</span> </li><li class=3D"=
+person"><span class=3D"name"><span class=3D"surname">Kim</span>, <span clas=
+s=3D"givenname">HyunYoung</span></span> <span class=3D"affiliation">(Incube=
+ Technologies)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Kim</span>, <span class=3D"givenname">Terry</span></span=
+> <span class=3D"affiliation">(INKA Entworks)</span> </li><li class=3D"pers=
+on"><span class=3D"name"><span class=3D"surname">Kitagawa</span>, <span cla=
+ss=3D"givenname">Masahiro</span></span> <span class=3D"affiliation">(Impres=
+s Holdings)</span> </li><li class=3D"person"><span class=3D"name"><span cla=
+ss=3D"surname">Koike</span>, <span class=3D"givenname">Toshiaki</span></spa=
+n> <span class=3D"affiliation">(Voyager Japan)</span> </li><li class=3D"per=
+son"><span class=3D"name"><span class=3D"surname">Kok</span>, <span class=
+=3D"givenname">Dan</span></span> <span class=3D"affiliation">(Crossway)</sp=
+an> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">=
+Kotrch</span>, <span class=3D"givenname">Steve</span></span> <span class=3D=
+"affiliation">(Simon &amp; Schuster)</span> </li><li class=3D"person"><span=
+ class=3D"name"><span class=3D"surname">Larroque</span>, <span class=3D"giv=
+enname">Benoit</span></span> <span class=3D"affiliation">(Feedbooks)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Lev=
+antovsky</span>, <span class=3D"givenname">Vladimir</span></span> <span cla=
+ss=3D"affiliation">(Monotype Imaging)</span> </li><li class=3D"person"><spa=
+n class=3D"name"><span class=3D"surname">Lu</span>, <span class=3D"givennam=
+e">Cho-Chin</span></span> <span class=3D"affiliation">(Institute for Inform=
+ation Industry)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Lynch</span>, <span class=3D"givenname">Ryan</span></spa=
+n> <span class=3D"affiliation">(Apple Inc.)</span> </li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">MacFarlane</span>, <span cla=
+ss=3D"givenname">James</span></span> <span class=3D"affiliation">(Easypress=
+)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surn=
+ame">Makower</span>, <span class=3D"givenname">Dave</span></span> <span cla=
+ss=3D"affiliation">(Apple Inc.)</span> </li><li class=3D"person"><span clas=
+s=3D"name"><span class=3D"surname">Mandelbaum</span>, <span class=3D"givenn=
+ame">David</span></span> <span class=3D"affiliation">(Barnes &amp; Noble)</=
+span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname=
+">Manis</span>, <span class=3D"givenname">Will</span></span> <span class=3D=
+"affiliation">(Metaplates)</span> </li><li class=3D"person"><span class=3D"=
+name"><span class=3D"surname">McCloy-Kelley</span>, <span class=3D"givennam=
+e">Liisa</span></span> <span class=3D"affiliation">(Random House)</span> </=
+li><li class=3D"person"><span class=3D"name"><span class=3D"surname">McCoy<=
+/span>, <span class=3D"givenname">Bill</span></span> <span class=3D"affilia=
+tion">(IDPF)</span> </li><li class=3D"person"><span class=3D"name"><span cl=
+ass=3D"surname">Menzies</span>, <span class=3D"givenname">Tracey</span></sp=
+an> <span class=3D"affiliation">(HarperCollins)</span> </li><li class=3D"pe=
+rson"><span class=3D"name"><span class=3D"surname">Mitchell</span>, <span=
+ class=3D"givenname">Chris</span></span> <span class=3D"affiliation">(Rando=
+m House)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Moore</span>, <span class=3D"givenname">Helen</span></span> <s=
+pan class=3D"affiliation">(HarperCollins)</span> </li><li class=3D"person">=
+<span class=3D"name"><span class=3D"surname">Muller</span>, <span class=3D"=
+givenname">Eric</span></span> <span class=3D"affiliation">(Adobe)</span> </=
+li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Murata=
+</span>, <span class=3D"givenname">Makoto</span></span> <span class=3D"affi=
+liation">(JEPA EPUB Study Group)</span> </li><li class=3D"person"><span cla=
+ss=3D"name"><span class=3D"surname">Mussinelli</span>, <span class=3D"given=
+name">Christina</span></span> <span class=3D"affiliation">(Associazione Ita=
+liana Editori)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Nagai</span>, <span class=3D"givenname">Yoshinori</span>=
+</span> <span class=3D"affiliation">(Sharp)</span> </li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">Novelli</span>, <span class=
+=3D"givenname">Joe</span></span> <span class=3D"affiliation">(Sony)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">O&#=
+x27;Connor</span>, <span class=3D"givenname">Edward</span></span> <span cla=
+ss=3D"affiliation">(Apple Inc.)</span> </li><li class=3D"person"><span clas=
+s=3D"name"><span class=3D"surname">Ohmura</span>, <span class=3D"givenname"=
+>Yoshinori</span></span> <span class=3D"affiliation">(Impress Holdings)</sp=
+an> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">=
+Olenick</span>, <span class=3D"givenname">Michael</span></span> <span class=
+=3D"affiliation">(Bowker)</span> </li><li class=3D"person"><span class=3D"n=
+ame"><span class=3D"surname">Oshiyama</span>, <span class=3D"givenname">Tak=
+a</span></span> <span class=3D"affiliation">(East Co.)</span> </li><li clas=
+s=3D"person"><span class=3D"name"><span class=3D"surname">Pagano</span>, <s=
+pan class=3D"givenname">Pat</span></span> <span class=3D"affiliation">(Barn=
+es &amp; Noble)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Picco</span>, <span class=3D"givenname">Marty</span></sp=
+an> <span class=3D"affiliation">(AppFoundry)</span> </li><li class=3D"perso=
+n"><span class=3D"name"><span class=3D"surname">Prabhu</span>, <span class=
+=3D"givenname">John</span></span> <span class=3D"affiliation">(HOV Services=
+)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surn=
+ame">Pritchett</span>, <span class=3D"givenname">James</span></span> <span=
+ class=3D"affiliation">(Learning Ally (formerly RFB&amp;D))</span> </li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Rao</span>,=
+ <span class=3D"givenname">Vishnu</span></span> <span class=3D"affiliation"=
+>(Sharp Laboratories)</span> </li><li class=3D"person"><span class=3D"name"=
+><span class=3D"surname">Rivlin</span>, <span class=3D"givenname">John</spa=
+n></span> <span class=3D"affiliation">(Google)</span> </li><li class=3D"per=
+son"><span class=3D"name"><span class=3D"surname">Rubino</span>, <span clas=
+s=3D"givenname">Frank</span></span> <span class=3D"affiliation">(Kaplan Pub=
+lishing)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Ruffino</span>, <span class=3D"givenname">Daniel</span></span>=
+ <span class=3D"affiliation">(Penguin)</span> </li><li class=3D"person"><sp=
+an class=3D"name"><span class=3D"surname">Rui Hua</span>, <span class=3D"gi=
+venname">Wang</span></span> <span class=3D"affiliation">(Gansu DUZHE Digita=
+l Sci&amp;Tech)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Ruse</span>, <span class=3D"givenname">Tyler</span></spa=
+n> <span class=3D"affiliation">(LibreDigital)</span> </li><li class=3D"pers=
+on"><span class=3D"name"><span class=3D"surname">Sanicola</span>, <span cla=
+ss=3D"givenname">Daniel</span></span> <span class=3D"affiliation">(Penguin)=
+</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"surna=
+me">Schirmer</span>, <span class=3D"givenname">Lorenz</span></span> <span=
+ class=3D"affiliation">(Monotype Imaging)</span> </li><li class=3D"person">=
+<span class=3D"name"><span class=3D"surname">Shiohama</span>, <span class=
+=3D"givenname">Daihei</span></span> <span class=3D"affiliation">(Voyager Ja=
+pan)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"s=
+urname">Shrivastava</span>, <span class=3D"givenname">Abhishek</span></span=
+> <span class=3D"affiliation">(CourseSmart)</span> </li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">Slavin</span>, <span class=
+=3D"givenname">Wayne</span></span> <span class=3D"affiliation">(Barnes &amp=
+; Noble)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Slye</span>, <span class=3D"givenname">Christopher</span></spa=
+n> <span class=3D"affiliation">(Adobe)</span> </li><li class=3D"person"><sp=
+an class=3D"name"><span class=3D"surname">Smith</span>, <span class=3D"give=
+nname">Michael</span></span> <span class=3D"affiliation">(IDPF)</span> </li=
+><li class=3D"person"><span class=3D"name"><span class=3D"surname">Soiffer<=
+/span>, <span class=3D"givenname">Neil</span></span> <span class=3D"affilia=
+tion">(Design Science)</span> </li><li class=3D"person"><span class=3D"name=
+"><span class=3D"surname">Sorotokin</span>, <span class=3D"givenname">Peter=
+</span></span> <span class=3D"affiliation">(Adobe)</span> </li><li class=3D=
+"person"><span class=3D"name"><span class=3D"surname">Stevenson</span>, <sp=
+an class=3D"givenname">Tobias</span></span> <span class=3D"affiliation">(eB=
+ookArchitects)</span> </li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Tahara</span>, <span class=3D"givenname">Kyoji</span></s=
+pan> <span class=3D"affiliation">(Toppan Printing)</span> </li><li class=3D=
+"person"><span class=3D"name"><span class=3D"surname">Takase</span>, <span=
+ class=3D"givenname">Hiroshi</span></span> <span class=3D"affiliation">(Eas=
+t Co.)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D=
+"surname">Tallent</span>, <span class=3D"givenname">Joshua</span></span> <s=
+pan class=3D"affiliation">(eBookArchitects)</span> </li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">Tanabe</span>, <span class=
+=3D"givenname">Shu</span></span> <span class=3D"affiliation">(Toppan Printi=
+ng)</span> </li><li class=3D"person"><span class=3D"name"><span class=3D"su=
+rname">Thomas</span>, <span class=3D"givenname">Vinu</span></span> <span cl=
+ass=3D"affiliation">(Impelsys)</span> </li><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Tsumagari</span>, <span class=3D"givennam=
+e">Koichiro</span></span> <span class=3D"affiliation">(Voyager Japan)</span=
+> </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Va=
+lentine</span>, <span class=3D"givenname">Chelsea</span></span> <span class=
+=3D"affiliation">(LibreDigital)</span> </li><li class=3D"person"><span clas=
+s=3D"name"><span class=3D"surname">Vangage</span>, <span class=3D"givenname=
+">Peter</span></span> <span class=3D"affiliation">(Harlequin)</span> </li><=
+li class=3D"person"><span class=3D"name"><span class=3D"surname">Vido</span=
+>, <span class=3D"givenname">Ariel</span></span> <span class=3D"affiliation=
+">(Geografica Editora)</span> </li><li class=3D"person"><span class=3D"name=
+"><span class=3D"surname">Wait</span>, <span class=3D"givenname">John</span=
+></span> <span class=3D"affiliation">(Pearson)</span> </li><li class=3D"per=
+son"><span class=3D"name"><span class=3D"surname">Walkley</span>, <span cla=
+ss=3D"givenname">George</span></span> <span class=3D"affiliation">(Hachette=
+ Book Group)</span> </li><li class=3D"person"><span class=3D"name"><span cl=
+ass=3D"surname">Watters</span>, <span class=3D"givenname">Kevin</span></spa=
+n> <span class=3D"affiliation">(Harlequin)</span> </li><li class=3D"person"=
+><span class=3D"name"><span class=3D"surname">Webster</span>, <span class=
+=3D"givenname">Roger</span></span> <span class=3D"affiliation">(Barnes &amp=
+; Noble)</span> </li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Weck</span>, <span class=3D"givenname">Daniel</span></span> <s=
+pan class=3D"affiliation">(DAISY Consortium)</span> </li><li class=3D"perso=
+n"><span class=3D"name"><span class=3D"surname">Wei</span>, <span class=3D"=
+givenname">Selena</span></span> <span class=3D"affiliation">(Chinese Founda=
+tion for Digitization Technology)</span> </li><li class=3D"person"><span cl=
+ass=3D"name"><span class=3D"surname">White</span>, <span class=3D"givenname=
+">Russell</span></span> <span class=3D"affiliation">(Random House)</span>=
+ </li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Wil=
+es</span>, <span class=3D"givenname">Alexis</span></span> <span class=3D"af=
+filiation">(Overdrive, Inc.)</span> </li><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Witwer</span>, <span class=3D"givenname">=
+Adam</span></span> <span class=3D"affiliation">(O&#x27;Reilly)</span> </li>=
+<li class=3D"person"><span class=3D"name"><span class=3D"surname">Wright</s=
+pan>, <span class=3D"givenname">Rick</span></span> <span class=3D"affiliati=
+on">(Adobe)</span> </li><li class=3D"person"><span class=3D"name"><span cla=
+ss=3D"surname">Young</span>, <span class=3D"givenname">Liz</span></span> <s=
+pan class=3D"affiliation">(Crossway)</span> </li><li class=3D"person"><span=
+ class=3D"name"><span class=3D"surname">Zu</span>, <span class=3D"givenname=
+">Alex</span></span> <span class=3D"affiliation">(ASTRI (Hong Kong Applied=
+ Science &amp; Technology Research Institute))</span> </li></ul><p title=3D=
+"A.&nbsp;Invited Experts/Observers" class=3D"bridgehead">Invited Experts/Ob=
+servers</p><ul class=3D"personlist"><li class=3D"person"><span class=3D"nam=
+e"><span class=3D"surname">Bowes</span>, <span class=3D"givenname">Rick</sp=
+an></span></li><li class=3D"person"><span class=3D"name"><span class=3D"sur=
+name">Cazenove</span>, <span class=3D"givenname">Rhys</span></span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Collingridge=
+</span>, <span class=3D"givenname">Peter</span></span></li><li class=3D"per=
+son"><span class=3D"name"><span class=3D"surname">Cook</span>, <span class=
+=3D"givenname">Mike</span></span></li><li class=3D"person"><span class=3D"n=
+ame"><span class=3D"surname">Etemad</span>, <span class=3D"givenname">Elika=
+ J.</span></span> <span class=3D"wg-role">W3C CSS WG Liason</span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Forster</spa=
+n>, <span class=3D"givenname">Karen</span></span></li><li class=3D"person">=
+<span class=3D"name"><span class=3D"surname">Freed</span>, <span class=3D"g=
+ivenname">Geoff</span></span></li><li class=3D"person"><span class=3D"name"=
+><span class=3D"surname">Fujisawa</span>, <span class=3D"givenname">Jun</sp=
+an></span></li><li class=3D"person"><span class=3D"name"><span class=3D"sur=
+name">Garrish</span>, <span class=3D"givenname">Matt</span></span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Gould</span>=
+, <span class=3D"givenname">Bryan</span></span></li><li class=3D"person"><s=
+pan class=3D"name"><span class=3D"surname">G=C3=B6rner</span>, <span class=
+=3D"givenname">Martin</span></span></li><li class=3D"person"><span class=3D=
+"name"><span class=3D"surname">Hsieh</span>, <span class=3D"givenname">Mich=
+ael</span></span></li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Ishii</span>, <span class=3D"givenname">Koji</span></span></li=
+><li class=3D"person"><span class=3D"name"><span class=3D"surname">Johar</s=
+pan>, <span class=3D"givenname">Kenny</span></span></li><li class=3D"person=
+"><span class=3D"name"><span class=3D"surname">Karlsson</span>, <span class=
+=3D"givenname">Mattias</span></span></li><li class=3D"person"><span class=
+=3D"name"><span class=3D"surname">Kennedy</span>, <span class=3D"givenname"=
+>Dianne</span></span></li><li class=3D"person"><span class=3D"name"><span=
+ class=3D"surname">Kilborn</span>, <span class=3D"givenname">Peter</span></=
+span></li><li class=3D"person"><span class=3D"name"><span class=3D"surname"=
+>Koppel</span>, <span class=3D"givenname">Josh</span></span></li><li class=
+=3D"person"><span class=3D"name"><span class=3D"surname">Lee</span>, <span=
+ class=3D"givenname">Tommy</span></span></li><li class=3D"person"><span cla=
+ss=3D"name"><span class=3D"surname">Lu</span>, <span class=3D"givenname">Ke=
+nny</span></span></li><li class=3D"person"><span class=3D"name"><span class=
+=3D"surname">Lubeck</span>, <span class=3D"givenname">Scott</span></span></=
+li><li class=3D"person"><span class=3D"name"><span class=3D"surname">Masano=
+ri</span>, <span class=3D"givenname">Kusunoki</span></span></li><li class=
+=3D"person"><span class=3D"name"><span class=3D"surname">McKinney</span>,=
+ <span class=3D"givenname">Steven</span></span></li><li class=3D"person"><s=
+pan class=3D"name"><span class=3D"surname">Murakami</span>, <span class=3D"=
+givenname">Shinyu</span></span></li><li class=3D"person"><span class=3D"nam=
+e"><span class=3D"surname">Ning</span>, <span class=3D"givenname">Elliott</=
+span></span></li><li class=3D"person"><span class=3D"name"><span class=3D"s=
+urname">Noring</span>, <span class=3D"givenname">Jon</span></span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Norton</span=
+>, <span class=3D"givenname">Paul</span></span></li><li class=3D"person"><s=
+pan class=3D"name"><span class=3D"surname">Oishi</span>, <span class=3D"giv=
+enname">Yasuharu</span></span></li><li class=3D"person"><span class=3D"name=
+"><span class=3D"surname">Passey</span>, <span class=3D"givenname">Lee</spa=
+n></span></li><li class=3D"person"><span class=3D"name"><span class=3D"surn=
+ame">Rosmaita</span>, <span class=3D"givenname">Gregory</span></span></li><=
+li class=3D"person"><span class=3D"name"><span class=3D"surname">Seaman</sp=
+an>, <span class=3D"givenname">David</span></span></li><li class=3D"person"=
+><span class=3D"name"><span class=3D"surname">Sevardia</span>, <span class=
+=3D"givenname">Ron</span></span></li><li class=3D"person"><span class=3D"na=
+me"><span class=3D"surname">Shan</span>, <span class=3D"givenname">Walter</=
+span></span></li><li class=3D"person"><span class=3D"name"><span class=3D"s=
+urname">Smith(tm)</span>, <span class=3D"givenname">Michael</span></span>=
+ <span class=3D"affiliation">(W3C)</span> <span class=3D"wg-role">W3C Liaso=
+n</span></li><li class=3D"person"><span class=3D"name"><span class=3D"surna=
+me">Sperberg</span>, <span class=3D"givenname">Roger</span></span></li><li=
+ class=3D"person"><span class=3D"name"><span class=3D"surname">Walsh</span>=
+, <span class=3D"givenname">Norman</span></span></li><li class=3D"person"><=
+span class=3D"name"><span class=3D"surname">Zergaoui</span>, <span class=3D=
+"givenname">Mohamed</span></span></li></ul><p>For more detailed acknowledge=
+ments and information about contributors to each version of EPUB, refer to=
+ <span class=3D"phrase"><a href=3D"epub30-overview.html#acknowledgements"=
+ class=3D"link">Acknowledgements and Contributors</a> <a title=3D"EPUB 3 Ov=
+erview" href=3D"#refEPUB3Overview" class=3D"biblioref">[<abbr>EPUB3Overview=
+</abbr>]</a></span>. </p></div><div id=3D"references" title=3D"References"=
+ class=3D"bibliography"><div class=3D"titlepage"><div><div><h2 class=3D"tit=
+le"><span class=3D"link-marker"><a href=3D"#references" title=3D"Link here"=
+ class=3D"hidden-reveal">=E2=80=BA</a>&nbsp;</span>References</h2></div></d=
+iv></div><div title=3D"Normative References" class=3D"bibliodiv"><h3 class=
+=3D"title">Normative References</h3><div id=3D"refContentDocs3" title=3D"EP=
+UB Content Documents 3.0" class=3D"biblioentry"><p>[<abbr>ContentDocs30</ab=
+br>] <span class=3D"title"><em> <a href=3D"epub30-contentdocs.html" class=
+=3D"link">EPUB Content Documents 3.0</a> </em>. </span></p></div><div id=3D=
+"refEPUBCFI" title=3D"EPUB Canonical Fragment Identifier (epubcfi) Specific=
+ation" class=3D"biblioentry"><p>[<abbr>EPUBCFI</abbr>] <span class=3D"title=
+"><em> <a href=3D"http://www.idpf.org/epub/linking/cfi/epub-cfi.html" class=
+=3D"link">EPUB Canonical Fragment Identifier (epubcfi) Specification</a> </=
+em>. </span></p></div><div id=3D"refOverlays3" title=3D"EPUB Media Overlays=
+ 3.0" class=3D"biblioentry"><p>[<abbr>MediaOverlays30</abbr>] <span class=
+=3D"title"><em> <a href=3D"epub30-mediaoverlays.html" class=3D"link">EPUB=
+ Media Overlays 3.0</a> </em>. </span></p></div><div id=3D"refOCF2" title=
+=3D"Open Container Format 2.0.1" class=3D"biblioentry"><p>[<abbr>OCF2</abbr=
+>] <span class=3D"title"><em> <a href=3D"http://www.idpf.org/doc_library/ep=
+ub/OCF_2.0.1_draft.doc" class=3D"link">Open Container Format 2.0.1</a> </em=
+>. </span></p></div><div id=3D"refOCF30" title=3D"Open Container Format 3.0=
+" class=3D"biblioentry"><p>[<abbr>OCF3</abbr>] <span class=3D"title"><em>=
+ <a href=3D"epub30-ocf.html" class=3D"link">Open Container Format 3.0</a>=
+ </em>. </span></p></div><div id=3D"refOPF2" title=3D"Open Packaging Format=
+ 2.0.1" class=3D"biblioentry"><p>[<abbr>OPF2</abbr>] <span class=3D"title">=
+<em> <a href=3D"http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm" class=3D"=
+link">Open Packaging Format 2.0.1</a> </em>. </span></p></div><div id=3D"re=
+fOPS2" title=3D"Open Publication Structure 2.0.1" class=3D"biblioentry"><p>=
+[<abbr>OPS2</abbr>] <span class=3D"title"><em> <a href=3D"http://idpf.org/e=
+pub/20/spec/OPS_2.0.1_draft.htm" class=3D"link">Open Publication Structure=
+ 2.0.1</a> </em>. </span></p></div><div id=3D"refPublications3" title=3D"EP=
+UB Publications 3.0" class=3D"biblioentry"><p>[<abbr>Publications30</abbr>]=
+ <span class=3D"title"><em> <a href=3D"epub30-publications.html" class=3D"l=
+ink">EPUB Publications 3.0</a> </em>. </span></p></div></div><div title=3D"=
+Informative References" class=3D"bibliodiv"><h3 class=3D"title">Informative=
+ References</h3><div id=3D"refEPUB3Overview" title=3D"EPUB 3 Overview" clas=
+s=3D"biblioentry"><p>[<abbr>EPUB3Overview</abbr>] <span class=3D"title"><em=
+> <a href=3D"epub30-overview.html" class=3D"link">EPUB 3 Overview</a> </em>=
+. </span><span class=3D"author">Garth Conboy, et al. </span></p></div><div=
+ id=3D"refZ39862005" title=3D"ANSI/NISO Z39.86-2005: Specifications for the=
+ Digital Talking Book" class=3D"biblioentry"><p>[<abbr>Z3986-2005</abbr>]=
+ <span class=3D"title"><em> <a href=3D"http://www.niso.org/standards/resour=
+ces/Z39-86-2005.html" class=3D"link">ANSI/NISO Z39.86-2005: Specifications=
+ for the Digital Talking Book</a> </em>. </span><span class=3D"author">M.=
+ Moodie, et al. </span><span class=3D"date">2005. </span></p></div></div></=
+div></div></body></html>
+------=_NextPart_000_0000_70A39A7B.5275E60E
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/css/epub-spec.css
+
+@charset "utf-8";
+
+body {
+    margin-top: 2em;
+    margin-left: 6em;
+    margin-right: 15em;
+    margin-bottom: 2em;
+    font-family: arial, helvetica, sans-serif;
+    color: black;
+    background: white;
+    background-position: 97% 20px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-image: url(http://idpf.org/sites/idpf.org/files/idpflogo_web=
+_125.jpg);
+   =20
+}
+
+/**************************************************************************=
+*/
+/*    dl      *************************************************************=
+*/
+/**************************************************************************=
+*/
+
+dl dt {
+    font-weight: bold;
+}
+
+dt span.term {
+    color: #005A9C;
+    font-weight: normal;
+}
+
+dd > dl {
+    margin-top: 1px;
+    padding-top: 0px;
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+}
+
+/**************************************************************************=
+*/
+/*    ul      *************************************************************=
+*/
+/**************************************************************************=
+*/
+
+ul.conformance-list li {
+    list-style-type: none;
+}
+
+/**************************************************************************=
+*/
+/*  glosslist      ********************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.glosslist dl {
+    margin-left: 2em
+}
+div.glosslist dl dt {
+    color: #005A9C
+}
+
+dt.glossentry {
+    font-size: .9em;
+}
+
+/**************************************************************************=
+*/
+/*  misc block      *******************************************************=
+*/
+/**************************************************************************=
+*/
+
+p.informative, p.normative {
+    font-weight: bold;
+    font-size: 100%;
+    color: #8B0000;
+    padding: 5px 0px 10px;
+}
+
+.biblioentry:target {
+    border: 1px dashed rgb(200,200,225);
+}
+
+
+/**************************************************************************=
+*/
+/*  misc inline      ******************************************************=
+*/
+/**************************************************************************=
+*/
+
+code, span.property, a.codelink {
+    color: #660099;
+    font-family: monospace;
+    font-weight: bold
+}
+*.RFC2119 {
+    font-style: italic;
+    font-size: 80%;
+}
+
+*.todo, *.TODO {
+    background-color: yellow
+}
+
+/* vocab */
+*.subproplabel, *.subpropref {
+    font-style: italic;
+    font-size: 90%;
+}
+
+/**************************************************************************=
+*/
+/*  elem-synopsis       ***************************************************=
+*/
+/**************************************************************************=
+*/
+
+*.elem-synopsis {
+    border: 1px solid rgb(200,200,225);
+	border-top: 1px solid rgb(210,210,245);
+	border-left: 1px solid rgb(210,210,245);
+    background: rgb(240,240,255);
+    padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 2em;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+}
+
+/* special case for the code.option fields in elem-synopsis */
+code.option {
+    color: black;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: normal
+}
+/* for the special case when an attlist occurs outside of an elem-synopsis*/
+div.section > div.elem-synopsis-attlist {
+    border: 2px solid rgb(200,200,225);
+    background: rgb(230,230,255);
+    padding: 1em
+}
+
+
+/**************************************************************************=
+*/
+/*   toc     **************************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.toc dl dt {
+    font-weight: normal
+}
+
+div.toc p, div.list-of-examples p {
+    font: small-caps 105% sans-serif;
+    color: #005A9C;
+}
+
+div.toc {
+    margin-top: 3em
+}
+div.toc > dl > dt > span > a {
+    color: #0000ff
+}
+div.toc > dl > dd > dl > dt > span > a {
+    color: #0033ff
+}
+div.toc > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0066ff;
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl > dt > span=
+ > a {
+    font-size: .9em;
+    color: #0099ff
+}
+
+div.toc > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl > dd > dl >=
+ dt > span > a {
+    font-size: .9em;
+    color: #0099ff
+}
+
+/**************************************************************************=
+*/
+/*   examples     *********************************************************=
+*/
+/**************************************************************************=
+*/
+
+div.informalexample {
+    margin: 1.5em auto 2em auto;
+}
+
+div.informalexample > p {
+    margin: 0px 20px;
+    font-style: italic;
+    font-size: .8em
+}
+
+div.informalexample > p code {
+    color: black;
+}
+
+pre {
+    font-family: "Courier New", Courier, Monospace;
+    color: #000;
+    background-color: #eee;
+    margin: 0;
+    border: 1px solid #ddd;
+    padding: 9px;
+    overflow: auto;   =20
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap !important;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+
+}
+
+pre.synopsis, p.syntax {
+    background-color:rgb(253,253,253);
+    border: 1px solid rgb(220,220,220);
+	border-left: 1px solid rgb(230,230,230);
+	border-top: 1px solid rgb(230,230,230);
+	margin-bottom: 1em;
+	-moz-box-shadow: 5px 5px 5px #888;
+	-webkit-box-shadow: 5px 5px 5px #888;
+	-box-shadow: 5px 5px 5px #888;
+}
+
+p.syntax {
+    font-family: courier, fixed, monospace;
+    padding: 9px;
+}
+
+/**************************************************************************=
+*/
+/*   note, caution     ****************************************************=
+*/
+/**************************************************************************=
+*/
+
+.caution .note {
+    font-style : italic;
+    font-size : .9em;
+}
+
+div.note, div.caution {
+	margin: 2em 1em;
+	border: solid gray 1px;
+	background-color: rgb(255,255,224);
+	padding: .5em
+}
+
+=20
+div.caution {
+    background-color: rgb(255,235,205)
+}
+
+div.note > *, div.caution > * {
+	/* margin: .25em 0em;
+	padding: 0em; */
+}
+
+div.note > h2, div.note > h3, div.note > h4, div.note > h5,
+div.caution > h2, div.caution > h3, div.caution > h4, div.caution > h5 {
+	font-size: 1em;
+	font-style: italic;
+	font-variant: small-caps;
+	float: left;
+	padding: .18em .6em .18em .5em;=09
+	margin: -1em -0.5em -0.5em auto;
+	width: auto;=20
+	border: solid 1px;=20
+	background: white;=20
+}
+
+/**************************************************************************=
+*/
+/*   headings   ***********************************************************=
+*/
+/**************************************************************************=
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    color: #005A9C;
+}
+h1 {
+    font: 170% sans-serif;
+    padding-bottom: 1em;
+}
+h2 {
+    font: 140% sans-serif;
+    padding-top: 2em;
+    border-bottom: 1px solid #005A9C
+}
+h3 {
+    font: 120% sans-serif;
+    padding-top: 1.5em;
+}
+h4 {
+    font: bold 110% sans-serif;
+    padding-top: 1.2em;
+}
+h5 {
+    font: italic 105% sans-serif
+}
+h6 {
+    font: italic 100% sans-serif
+}
+p.bridgehead {
+    font: 110% sans-serif;
+    padding-top: 0.7em;
+    color: #005A9C;
+}
+
+
+/**************************************************************************=
+*/
+/* links ******************************************************************=
+*/
+/**************************************************************************=
+*/
+
+a.glossterm {
+    color: black;
+    text-decoration: none;
+    border-bottom : 1px dotted rgb(210,210,210);
+}
+a.biblioref {
+    color: #0000FF;
+    text-decoration: none;
+}
+a.glossterm:hover, a.biblioref:hover {
+    text-decoration: underline;
+    background-color: white;
+    color: #0000FF;
+}
+
+/**************************************************************************=
+*/
+/* "link here" anchor  ****************************************************=
+*/
+/**************************************************************************=
+*/
+
+a.hidden-reveal {
+    color: #005A9C;
+}
+a.hidden-reveal:link {
+    text-decoration: none;
+    color: #005A9C;
+}
+a.hidden-reveal:visited {
+    text-decoration: none;
+    color: #005A9C;
+}
+a.hidden-reveal:hover {
+    text-decoration: underline;
+    background-color: #005A9C;
+    color: #FFFFFF;
+}
+a.hidden-reveal:active {
+    text-decoration: none;
+    color: #005A9C;
+}
+
+/**************************************************************************=
+*/
+/*  frontmatter     *******************************************************=
+*/
+/**************************************************************************=
+*/
+
+*.releaseinfo {
+    font-size: 140%;
+    color: #005A9C;
+    margin-right: 0.4em
+}
+*.pubdate {
+    font-size: 140%;
+    color: #005A9C
+}
+*.legalnotice {
+    font-size: 90%
+}
+dl.printhistory {
+    margin-top: 2em;
+    margin-bottom: 2em
+}
+dl.printhistory dt {
+    font: small-caps 105% sans-serif;
+    color: #005A9C;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em
+}
+div.authorgroup p.editor {
+    margin-left: 2em;
+    font-size: 90%
+}
+
+/**************************************************************************=
+*/
+/*  table      ************************************************************=
+*/
+/**************************************************************************=
+*/
+
+table {
+    border: 1px solid #005A9C;
+    border-spacing: 0px;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 2em;   =20
+    -moz-box-shadow: 2px 2px 2px rgb(240,240,240);
+	-webkit-box-shadow: 2px 2px 2px rgb(190,190,190);
+	-box-shadow: 2px 2px 2px rgb(190,190,190);
+}
+th {
+    border: 1px solid #005A9C;
+    font-weight: bold;
+    padding: 0.5em;
+    font-weight: bold;
+    color: #005A9C;
+    font-size: 90%
+}
+td {
+    border: 1px solid #005A9C;
+    padding: 0.5em;
+    text-align: left
+}
+td *, td > * {
+    text-align: left;
+}
+table, tbody {
+    padding: 0;
+}
+
+caption {
+    text-align: left;
+    font-size: 90%
+}
+/* the xsl renders db:simplelist as single-column tables */
+table.simplelist, table.simplelist th, table.simplelist td, table.simplelis=
+t tr {
+    border-style: none;
+    -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-box-shadow: none;
+}
+
+/* ensure confomity of width for property tables */
+div.informaltable > table {
+    border-spacing: 0px;
+    border: 1px solid rgb(210,210,225);
+    font-size: 1em;
+    width: 100%
+}
+
+div.informaltable > table td, div.informaltable > table th {
+  border: none;
+}
+
+div.informaltable > table td.rdfa-property {
+    padding: 3px;
+    text-indent: 15px;
+    color: rgb(0,90,156);
+    background-color: rgb(240,240,255);
+    border-bottom: 1px solid rgb(210,210,225);
+}
+td.rdfa-property > code {
+    color: rgb(0,50,116);
+    font-weight: bold;
+    font-size: 1.1em
+}
+div.informaltable > table td.rdfa-property-header {
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    border-right: 1px solid rgb(210,210,225);
+    color: rgb(0,90,156);
+    background-color: rgb(240,240,255);
+}
+td.rdfa-property-desc {
+    padding: 3px
+}
+
+td.rdfa-cardinality > p {
+	padding: 0em;
+	margin: 0em
+}
+
+/* the core media types table */
+table#tbl-core-media-types > thead > tr > th,
+table#tbl-epubReadingSystem-properties > thead > tr > th,
+table#tbl-epubReadingSystem-features > thead > tr > th {
+    background-color: rgb(240,240,255);
+    text-align: left;
+    white-space:nowrap;
+}
+
+table#tbl-core-media-types > tbody > tr > th {   =20
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding: 3px;
+}
+
+table#tbl-core-media-types td, table#tbl-core-media-types th, table#tbl-cor=
+e-media-types tr {
+    border-color: #005A9C;
+    margin: 0em;
+}
+
+table#tbl-core-media-types td code, table#tbl-core-media-types td a {
+    white-space:nowrap;
+}
+
+td[headers=3D"tbl-cmt-appl"] {
+    font-size: .9em;
+}
+
+/* ns prefix table in contentdocs */
+table#tbl-nspfx {
+    border:none;
+    border-spacing: 0px;
+    margin-left: 1em;
+}
+
+span.italic {
+    font-style: italic;
+}
+
+span.link-marker {
+    float: left;
+}
+
+/* display prop examples as block */
+
+code.prop-example {
+   display: block;
+}
+
+/* participant listings */
+ul.personlist {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+*.personlist span.affiliation {
+    color: rgb(75,75,75);
+}
+
+*.personlist span.wg-role {
+    font-style: italic;
+}
+
+/*
+span.surname {
+    text-transform: uppercase;
+}
+*/
+
+table.productionset tbody tr {
+    border: none;
+}
+
+table.productionset tbody tr td {
+    border: none;
+    border-bottom: 1px solid #CCC;
+}
+
+table.productionset tbody tr td a {
+    text-decoration: none;
+    border-bottom: 1px dotted #0000ff;
+}
+
+table.productionset tbody tr td a:hover {
+    text-decoration: underline;
+}
+
+table.productionset tbody tr td a:visited,
+table.productionset tbody tr td a:active,
+table.productionset tbody tr td a:hover {
+    color: #0000ff;
+}
+
+
+p.diff, p.errata {
+	font-size: 0.9em;
+	font-style: italic
+}
+
+code {
+  font-style: normal; =20
+}
+
+div.informalexample > p code {
+    font-size: 1.2em;
+}
+
+/* vocab experimental term labels */
+strong.experimental {
+	color: rgb(255,0,0)
+}
+
+------=_NextPart_000_0000_70A39A7B.5275E60E
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://idpf.org/epub/css/epub-print.css
+
+@charset "utf-8";
+
+/* remove margins to get full page for printing */
+
+body {
+    margin: 0em;
+}
+
+------=_NextPart_000_0000_70A39A7B.5275E60E
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://idpf.org/sites/idpf.org/files/idpflogo_web_125.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/4QqbRXhpZgAATU0AKgAAAAgABwESAAMAAAABAAEAAAEaAAUA
+AAABAAAAYgEbAAUAAAABAAAAagEoAAMAAAABAAIAAAExAAIAAAAbAAAAcgEyAAIAAAAUAAAAjYdp
+AAQAAAABAAAApAAAANAAAABIAAAAAQAAAEgAAAABQWRvYmUgUGhvdG9zaG9wIENTIFdpbmRvd3MA
+MjAwNjowNzowNiAxMTo0NToyNQAAAAAAA6ABAAMAAAAB//8AAKACAAQAAAABAAAAfaADAAQAAAAB
+AAAAOAAAAAAAAAAGAQMAAwAAAAEABgAAARoABQAAAAEAAAEeARsABQAAAAEAAAEmASgAAwAAAAEA
+AgAAAgEABAAAAAEAAAEuAgIABAAAAAEAAAllAAAAAAAAAEgAAAABAAAASAAAAAH/2P/gABBKRklG
+AAECAQBIAEgAAP/tAAxBZG9iZV9DTQAC/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBEL
+CgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsN
+Dg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwM/8AAEQgAOAB9AwEiAAIRAQMRAf/dAAQACP/EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYH
+CAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQh
+EjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXi
+ZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIE
+BAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKy
+gwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dX
+Z3eHl6e3x//aAAwDAQACEQMRAD8A9VSSTcalJS6qP6r0tlxx35lDbg7aajY0P3H8zZu3blm/88Oi
+XdZq6HiXfasy7eHGr3Vs2NdYfUt+ju9n0K1ydf1B67b11mfaa66he25xe6TDXNft9u73O2qTFGEi
+eOXBQ081k5SAHDHi1fSUkklGvYWXVVAG17awdAXEDX5pV212t3VuD28S0yPwXNfWkn7fU2dPSmO0
+7nLT+rX/ACYP67lCMx984q0EeK1nH6+Guluqkkkpl6lC26mhhsue2uscveQ0D+05TXj3156vl9T6
+5ZjOefs+O7ZRTPtBP58fvvUuDF7s+G60sljy5PbjxVetB9Yx+pdPynlmLlU3vAktrsa4x/VY4qyu
+K+q31Ju+r2c7qmXkscK6nNcxjSRDoc527+Rt/cWx0T659C6ze/FovFWXW9zPs9vtc7adu6n825rv
+5CbkjASqEuKPeqXQMiLkOE9ndSSSTFz/AP/Q7X6x/Xfof1fDq8i318wCRiUwX/8AXT9Clv8Axi4x
+1316+vjttLf2Z0dx1MljHN/lP/nsv+x+gVP6x/VLrvTOrO6xVWzKmz1dr2ixpcPFtnst/qv/AEi6
+X6u/40Om5Rbh9Zr/AGZlNhm/X0CeI19+P/1z2f8ACpKdX6tfUTo/1dH2isHJz2tI+1Wctke70ax7
+av8Aq1xFn1m6+/6ytq+3XNpflVtNTXEM2l7GlgZ+6vWBZXZT6lbg9jmy1zTIII5a4LxDKe6v6wF7
+dHNyGuB8w5pVrk4gynYB9PVr80SBGjXqD6l1fr9jbH42Gduw7X3d5H0m1/8Ak1nej1zb64bkEc7g
+XTHjtnchdMqbd1DHrfq1zwXA94967dY2KB5iU5zlLhieGEYmkxHuEkk0DQAeDyMu/Lc19797mN2B
+xGsTu9ytDPy8bAx6qLDW17rHOLdDIIH0kX6x4zKOpb2CBewPcB+8Dtcf7Sp3/wBFxf8Arv8A1TVH
+OMoZco4jKsZ4ZH5qWkGMpa36d23T1Pq+RT9loc+x8lznt1fB7bvzGKvc/qmHYDc66lzvouc4wf7U
+7VufVepow7bfzn2bSfJoEf8AVLR6ji15eFbQ8TuaS0+Dh9Bylxcv7mKMpzlxEenX5ey+OPiiCSb6
+PIdU6r9Yc7pww+mvcMwuB9Ss7XuaPcvPM6vNrznsy3F2WHDe4mTuPHuXoXTLHMzcZ45FjQfmdrlx
+P1g/8UV//Gt/gtL4NnnITxTonHfq/S/xmvm1hZJsSEfB736n9P8ArX6+V/zgttsxLKTW1ltkncS3
+3Nb/AMXu96zvrH/iwquc7K6U412zu2jmeZ26f51exehBBzM3Ewcd2TmXMx6GausscGtHzcmzmZy4
+iAP7ooNyEeEUCT5vl/Tvrr9afqvYMTrlLs7Dadoscf0jR/IvP0/+LyPf/LXZj/GF9VT0s9SGX7Gk
+NOPtPr7yC5tfof2He/8Amf8AhFyv1m+vON1u39l/V/p56hfZ7RkvYSSP+Co+k9n8rI/R/wDBrNH+
+Kv6w/sw5hNX27cHNwZH0PcXTb/Neru2fov5r/hE1e//R9Uc1r2lrwHNOhB1BXLfWH6gdK6s0vqaK
+b+xGn3O/N/6hdUkkp84+qfQvrV0DrzMM2WP6O4P9dhI2CWP9J+x07f0rW+/H/wCuLlMis2/WL0xy
+/JY0fEua1e4uEtI8QuHq/wAW9h6szqF+YAG2tuLGNnVpD2t939VWOWyRxmRkauNBh5iEpiPD0lbD
+Gufi5LLY99D/AHN82mHNXaY+fiZFQtrtbtIkgkAjycCs3qv1eblWnJxXiq5302u+i4/vafRcs1v1
+a6m50OFbR+9uJ/76ssY82GcvbiMkJniq+ExUIzgTwjiiUfXsuvL6gTWd1dTRW1w4Jnc4hVr/AOi4
+v/Xf+qata/6rWxX9ntbIafUL5Eun81rQfaqXWMI4LcTHLt7gx7nHtJLZhRZMWa8uXIB6sZ2Py/1V
+soz9UpdYtr6u9Spxy/GvcGNsO5jzoN30XNK2eo9Qx8bDss9RpeWkVtBBJcdGrnMHot2fiuvosDXt
+eWFj+CAAfpD+si1fVnqLnw/06293bt3/AEQE/DLmI4oiEBMEek3XD/eCYHIIihfYtbouM6/qFDQJ
+bWRY8+Tdf+qXCdf/APFFf/xrf4L2Tp/TcfAq2VCXO+nYeXFchl/4t7M3qb827MFbHv3lrGyQBxG5
+X/hgHL8RyH1TBvrqtyYZHGANZcXEXtcm11ONbawbnVsLmjxIErzir6kfWb60Zzs76y5T8fED3GnH
+037JO0VU/wA1je385/6VemJINlzujdA6T0Sj0Om47aQfpv5e/wA7LXe960UkklP/0vVUl8qpJKfq
+pJfKqSSn6qSXyqkkp+qlgfWTDy8jIodRS61rWODi0cEkL50SUebh9uXHfDXqrels64Tez9L9AxL8
+XCLb27HPcXhvcAgD3fctNfKqSWHh9uPBfDWl7qhXCK2fqpJfKqSkXP1UkvlVJJT9VJL5VSSU/wD/
+2f/tD0pQaG90b3Nob3AgMy4wADhCSU0EJQAAAAAAEAAAAAAAAAAAAAAAAAAAAAA4QklNA+0AAAAA
+ABAASAAAAAEAAQBIAAAAAQABOEJJTQQmAAAAAAAOAAAAAAAAAAAAAD+AAAA4QklNBA0AAAAAAAQA
+AAAeOEJJTQQZAAAAAAAEAAAAHjhCSU0D8wAAAAAACQAAAAAAAAAAAQA4QklNBAoAAAAAAAEAADhC
+SU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEA
+oZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAA
+AHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gA
+AAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAA
+OEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA00A
+AAAGAAAAAAAAAAAAAAA4AAAAfQAAAAwAaQBkAHAAZgBsAG8AZwBvAF8AdwBlAGIAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAH0AAAA4AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAAAEAAAAAAABudWxsAAAAAgAAAAZib3VuZHNPYmpjAAAAAQAAAAAAAFJjdDEA
+AAAEAAAAAFRvcCBsb25nAAAAAAAAAABMZWZ0bG9uZwAAAAAAAAAAQnRvbWxvbmcAAAA4AAAAAFJn
+aHRsb25nAAAAfQAAAAZzbGljZXNWbExzAAAAAU9iamMAAAABAAAAAAAFc2xpY2UAAAASAAAAB3Ns
+aWNlSURsb25nAAAAAAAAAAdncm91cElEbG9uZwAAAAAAAAAGb3JpZ2luZW51bQAAAAxFU2xpY2VP
+cmlnaW4AAAANYXV0b0dlbmVyYXRlZAAAAABUeXBlZW51bQAAAApFU2xpY2VUeXBlAAAAAEltZyAA
+AAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxv
+bmcAAAAAAAAAAEJ0b21sb25nAAAAOAAAAABSZ2h0bG9uZwAAAH0AAAADdXJsVEVYVAAAAAEAAAAA
+AABudWxsVEVYVAAAAAEAAAAAAABNc2dlVEVYVAAAAAEAAAAAAAZhbHRUYWdURVhUAAAAAQAAAAAA
+DmNlbGxUZXh0SXNIVE1MYm9vbAEAAAAIY2VsbFRleHRURVhUAAAAAQAAAAAACWhvcnpBbGlnbmVu
+dW0AAAAPRVNsaWNlSG9yekFsaWduAAAAB2RlZmF1bHQAAAAJdmVydEFsaWduZW51bQAAAA9FU2xp
+Y2VWZXJ0QWxpZ24AAAAHZGVmYXVsdAAAAAtiZ0NvbG9yVHlwZWVudW0AAAARRVNsaWNlQkdDb2xv
+clR5cGUAAAAATm9uZQAAAAl0b3BPdXRzZXRsb25nAAAAAAAAAApsZWZ0T3V0c2V0bG9uZwAAAAAA
+AAAMYm90dG9tT3V0c2V0bG9uZwAAAAAAAAALcmlnaHRPdXRzZXRsb25nAAAAAAA4QklNBCgAAAAA
+AAwAAAABP/AAAAAAAAA4QklNBBEAAAAAAAEBADhCSU0EFAAAAAAABAAAAAE4QklNBAwAAAAACYEA
+AAABAAAAfQAAADgAAAF4AABSQAAACWUAGAAB/9j/4AAQSkZJRgABAgEASABIAAD/7QAMQWRvYmVf
+Q00AAv/uAA5BZG9iZQBkgAAAAAH/2wCEAAwICAgJCAwJCQwRCwoLERUPDAwPFRgTExUTExgRDAwM
+DAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwBDQsLDQ4NEA4OEBQODg4UFA4ODg4UEQwM
+DAwMEREMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDP/AABEIADgAfQMBIgACEQED
+EQH/3QAEAAj/xAE/AAABBQEBAQEBAQAAAAAAAAADAAECBAUGBwgJCgsBAAEFAQEBAQEBAAAAAAAA
+AAEAAgMEBQYHCAkKCxAAAQQBAwIEAgUHBggFAwwzAQACEQMEIRIxBUFRYRMicYEyBhSRobFCIyQV
+UsFiMzRygtFDByWSU/Dh8WNzNRaisoMmRJNUZEXCo3Q2F9JV4mXys4TD03Xj80YnlKSFtJXE1OT0
+pbXF1eX1VmZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3EQACAgECBAQDBAUGBwcGBTUBAAIRAyExEgRB
+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
+7o3QOk9Eo9DpuO2kH6b+Xv8AOy13vetFJJJT/9L1VJfKqSSn6qSXyqkkp+qkl8qpJKfqpYH1kw8v
+IyKHUUuta1jg4tHBJC+dElHm4fblx3w16q3pbOuE3s/S/QMS/Fwi29uxz3F4b3AIA933LTXyqklh
+4fbjwXw1pe6oVwitn6qSXyqkpFz9VJL5VSSU/VSS+VUklP8A/9kAOEJJTQQhAAAAAABTAAAAAQEA
+AAAPAEEAZABvAGIAZQAgAFAAaABvAHQAbwBzAGgAbwBwAAAAEgBBAGQAbwBiAGUAIABQAGgAbwB0
+AG8AcwBoAG8AcAAgAEMAUwAAAAEAOEJJTQQGAAAAAAAHAAgAAQABAQD/4RgCaHR0cDovL25zLmFk
+b2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49J++7vycgaWQ9J1c1TTBNcENlaGlIenJl
+U3pOVGN6a2M5ZCc/Pgo8eDp4bXBtZXRhIHhtbG5zOng9J2Fkb2JlOm5zOm1ldGEvJyB4OnhtcHRr
+PSdYTVAgdG9vbGtpdCAzLjAtMjgsIGZyYW1ld29yayAxLjYnPgo8cmRmOlJERiB4bWxuczpyZGY9
+J2h0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMnIHhtbG5zOmlYPSdo
+dHRwOi8vbnMuYWRvYmUuY29tL2lYLzEuMC8nPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0
+PSd1dWlkOjYwN2M2M2Y5LTBkMDYtMTFkYi05ZTNiLWY0NWY1N2I1ZDg0MycKICB4bWxuczpleGlm
+PSdodHRwOi8vbnMuYWRvYmUuY29tL2V4aWYvMS4wLyc+CiAgPGV4aWY6Q29sb3JTcGFjZT40Mjk0
+OTY3Mjk1PC9leGlmOkNvbG9yU3BhY2U+CiAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjEyNTwvZXhp
+ZjpQaXhlbFhEaW1lbnNpb24+CiAgPGV4aWY6UGl4ZWxZRGltZW5zaW9uPjU2PC9leGlmOlBpeGVs
+WURpbWVuc2lvbj4KIDwvcmRmOkRlc2NyaXB0aW9uPgoKIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFi
+b3V0PSd1dWlkOjYwN2M2M2Y5LTBkMDYtMTFkYi05ZTNiLWY0NWY1N2I1ZDg0MycKICB4bWxuczpw
+ZGY9J2h0dHA6Ly9ucy5hZG9iZS5jb20vcGRmLzEuMy8nPgogPC9yZGY6RGVzY3JpcHRpb24+Cgog
+PHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2It
+ZjQ1ZjU3YjVkODQzJwogIHhtbG5zOnBob3Rvc2hvcD0naHR0cDovL25zLmFkb2JlLmNvbS9waG90
+b3Nob3AvMS4wLyc+CiAgPHBob3Rvc2hvcDpIaXN0b3J5PjwvcGhvdG9zaG9wOkhpc3Rvcnk+CiA8
+L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0ndXVpZDo2MDdj
+NjNmOS0wZDA2LTExZGItOWUzYi1mNDVmNTdiNWQ4NDMnCiAgeG1sbnM6dGlmZj0naHR0cDovL25z
+LmFkb2JlLmNvbS90aWZmLzEuMC8nPgogIDx0aWZmOk9yaWVudGF0aW9uPjE8L3RpZmY6T3JpZW50
+YXRpb24+CiAgPHRpZmY6WFJlc29sdXRpb24+NzIvMTwvdGlmZjpYUmVzb2x1dGlvbj4KICA8dGlm
+ZjpZUmVzb2x1dGlvbj43Mi8xPC90aWZmOllSZXNvbHV0aW9uPgogIDx0aWZmOlJlc29sdXRpb25V
+bml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCiA8cmRmOkRl
+c2NyaXB0aW9uIHJkZjphYm91dD0ndXVpZDo2MDdjNjNmOS0wZDA2LTExZGItOWUzYi1mNDVmNTdi
+NWQ4NDMnCiAgeG1sbnM6eGFwPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvJz4KICA8eGFw
+OkNyZWF0ZURhdGU+MjAwNi0wNy0wNlQxMTo0NToyNS0wNTowMDwveGFwOkNyZWF0ZURhdGU+CiAg
+PHhhcDpNb2RpZnlEYXRlPjIwMDYtMDctMDZUMTE6NDU6MjUtMDU6MDA8L3hhcDpNb2RpZnlEYXRl
+PgogIDx4YXA6TWV0YWRhdGFEYXRlPjIwMDYtMDctMDZUMTE6NDU6MjUtMDU6MDA8L3hhcDpNZXRh
+ZGF0YURhdGU+CiAgPHhhcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ1MgV2luZG93czwv
+eGFwOkNyZWF0b3JUb29sPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpEZXNjcmlwdGlvbiBy
+ZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2ItZjQ1ZjU3YjVkODQzJwogIHht
+bG5zOnhhcE1NPSdodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vJz4KICA8eGFwTU06RG9j
+dW1lbnRJRD5hZG9iZTpkb2NpZDpwaG90b3Nob3A6NjA3YzYzZjgtMGQwNi0xMWRiLTllM2ItZjQ1
+ZjU3YjVkODQzPC94YXBNTTpEb2N1bWVudElEPgogPC9yZGY6RGVzY3JpcHRpb24+CgogPHJkZjpE
+ZXNjcmlwdGlvbiByZGY6YWJvdXQ9J3V1aWQ6NjA3YzYzZjktMGQwNi0xMWRiLTllM2ItZjQ1ZjU3
+YjVkODQzJwogIHhtbG5zOmRjPSdodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyc+CiAg
+PGRjOmZvcm1hdD5pbWFnZS9qcGVnPC9kYzpmb3JtYXQ+CiA8L3JkZjpEZXNjcmlwdGlvbj4KCjwv
+cmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+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
+------=_NextPart_000_0000_70A39A7B.5275E60E--
